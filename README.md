@@ -14,8 +14,8 @@ fonctionnalités :
             - seed
         - Afficher reliques trouvées
         - Faire un récap étage par étage :
-            - Type d'étage ('?', monstre, coffre)
-            - Etage effectif (un monstre dans une salle '?')
+            - Type d'étage ('?', monstre, coffre) // path
+            - Etage effectif (un monstre dans une salle '?') // floor
             - gold
             - hp courants et max
             si combat ;
