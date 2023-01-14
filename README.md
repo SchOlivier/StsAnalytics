@@ -43,6 +43,6 @@ fonctionnalités :
                 "damage_taken": 11,
                 "max_hp_gain": 0,
                 "max_hp_loss": 0,
-                "gold_loss": 0
+                "gold_loss": 0 
                 + infos combat si applicable
 
