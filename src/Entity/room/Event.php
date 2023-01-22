@@ -1,6 +1,6 @@
 <?php
 
-namespace App\room;
+namespace App\Entity\room;
 
 class Event implements IRoom
 {

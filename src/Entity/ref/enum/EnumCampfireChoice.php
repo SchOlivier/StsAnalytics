@@ -1,6 +1,6 @@
 <?
 
-namespace App\ref;
+namespace App\Entity\ref\enum;
 
 enum EnumCampfireChoice: string
 {

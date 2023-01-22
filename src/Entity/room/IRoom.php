@@ -1,8 +1,8 @@
 <?php
 
-namespace App\room;
+namespace App\Entity\room;
 
-namespace App\room;
+namespace App\Entity\room;
 
 interface IRoom
 {

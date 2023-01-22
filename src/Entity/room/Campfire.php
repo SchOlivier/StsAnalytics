@@ -1,8 +1,10 @@
 <?php
 
-namespace App\room;
+namespace App\Entity\room;
 
-use App\ref\EnumCampfireChoice;
+use App\Entity\ref\enum\EnumCampfireChoice;
+use App\Entity\ref\item\Card;
+use App\Entity\ref\item\Potion;
 
 class Campfire implements IRoom
 {

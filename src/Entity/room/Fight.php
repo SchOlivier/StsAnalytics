@@ -1,6 +1,6 @@
 <?
 
-namespace App\room;
+namespace App\Entity\room;
 
 class Fight implements IRoom
 {
