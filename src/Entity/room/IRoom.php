@@ -2,8 +2,6 @@
 
 namespace App\Entity\room;
 
-namespace App\Entity\room;
-
 interface IRoom
 {
     public function getRoomRecap(): string;
