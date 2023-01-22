@@ -1,5 +1,7 @@
 <?
 
+namespace App\ref;
+
 enum EnumCampfireChoice: string
 {
     case Rest = 'Rest';

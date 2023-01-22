@@ -1,5 +1,9 @@
 <?php
 
+namespace App\room;
+
+use App\ref\EnumCampfireChoice;
+
 class Campfire implements IRoom
 {
 

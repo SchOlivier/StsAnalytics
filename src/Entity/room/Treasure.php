@@ -1,9 +1,9 @@
 <?
 
-class Fight implements IRoom
+namespace App\room;
+
+class Treasure implements IRoom
 {
-    // private Encounter $encounter;
-    private int $nbTurn;
 
     public function getName(): string
     {
@@ -12,6 +12,6 @@ class Fight implements IRoom
 
     public function getRoomRecap(): string
     {
-        return "todo";
+        return "";
     }
 }

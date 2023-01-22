@@ -1,5 +1,7 @@
 <?
 
+namespace App\room;
+
 class BossTreasure implements IRoom
 {
     private $chosenRelic;

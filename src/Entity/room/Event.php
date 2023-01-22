@@ -1,5 +1,7 @@
 <?php
 
+namespace App\room;
+
 class Event implements IRoom
 {
     //ref dans des json

@@ -1,9 +1,12 @@
 <?
 
-class Shop implements IRoom
-{
+namespace App\room;
 
-    //Est-ce qu'on met les purchase ici ? au lieu du floorRecap
+class Fight implements IRoom
+{
+    // private Encounter $encounter;
+    private int $nbTurn;
+
     public function getName(): string
     {
         return self::class;
@@ -11,6 +14,6 @@ class Shop implements IRoom
 
     public function getRoomRecap(): string
     {
-        return "";
+        return "todo";
     }
 }
