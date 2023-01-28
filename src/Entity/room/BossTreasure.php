@@ -1,5 +1,4 @@
-<?
-
+<?php
 namespace App\Entity\room;
 
 class BossTreasure implements IRoom

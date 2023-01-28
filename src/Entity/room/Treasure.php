@@ -1,5 +1,4 @@
-<?
-
+<?php
 namespace App\Entity\room;
 
 class Treasure implements IRoom

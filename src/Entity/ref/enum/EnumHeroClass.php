@@ -1,5 +1,4 @@
-<?
-
+<?php
 namespace App\Entity\ref\enum;
 
 enum EnumHeroClass: string
