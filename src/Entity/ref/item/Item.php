@@ -66,4 +66,9 @@ abstract class Item
     {
         return $this->color;
     }
+
+    public function __toString(): string
+    {
+        return $this->label;
+    }
 }

@@ -19,11 +19,11 @@ class RunMetadata
 
     public function __toString()
     {
-        $string = "Classe : " . $this->class . "\n";
+        $string = "Classe : " . $this->class->value . "\n";
         $string .= "Ascension : " . $this->ascensionLevel . "\n";
         $string .= "Victoire ? " . ($this->isVictory ? "oui" : "non") . "\n";
         $string .= "Score : " . $this->score . "\n";
-        $string .= "Seed" . $this->seed . "\n";
+        $string .= "Seed :" . $this->seed . "\n";
         $string .= "Etage atteint : " . $this->floorReached . "\n";
         $string .= "Temps de jeu : " . $this->playTime . "s\n";
 
