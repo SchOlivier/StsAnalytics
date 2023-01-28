@@ -1,10 +1,16 @@
-<?
+<?php
 
 namespace App\Service;
 
+use App\Entity\DeckCard;
 use App\Entity\FloorRecap;
 use App\Entity\NeowChoice;
+use App\Entity\ref\enum\EnumCardType;
+use App\Entity\ref\enum\EnumColor;
 use App\Entity\ref\enum\EnumHeroClass;
+use App\Entity\ref\enum\EnumRarity;
+use App\Entity\ref\item\Card;
+use App\Entity\ref\item\Relic;
 use App\Entity\ref\neow\NeowBonus;
 use App\Entity\ref\neow\NeowCost;
 use App\Entity\Run;
@@ -19,11 +25,11 @@ class SaveParser
         $this->loadJson($savePath);
 
         $metada = $this->getRunMetadata();
-        $relics = [];
-        $deck = [];
+        $relics = $this->getRelics();
+        $deck = $this->getDeck();
         $neowChoice = $this->getNeowChoice();
         $floorRecap = [];
-        
+
         $run = new Run($metada, $floorRecap, $relics, $neowChoice, $deck);
 
         return $run;
@@ -33,7 +39,7 @@ class SaveParser
     {
         $this->jsonSave = json_decode(file_get_contents($savePath));
     }
-    
+
     private function getRunMetadata(): RunMetadata
     {
         //analyser le json
@@ -55,4 +61,37 @@ class SaveParser
         return new NeowChoice($neowCost, $neowBonus);
     }
 
+    private function getRelics(): array
+    {
+        $relics = $this->jsonSave->relics;
+        $arr = [];
+        foreach ($relics as $relic) {
+            $arr[] = new Relic($relic, $relic, "description", EnumRarity::Common, EnumColor::Colorless);
+        }
+
+        return $arr;
+    }
+
+    private function getDeck(): array
+    {
+        $deck = $this->jsonSave->master_deck;
+        $arr = [];
+        foreach ($deck as $card) {
+            $refCard = new Card($card, $card, "description", EnumRarity::Common, EnumColor::Colorless, EnumCardType::Attack);
+            $arr[] = new DeckCard($refCard, 0);
+        }
+
+        return $arr;
+    }
+
+    private function getFloorRecaps(): array
+    {
+        // Boucler sur le json->path_per_floor, instancier un floorRecap pour chacun d'eux
+
+        // Traiter tous les tableaux du json pertinents (gold per floor, campfires, ...) et pour chacun d'eux agrémenter les floorRecaps associés.
+        // probalement oublier l'histoire des potions utilisées (il nous manque l'info claire de QUELLE potion est utilisée)
+        // dans les fights, ajouter "damage taken"
+        // Créer des fonctions spécifiques pour les entités (json) composites (e.g. les achats)
+        return [];
+    }
 }
