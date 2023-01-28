@@ -1,7 +1,7 @@
 <?php
-
 namespace App\Command;
 
+use App\Service\SaveParser;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -12,7 +12,11 @@ class TestCommand extends Command
 {
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $output->writeln("coucou !");
+        $parser = new SaveParser();
+        $save = $parser->loadSave("C:\\Users\\Virgil\\Documents\\Projets\\StsAnalytics\\testData\\THE_SILENT\\1626110219.run");
+
+        $output->writeln($save);
+        
         return Command::SUCCESS;
     }
 }
