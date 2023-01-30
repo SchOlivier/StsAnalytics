@@ -10,6 +10,6 @@ enum EnumPath : string
     case elite = 'E';
     case treasure = 'T';
     case rest = 'R';
-    case boss = 'B';
-    case bossTreasure = null;
+    case boss = 'BOSS';
+    case undefined = 'undefined';
 }

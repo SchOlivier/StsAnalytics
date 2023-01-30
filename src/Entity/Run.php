@@ -27,6 +27,9 @@ class Run
         foreach($this->deck as $card){
             $string .= "\t" . $card->__toString() . "\n";
         }
+        foreach($this->floorRecaps as $floor){
+            $string .= $floor . "\n\n";
+        }
         return $string;
     }
 }

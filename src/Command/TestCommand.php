@@ -15,7 +15,7 @@ class TestCommand extends Command
         $parser = new SaveParser();
 
         $filePath = __DIR__ . '/../../testData/runs/THE_SILENT/' ;
-        $filename = "1626110219.run";
+        $filename = "1652706458.run";
 
         $filePath = str_replace('/', DIRECTORY_SEPARATOR, $filePath);
 

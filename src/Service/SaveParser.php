@@ -8,11 +8,14 @@ use App\Entity\NeowChoice;
 use App\Entity\ref\enum\EnumCardType;
 use App\Entity\ref\enum\EnumColor;
 use App\Entity\ref\enum\EnumHeroClass;
+use App\Entity\ref\enum\EnumPath;
 use App\Entity\ref\enum\EnumRarity;
 use App\Entity\ref\item\Card;
 use App\Entity\ref\item\Relic;
 use App\Entity\ref\neow\NeowBonus;
 use App\Entity\ref\neow\NeowCost;
+use App\Entity\room\IRoom;
+use App\Entity\room\Shop;
 use App\Entity\Run;
 use App\Entity\RunMetadata;
 
@@ -86,12 +89,52 @@ class SaveParser
 
     private function getFloorRecaps(): array
     {
+        $floorRecaps = [];
+        $path_per_floor = $this->jsonSave->path_per_floor;
+
+        $nbUndefined = 0;
+        $path_taken = $this->jsonSave->path_taken;
+        print_r($this->jsonSave->path_taken);
+
+        foreach ($path_per_floor as $level => $path) {
+            if(!$path) $nbUndefined++;
+            
+            $floorRecap = new FloorRecap;
+            $this->createScalars($floorRecap, $level, $path);
+            $floorRecap->setPath($this->getPathTaken($level, $nbUndefined, $path));
+            
+            $room = $this->createRoom($level, $path);
+            $floorRecap->addRoom($room);
+            $floorRecaps[] = $floorRecap;
+        }
         // Boucler sur le json->path_per_floor, instancier un floorRecap pour chacun d'eux
 
         // Traiter tous les tableaux du json pertinents (gold per floor, campfires, ...) et pour chacun d'eux agrémenter les floorRecaps associés.
         // probalement oublier l'histoire des potions utilisées (il nous manque l'info claire de QUELLE potion est utilisée)
         // dans les fights, ajouter "damage taken"
         // Créer des fonctions spécifiques pour les entités (json) composites (e.g. les achats)
-        return [];
+        return $floorRecaps;
+    }
+
+    private function createScalars(FloorRecap $floorRecap, int $level)
+    {
+        $floorRecap->setFloor($level + 1);
+        $floorRecap->setCurrentGold($this->jsonSave->gold_per_floor[$level]);
+        $floorRecap->setMaxHP($this->jsonSave->max_hp_per_floor[$level]);
+        $floorRecap->setCurrentHP($this->jsonSave->current_hp_per_floor[$level]);
+    }
+
+    private function getPathTaken(int $level, int $nbUndefined, ?string $realPath): EnumPath
+    {
+        echo "level : $level, realPath : $realPath, nbUndefined: $nbUndefined\n";
+        if(!$realPath) return EnumPath::undefined;
+
+        return EnumPath::from($this->jsonSave->path_taken[$level - $nbUndefined]);
+    }
+
+    private function createRoom(int $level, ?string $floorType): IRoom
+    {
+
+        return new Shop;
     }
 }
