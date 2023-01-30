@@ -21,4 +21,9 @@ class FloorRecap
     public function __construct(
 
     ){}
+
+    public function __toString()
+    {
+        
+    }
 }

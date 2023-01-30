@@ -28,9 +28,9 @@ class SaveParser
         $relics = $this->getRelics();
         $deck = $this->getDeck();
         $neowChoice = $this->getNeowChoice();
-        $floorRecap = [];
+        $floorRecaps = $this->getFloorRecaps();
 
-        $run = new Run($metada, $floorRecap, $relics, $neowChoice, $deck);
+        $run = new Run($metada, $floorRecaps, $relics, $neowChoice, $deck);
 
         return $run;
     }

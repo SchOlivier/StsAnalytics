@@ -13,7 +13,13 @@ class TestCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $parser = new SaveParser();
-        $save = $parser->loadSave("C:\\Users\\Virgil\\Documents\\Projets\\StsAnalytics\\testData\\THE_SILENT\\1626110219.run");
+
+        $filePath = __DIR__ . '/../../testData/runs/THE_SILENT/' ;
+        $filename = "1626110219.run";
+
+        $filePath = str_replace('/', DIRECTORY_SEPARATOR, $filePath);
+
+        $save = $parser->loadSave($filePath . $filename);
 
         $output->writeln($save);
         
