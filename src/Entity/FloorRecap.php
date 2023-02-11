@@ -12,16 +12,16 @@ class FloorRecap
     private int $currentHP;
     private int $maxHP;
     private EnumPath $path; // on the map ?
-    private array $purchases;
-    private array $upgrades;
-    private array $purges;
-    private array $rooms; // Reality ? + F
-    private array $rewards;
-    private array $potionUse;
+    private array $purchases = [];
+    private array $upgrades = [];
+    private array $purges = [];
+    private array $rooms = []; // Reality ? + F
+    private array $rewards = [];
+    private array $potionUse = [];
 
-    public function __construct(
-
-    ){}
+    public function __construct()
+    {
+    }
 
     public function __toString()
     {
@@ -29,6 +29,10 @@ class FloorRecap
         $string .= "current Gold : " . $this->currentGold . "\n";
         $string .= "current HP : " . $this->currentHP . "\n";
         $string .= "max HP : " . $this->maxHP . "\n";
+        $string .= "Upgrades : \n";
+        foreach ($this->upgrades as $upgrade) {
+            $string .= "\t$upgrade\n";
+        }
         $string .= "à être continué...\n";
         return $string;
     }
@@ -297,7 +301,13 @@ class FloorRecap
         return $this;
     }
 
-    public function addRoom(IRoom $room){
+    public function addRoom(IRoom $room)
+    {
         $this->rooms[] = $room;
+    }
+
+    public function addUpgrade(DeckCard $card)
+    {
+        $this->upgrades[] = $card;
     }
 }

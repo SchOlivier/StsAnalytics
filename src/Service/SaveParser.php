@@ -5,6 +5,7 @@ namespace App\Service;
 use App\Entity\DeckCard;
 use App\Entity\FloorRecap;
 use App\Entity\NeowChoice;
+use App\Entity\ref\enum\EnumCampfireChoice;
 use App\Entity\ref\enum\EnumCardType;
 use App\Entity\ref\enum\EnumColor;
 use App\Entity\ref\enum\EnumHeroClass;
@@ -14,6 +15,9 @@ use App\Entity\ref\item\Card;
 use App\Entity\ref\item\Relic;
 use App\Entity\ref\neow\NeowBonus;
 use App\Entity\ref\neow\NeowCost;
+use App\Entity\room\Campfire;
+use App\Entity\room\Event;
+use App\Entity\room\Fight;
 use App\Entity\room\IRoom;
 use App\Entity\room\Shop;
 use App\Entity\Run;
@@ -59,8 +63,10 @@ class SaveParser
 
     private function getNeowChoice(): NeowChoice
     {
-        $neowCost = new NeowCost(code: "code", label: "label");
-        $neowBonus = new NeowBonus(code: "code", label: "label");
+        $neowCostCode = $this->jsonSave->neow_cost;
+        $neowCost = NeowCost::createByCode($neowCostCode);
+        $neowBonusCode = $this->jsonSave->neow_bonus;
+        $neowBonus = NeowBonus::createByCode($neowBonusCode);
         return new NeowChoice($neowCost, $neowBonus);
     }
 
@@ -103,10 +109,15 @@ class SaveParser
             $this->createScalars($floorRecap, $level, $path);
             $floorRecap->setPath($this->getPathTaken($level, $nbUndefined, $path));
             
-            $room = $this->createRoom($level, $path);
-            $floorRecap->addRoom($room);
-            $floorRecaps[] = $floorRecap;
+            // $room = $this->createRoom($level, $path);
+            // $floorRecap->addRoom($room);
+            $floorRecaps[$floorRecap->getFloor()] = $floorRecap;
         }
+
+        $this->processCampfires($floorRecaps); // campfire_choices
+        // $this->processFights(); // damage_taken
+        // $this->processRewards(); //
+
         // Boucler sur le json->path_per_floor, instancier un floorRecap pour chacun d'eux
 
         // Traiter tous les tableaux du json pertinents (gold per floor, campfires, ...) et pour chacun d'eux agrémenter les floorRecaps associés.
@@ -132,9 +143,32 @@ class SaveParser
         return EnumPath::from($this->jsonSave->path_taken[$level - $nbUndefined]);
     }
 
-    private function createRoom(int $level, ?string $floorType): IRoom
+    private function processCampfires(array &$floorRecaps)
     {
+        $campfiresJson = $this->jsonSave->campfire_choices;
+        foreach($campfiresJson as $campfireJson)
+        {
+            $floor = $campfireJson->floor;
+            $campfire = new Campfire();
 
-        return new Shop;
+            $choice = EnumCampfireChoice::from($campfireJson->key);
+            $campfire->setChoice($choice);
+
+            /** @var FloorRecap */
+            $recap = $floorRecaps[$floor];
+
+            $recap->addRoom($campfire);
+            switch($choice){
+                case EnumCampfireChoice::Smith:
+                    $jsonCard = $campfireJson->data;
+                    $split = explode("+", $jsonCard);
+                    $card = Card::createByCode($split[0]);
+                    $level = $split[1] ?? 0;
+                    $deckCard = new DeckCard($card, $level);
+                    $recap->addUpgrade($deckCard);
+                    break;
+            }
+
+        }
     }
 }

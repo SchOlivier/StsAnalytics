@@ -3,10 +3,10 @@ namespace App\Entity\ref\enum;
 
 enum EnumCampfireChoice: string
 {
-    case Rest = 'Rest';
-    case Smith = 'Smith';
-    case Recall = 'Recall';
-    case Toke = 'Toke';
-    case Dig = 'Dig';
-    case Lift = 'Lift';
+    case Rest = 'REST';
+    case Smith = 'SMITH';
+    case Recall = 'RECALL';
+    case Toke = 'TOKE';
+    case Dig = 'DIG';
+    case Lift = 'LIFT';
 }

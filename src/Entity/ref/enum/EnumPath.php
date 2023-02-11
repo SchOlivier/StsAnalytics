@@ -2,6 +2,9 @@
 
 namespace App\Entity\ref\enum;
 
+use App\Entity\room\Event;
+use App\Entity\room\Fight;
+
 enum EnumPath : string
 {
     case event = '?';

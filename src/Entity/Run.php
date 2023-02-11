@@ -30,6 +30,9 @@ class Run
         foreach($this->floorRecaps as $floor){
             $string .= $floor . "\n\n";
         }
+        $string .= "\nNeow : \n";
+        $string .= "\tCost : " . $this->neowChoice->getCost() . "\n";
+        $string .= "\tBonus : " . $this->neowChoice->getBonus();
         return $string;
     }
 }

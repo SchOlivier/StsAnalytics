@@ -20,4 +20,14 @@ class Campfire implements IRoom
     {
         return self::class;
     }
+
+    public function getChoice(): EnumCampfireChoice
+    {
+        return $this->choice;
+    }
+
+    public function setChoice(EnumCampfireChoice $choice)
+    {
+        $this->choice = $choice;
+    }
 }
