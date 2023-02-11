@@ -6,7 +6,7 @@
 		"Cost": 2,
 		"Description": "Deal 8 (10) damage. Apply 2 (3) Vulnerable.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Bash"
 	},
 	"Defend_R": {
@@ -16,7 +16,7 @@
 		"Cost": 1,
 		"Description": "Gain 5 (8) Block.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Defend_R"
 	},
 	"Strike_R": {
@@ -26,7 +26,7 @@
 		"Cost": 1,
 		"Description": "Deal 6 (9) damage.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Strike_R"
 	},
 	"Anger": {
@@ -36,7 +36,7 @@
 		"Cost": 0,
 		"Description": "Deal 6 (8) damage. Add a copy of this card into your discard pile.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Anger"
 	},
 	"Armaments": {
@@ -46,7 +46,7 @@
 		"Cost": 1,
 		"Description": "Gain 5 Block. Upgrade a card in your hand for the rest of combat.",
 		"Description (Upgraded)": "Gain 5 Block. Upgrade all cards in your hand for the rest of combat.",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Armaments"
 	},
 	"Body Slam": {
@@ -56,7 +56,7 @@
 		"Cost": "1 (0)",
 		"Description": "Deal damage equal to your Block.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Body Slam"
 	},
 	"Clash": {
@@ -66,7 +66,7 @@
 		"Cost": 0,
 		"Description": "Can only be played if every card in your hand is an Attack. Deal 14 (18) damage.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Clash"
 	},
 	"Cleave": {
@@ -76,7 +76,7 @@
 		"Cost": 1,
 		"Description": "Deal 8 (11) damage to ALL enemies.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Cleave"
 	},
 	"Clothesline": {
@@ -86,7 +86,7 @@
 		"Cost": 2,
 		"Description": "Deal 12 (14) damage. Apply 2 (3) Weak.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Clothesline"
 	},
 	"Flex": {
@@ -96,7 +96,7 @@
 		"Cost": 0,
 		"Description": "Gain 2 (4) Strength. At the end of this turn, lose 2 (4) Strength.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Flex"
 	},
 	"Havoc": {
@@ -106,7 +106,7 @@
 		"Cost": "1 (0)",
 		"Description": "Play the top card of your draw pile and Exhaust it.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Havoc"
 	},
 	"Headbutt": {
@@ -116,7 +116,7 @@
 		"Cost": 1,
 		"Description": "Deal 9 (12) damage. Put a card from your discard pile on top of your draw pile.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Headbutt"
 	},
 	"Heavy Blade": {
@@ -126,7 +126,7 @@
 		"Cost": 2,
 		"Description": "Deal 14 damage. Strength affects this card 3 (5) times.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Heavy Blade"
 	},
 	"Iron Wave": {
@@ -136,7 +136,7 @@
 		"Cost": 1,
 		"Description": "Gain 5 (7) Block. Deal 5 (7) damage.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Iron Wave"
 	},
 	"Perfected Strike": {
@@ -146,7 +146,7 @@
 		"Cost": 2,
 		"Description": "Deal 6 damage. Deals 2 (3) additional damage for ALL your cards containing \"Strike\".",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Perfected Strike"
 	},
 	"Pommel Strike": {
@@ -156,7 +156,7 @@
 		"Cost": 1,
 		"Description": "Deal 9 damage. Draw 1 card.",
 		"Description (Upgraded)": "Deal 10 damage. Draw 2 cards.",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Pommel Strike"
 	},
 	"Shrug It Off": {
@@ -166,7 +166,7 @@
 		"Cost": 1,
 		"Description": "Gain 8 (11) Block. Draw 1 card.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Shrug It Off"
 	},
 	"Sword Boomerang": {
@@ -176,7 +176,7 @@
 		"Cost": 1,
 		"Description": "Deal 3 damage to a random enemy 3 (4) times.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Sword Boomerang"
 	},
 	"Thunderclap": {
@@ -186,7 +186,7 @@
 		"Cost": 1,
 		"Description": "Deal 4 (7) damage and apply 1 Vulnerable to ALL enemies.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Thunderclap"
 	},
 	"True Grit": {
@@ -196,7 +196,7 @@
 		"Cost": 1,
 		"Description": "Gain 7 Block. Exhaust 1 card at random.",
 		"Description (Upgraded)": "Gain 9 Block. Exhaust 1 card.",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "True Grit"
 	},
 	"Twin Strike": {
@@ -206,7 +206,7 @@
 		"Cost": 1,
 		"Description": "Deal 5 (7) damage twice.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Twin Strike"
 	},
 	"Warcry": {
@@ -216,7 +216,7 @@
 		"Cost": 0,
 		"Description": "Draw 1 card. Put a card from your hand onto the top of your draw pile. Exhaust.",
 		"Description (Upgraded)": "Draw 2 cards. Put a card from your hand onto the top of your draw pile. Exhaust.",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Warcry"
 	},
 	"Wild Strike": {
@@ -226,7 +226,7 @@
 		"Cost": 1,
 		"Description": "Deal 12 (17) damage. Shuffle a Wound into your draw pile.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Wild Strike"
 	},
 	"Battle Trance": {
@@ -236,7 +236,7 @@
 		"Cost": 0,
 		"Description": "Draw 3 (4) cards. You cannot draw additional cards this turn.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Battle Trance"
 	},
 	"Blood for Blood": {
@@ -246,7 +246,7 @@
 		"Cost": "4 (3)",
 		"Description": "Costs 1 less [R] for each time you lose HP this combat. Deal 18 (22) damage.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Blood for Blood"
 	},
 	"Bloodletting": {
@@ -256,7 +256,7 @@
 		"Cost": 0,
 		"Description": "Lose 3 HP. Gain [R] [R].",
 		"Description (Upgraded)": "Lose 3 HP. Gain [R] [R] [R].",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Bloodletting"
 	},
 	"Burning Pact": {
@@ -266,7 +266,7 @@
 		"Cost": 1,
 		"Description": "Exhaust 1 card. Draw 2 (3) cards.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Burning Pact"
 	},
 	"Carnage": {
@@ -276,7 +276,7 @@
 		"Cost": 2,
 		"Description": "Ethereal. Deal 20 (28) damage.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Carnage"
 	},
 	"Combust": {
@@ -286,7 +286,7 @@
 		"Cost": 1,
 		"Description": "At the end of your turn, lose 1 HP and deal 5 (7) damage to ALL enemies.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Combust"
 	},
 	"Dark Embrace": {
@@ -296,7 +296,7 @@
 		"Cost": "2 (1)",
 		"Description": "Whenever a card is Exhausted, draw 1 card.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Dark Embrace"
 	},
 	"Disarm": {
@@ -306,7 +306,7 @@
 		"Cost": 1,
 		"Description": "Enemy loses 2 (3) Strength. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Disarm"
 	},
 	"Dropkick": {
@@ -316,7 +316,7 @@
 		"Cost": 1,
 		"Description": "Deal 5 (8) damage. If the enemy has Vulnerable, gain [R] and draw 1 card.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Dropkick"
 	},
 	"Dual Wield": {
@@ -326,7 +326,7 @@
 		"Cost": 1,
 		"Description": "Choose an Attack or Power card. Add a copy of that card into your hand.",
 		"Description (Upgraded)": "Choose an Attack or Power card. Add 2 copies of that card into your hand.",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Dual Wield"
 	},
 	"Entrench": {
@@ -336,7 +336,7 @@
 		"Cost": "2 (1)",
 		"Description": "Double your Block.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Entrench"
 	},
 	"Evolve": {
@@ -346,7 +346,7 @@
 		"Cost": 1,
 		"Description": "Whenever you draw a Status card, draw 1 card.",
 		"Description (Upgraded)": "Whenever you draw a Status card, draw 2 cards.",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Evolve"
 	},
 	"Feel No Pain": {
@@ -356,7 +356,7 @@
 		"Cost": 1,
 		"Description": "Whenever a card is Exhausted, gain 3 (4) Block.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Feel No Pain"
 	},
 	"Fire Breathing": {
@@ -366,7 +366,7 @@
 		"Cost": 1,
 		"Description": "Whenever you draw a Status or Curse card, deal 6 (10) damage to ALL enemies.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Fire Breathing"
 	},
 	"Flame Barrier": {
@@ -376,7 +376,7 @@
 		"Cost": 2,
 		"Description": "Gain 12 (16) Block. Whenever you are attacked this turn, deal 4 (6) damage back.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Flame Barrier"
 	},
 	"Ghostly Armor": {
@@ -386,7 +386,7 @@
 		"Cost": 1,
 		"Description": "Ethereal. Gain 10 (13) Block.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Ghostly Armor"
 	},
 	"Hemokinesis": {
@@ -396,7 +396,7 @@
 		"Cost": 1,
 		"Description": "Lose 2 HP. Deal 15 (20) damage.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Hemokinesis"
 	},
 	"Infernal Blade": {
@@ -406,7 +406,7 @@
 		"Cost": "1 (0)",
 		"Description": "Add a random Attack into your hand. It costs 0 this turn. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Infernal Blade"
 	},
 	"Inflame": {
@@ -416,7 +416,7 @@
 		"Cost": 1,
 		"Description": "Gain 2 (3) Strength.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Inflame"
 	},
 	"Intimidate": {
@@ -426,7 +426,7 @@
 		"Cost": 0,
 		"Description": "Apply 1 (2) Weak to ALL enemies. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Intimidate"
 	},
 	"Metallicize": {
@@ -436,7 +436,7 @@
 		"Cost": 1,
 		"Description": "At the end of your turn, gain 3 (4) Block.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Metallicize"
 	},
 	"Power Through": {
@@ -446,7 +446,7 @@
 		"Cost": 1,
 		"Description": "Add 2 Wounds into your hand. Gain 15 (20) Block.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Power Through"
 	},
 	"Pummel": {
@@ -456,7 +456,7 @@
 		"Cost": 1,
 		"Description": "Deal 2 damage 4 (5) times. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Pummel"
 	},
 	"Rage": {
@@ -466,7 +466,7 @@
 		"Cost": 0,
 		"Description": "Whenever you play an Attack this turn, gain 3 (5) Block.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Rage"
 	},
 	"Rampage": {
@@ -476,7 +476,7 @@
 		"Cost": 1,
 		"Description": "Deal 8 damage. Increase this card's damage by 5 (8) this combat.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Rampage"
 	},
 	"Reckless Charge": {
@@ -486,7 +486,7 @@
 		"Cost": 0,
 		"Description": "Deal 7 (10) damage. Shuffle a Dazed into your draw pile.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Reckless Charge"
 	},
 	"Rupture": {
@@ -496,7 +496,7 @@
 		"Cost": 1,
 		"Description": "Whenever you lose HP from a card, gain 1 (2) Strength.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Rupture"
 	},
 	"Searing Blow": {
@@ -506,7 +506,7 @@
 		"Cost": 2,
 		"Description": "Deal 12 (16) damage. Can be Upgraded any number of times.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Searing Blow"
 	},
 	"Second Wind": {
@@ -516,7 +516,7 @@
 		"Cost": 1,
 		"Description": "Exhaust all non-Attack cards in your hand. Gain 5 (7) Block for each card Exhausted.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Second Wind"
 	},
 	"Seeing Red": {
@@ -526,7 +526,7 @@
 		"Cost": "1 (0)",
 		"Description": "Gain [R] [R]. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Seeing Red"
 	},
 	"Sentinel": {
@@ -536,7 +536,7 @@
 		"Cost": 1,
 		"Description": "Gain 5 Block. If this card is Exhausted, gain [R] [R].",
 		"Description (Upgraded)": "Gain 8 Block. If this card is Exhausted, gain [R] [R] [R].",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Sentinel"
 	},
 	"Sever Soul": {
@@ -546,7 +546,7 @@
 		"Cost": 2,
 		"Description": "Exhaust all non-Attack cards in your hand. Deal 16 (22) damage.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Sever Soul"
 	},
 	"Shockwave": {
@@ -556,7 +556,7 @@
 		"Cost": 2,
 		"Description": "Apply 3 (5) Weak and Vulnerable to ALL enemies. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Shockwave"
 	},
 	"Spot Weakness": {
@@ -566,7 +566,7 @@
 		"Cost": 1,
 		"Description": "If the enemy intends to attack, gain 3 (4) Strength.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Spot Weakness"
 	},
 	"Uppercut": {
@@ -576,7 +576,7 @@
 		"Cost": 2,
 		"Description": "Deal 13 damage. Apply 1 (2) Weak. Apply 1 (2) Vulnerable.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Uppercut"
 	},
 	"Whirlwind": {
@@ -586,7 +586,7 @@
 		"Cost": "X",
 		"Description": "Deal 5 (8) damage to ALL enemies X times.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Whirlwind"
 	},
 	"Barricade": {
@@ -596,7 +596,7 @@
 		"Cost": "3 (2)",
 		"Description": "Block is not removed at the start of your turn.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Barricade"
 	},
 	"Berserk": {
@@ -606,7 +606,7 @@
 		"Cost": 0,
 		"Description": "Gain 2 (1) Vulnerable. At the start of your turn, gain [R].",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Berserk"
 	},
 	"Bludgeon": {
@@ -616,7 +616,7 @@
 		"Cost": 3,
 		"Description": "Deal 32 (42) damage.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Bludgeon"
 	},
 	"Brutality": {
@@ -626,7 +626,7 @@
 		"Cost": 0,
 		"Description": "At the start of your turn, lose 1 HP and draw 1 card.",
 		"Description (Upgraded)": "Innate. At the start of your turn, lose 1 HP and draw 1 card.",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Brutality"
 	},
 	"Corruption": {
@@ -636,7 +636,7 @@
 		"Cost": "3 (2)",
 		"Description": "Skills cost 0. Whenever you play a Skill, Exhaust it.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Corruption"
 	},
 	"Demon Form": {
@@ -646,7 +646,7 @@
 		"Cost": 3,
 		"Description": "At the start of your turn, gain 2 (3) Strength.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Demon Form"
 	},
 	"Double Tap": {
@@ -656,7 +656,7 @@
 		"Cost": 1,
 		"Description": "This turn, your next Attack is played twice.",
 		"Description (Upgraded)": "This turn, your next 2 Attacks are played twice.",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Double Tap"
 	},
 	"Exhume": {
@@ -666,7 +666,7 @@
 		"Cost": "1 (0)",
 		"Description": "Put a card from your exhaust pile into your hand. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Exhume"
 	},
 	"Feed": {
@@ -676,7 +676,7 @@
 		"Cost": 1,
 		"Description": "Deal 10 (12) damage. If Fatal, raise your Max HP by 3 (4). Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Feed"
 	},
 	"Fiend Fire": {
@@ -686,7 +686,7 @@
 		"Cost": 2,
 		"Description": "Exhaust your hand. Deal 7 (10) damage for each card Exhausted. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Fiend Fire"
 	},
 	"Immolate": {
@@ -696,7 +696,7 @@
 		"Cost": 2,
 		"Description": "Deal 21 (28) damage to ALL enemies. Add a Burn into your discard pile.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Immolate"
 	},
 	"Impervious": {
@@ -706,7 +706,7 @@
 		"Cost": 2,
 		"Description": "Gain 30 (40) Block. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Impervious"
 	},
 	"Juggernaut": {
@@ -716,7 +716,7 @@
 		"Cost": 2,
 		"Description": "Whenever you gain Block, deal 5 (7) damage to a random enemy.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Juggernaut"
 	},
 	"Limit Break": {
@@ -726,7 +726,7 @@
 		"Cost": 1,
 		"Description": "Double your Strength. Exhaust.",
 		"Description (Upgraded)": "Double your Strength.",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Limit Break"
 	},
 	"Offering": {
@@ -736,7 +736,7 @@
 		"Cost": 0,
 		"Description": "Lose 6 HP. Gain [R] [R]. Draw 3 (5) cards. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Offering"
 	},
 	"Reaper": {
@@ -746,7 +746,7 @@
 		"Cost": 2,
 		"Description": "Deal 4 (5) damage to ALL enemies. Heal HP equal to unblocked damage. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "red",
+		"Color": "Red",
 		"Code": "Reaper"
 	}
 }
