@@ -10,4 +10,14 @@ class NeowChoice
     public function __construct(private NeowCost $cost, private NeowBonus $bonus)
     {
     }
+
+    public function getCost(): NeowCost
+    {
+        return $this->cost;
+    }
+
+    public function getBonus(): NeowBonus
+    {
+        return $this->bonus;
+    }
 }
