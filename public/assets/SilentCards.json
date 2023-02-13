@@ -6,7 +6,7 @@
 		"Cost": 1,
 		"Description": "Gain 5 (8) Block.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Defend_G"
 	},
 	"Neutralize": {
@@ -16,7 +16,7 @@
 		"Cost": 0,
 		"Description": "Deal 3 (4) damage. Apply 1 (2) Weak.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Neutralize"
 	},
 	"Strike_G": {
@@ -26,7 +26,7 @@
 		"Cost": 1,
 		"Description": "Deal 6 (9) damage.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Strike_G"
 	},
 	"Survivor": {
@@ -36,7 +36,7 @@
 		"Cost": 1,
 		"Description": "Gain 8 (11) Block. Discard 1 card.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Survivor"
 	},
 	"Acrobatics": {
@@ -46,7 +46,7 @@
 		"Cost": 1,
 		"Description": "Draw 3 (4) cards. Discard 1 card.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Acrobatics"
 	},
 	"Backflip": {
@@ -56,7 +56,7 @@
 		"Cost": 1,
 		"Description": "Gain 5 (8) Block. Draw 2 cards.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Backflip"
 	},
 	"Bane": {
@@ -66,7 +66,7 @@
 		"Cost": 1,
 		"Description": "Deal 7 (10) damage. If the enemy has Poison, deal 7 (10) damage again.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Bane"
 	},
 	"Blade Dance": {
@@ -76,7 +76,7 @@
 		"Cost": 1,
 		"Description": "Add 3 (4) Shivs into your hand.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Blade Dance"
 	},
 	"Cloak and Dagger": {
@@ -86,7 +86,7 @@
 		"Cost": 1,
 		"Description": "Gain 6 Block. Add 1 Shiv into your hand.",
 		"Description (Upgraded)": "Gain 6 Block. Add 2 Shivs into your hand.",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Cloak and Dagger"
 	},
 	"Dagger Spray": {
@@ -96,7 +96,7 @@
 		"Cost": 1,
 		"Description": "Deal 4 (6) damage to ALL enemies twice.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Dagger Spray"
 	},
 	"Dagger Throw": {
@@ -106,7 +106,7 @@
 		"Cost": 1,
 		"Description": "Deal 9 (12) damage. Draw 1 card. Discard 1 card.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Dagger Throw"
 	},
 	"Deadly Poison": {
@@ -116,7 +116,7 @@
 		"Cost": 1,
 		"Description": "Apply 5 (7) Poison.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Deadly Poison"
 	},
 	"Deflect": {
@@ -126,7 +126,7 @@
 		"Cost": 0,
 		"Description": "Gain 4 (7) Block.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Deflect"
 	},
 	"Dodge and Roll": {
@@ -136,7 +136,7 @@
 		"Cost": 1,
 		"Description": "Gain 4 (6) Block. Next turn, gain 4 (6) Block.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Dodge and Roll"
 	},
 	"Flying Knee": {
@@ -146,7 +146,7 @@
 		"Cost": 1,
 		"Description": "Deal 8 (11) damage. Next turn, gain [G].",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Flying Knee"
 	},
 	"Outmaneuver": {
@@ -156,7 +156,7 @@
 		"Cost": 1,
 		"Description": "Next turn, gain [G] [G].",
 		"Description (Upgraded)": "Next turn, gain [G] [G] [G].",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Outmaneuver"
 	},
 	"Piercing Wail": {
@@ -166,7 +166,7 @@
 		"Cost": 1,
 		"Description": "ALL enemies lose 6 (8) Strength this turn. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Piercing Wail"
 	},
 	"Poisoned Stab": {
@@ -176,7 +176,7 @@
 		"Cost": 1,
 		"Description": "Deal 6 (8) damage. Apply 3 (4) Poison.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Poisoned Stab"
 	},
 	"Prepared": {
@@ -186,7 +186,7 @@
 		"Cost": 0,
 		"Description": "Draw 1 card. Discard 1 card.",
 		"Description (Upgraded)": "Draw 2 cards. Discard 2 cards.",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Prepared"
 	},
 	"Quick Slash": {
@@ -196,7 +196,7 @@
 		"Cost": 1,
 		"Description": "Deal 8 (12) damage. Draw 1 card.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Quick Slash"
 	},
 	"Slice": {
@@ -206,7 +206,7 @@
 		"Cost": 0,
 		"Description": "Deal 6 (9) damage.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Slice"
 	},
 	"Sneaky Strike": {
@@ -216,7 +216,7 @@
 		"Cost": 2,
 		"Description": "Deal 12 (16) damage. If you have discarded a card this turn, gain [G] [G].",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Sneaky Strike"
 	},
 	"Sucker Punch": {
@@ -226,7 +226,7 @@
 		"Cost": 1,
 		"Description": "Deal 7 (9) damage. Apply 1 (2) Weak.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Sucker Punch"
 	},
 	"Accuracy": {
@@ -236,7 +236,7 @@
 		"Cost": 1,
 		"Description": "Shivs deal 4 (6) additional damage.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Accuracy"
 	},
 	"All-Out Attack": {
@@ -246,7 +246,7 @@
 		"Cost": 1,
 		"Description": "Deal 10 (14) damage to ALL enemies. Discard 1 card at random.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "All-Out Attack"
 	},
 	"Backstab": {
@@ -256,7 +256,7 @@
 		"Cost": 0,
 		"Description": "Innate. Deal 11 (15) damage. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Backstab"
 	},
 	"Blur": {
@@ -266,7 +266,7 @@
 		"Cost": 1,
 		"Description": "Gain 5 (8) Block. Block is not removed at the start of your next turn.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Blur"
 	},
 	"Bouncing Flask": {
@@ -276,7 +276,7 @@
 		"Cost": 2,
 		"Description": "Apply 3 Poison to a random enemy 3 (4) times.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Bouncing Flask"
 	},
 	"Calculated Gamble": {
@@ -286,7 +286,7 @@
 		"Cost": 0,
 		"Description": "Discard your hand, then draw that many cards. Exhaust.",
 		"Description (Upgraded)": "Discard your hand, then draw that many cards.",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Calculated Gamble"
 	},
 	"Caltrops": {
@@ -296,7 +296,7 @@
 		"Cost": 1,
 		"Description": "Whenever you are attacked, deal 3 (5) damage back.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Caltrops"
 	},
 	"Catalyst": {
@@ -306,7 +306,7 @@
 		"Cost": 1,
 		"Description": "Double the enemy's Poison. Exhaust.",
 		"Description (Upgraded)": "Triple the enemy's Poison. Exhaust.",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Catalyst"
 	},
 	"Choke": {
@@ -316,7 +316,7 @@
 		"Cost": 2,
 		"Description": "Deal 12 damage. Whenever you play a card this turn, the enemy loses 3 (5) HP.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Choke"
 	},
 	"Concentrate": {
@@ -326,7 +326,7 @@
 		"Cost": 0,
 		"Description": "Discard 3 (2) cards. Gain [G] [G].",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Concentrate"
 	},
 	"Crippling Cloud": {
@@ -336,7 +336,7 @@
 		"Cost": 2,
 		"Description": "Apply 4 (7) Poison and 2 Weak to ALL enemies. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Crippling Cloud"
 	},
 	"Dash": {
@@ -346,7 +346,7 @@
 		"Cost": 2,
 		"Description": "Gain 10 (13) Block. Deal 10 (13) damage.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Dash"
 	},
 	"Distraction": {
@@ -356,7 +356,7 @@
 		"Cost": "1 (0)",
 		"Description": "Add a random Skill into your hand. It costs 0 this turn. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Distraction"
 	},
 	"Endless Agony": {
@@ -366,7 +366,7 @@
 		"Cost": 0,
 		"Description": "Deal 4 (6) damage. Whenever you draw this card, add a copy of it into your hand. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Endless Agony"
 	},
 	"Escape Plan": {
@@ -376,7 +376,7 @@
 		"Cost": 0,
 		"Description": "Draw 1 card. If you draw a Skill, gain 3 (5) Block.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Escape Plan"
 	},
 	"Eviscerate": {
@@ -386,7 +386,7 @@
 		"Cost": 3,
 		"Description": "Costs 1 less [G] for each card discarded this turn. Deal 7 (9) damage 3 times.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Eviscerate"
 	},
 	"Expertise": {
@@ -396,7 +396,7 @@
 		"Cost": 1,
 		"Description": "Draw cards until you have 6 (7) in your hand.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Expertise"
 	},
 	"Finisher": {
@@ -406,7 +406,7 @@
 		"Cost": 1,
 		"Description": "Deal 6 (8) damage for each Attack played this turn.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Finisher"
 	},
 	"Flechettes": {
@@ -416,7 +416,7 @@
 		"Cost": 1,
 		"Description": "Deal 4 (6) damage for each Skill in your hand.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Flechettes"
 	},
 	"Footwork": {
@@ -426,7 +426,7 @@
 		"Cost": 1,
 		"Description": "Gain 2 (3) Dexterity.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Footwork"
 	},
 	"Heel Hook": {
@@ -436,7 +436,7 @@
 		"Cost": 1,
 		"Description": "Deal 5 (8) damage. If the enemy has Weak, gain [G] and draw 1 card.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Heel Hook"
 	},
 	"Infinite Blades": {
@@ -446,7 +446,7 @@
 		"Cost": 1,
 		"Description": "At the start of your turn, add a Shiv into your hand.",
 		"Description (Upgraded)": "Innate. At the start of your turn, add a Shiv into your hand.",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Infinite Blades"
 	},
 	"Leg Sweep": {
@@ -456,7 +456,7 @@
 		"Cost": 2,
 		"Description": "Apply 2 (3) Weak. Gain 11 (14) Block.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Leg Sweep"
 	},
 	"Masterful Stab": {
@@ -466,7 +466,7 @@
 		"Cost": 0,
 		"Description": "Costs 1 additional [G] for each time you lose HP this combat. Deal 12 (16) damage.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Masterful Stab"
 	},
 	"Noxious Fumes": {
@@ -476,7 +476,7 @@
 		"Cost": 1,
 		"Description": "At the start of your turn, apply 2 (3) Poison to ALL enemies.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Noxious Fumes"
 	},
 	"Predator": {
@@ -486,7 +486,7 @@
 		"Cost": 2,
 		"Description": "Deal 15 (20) damage. Next turn, draw 2 additional cards.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Predator"
 	},
 	"Reflex": {
@@ -496,7 +496,7 @@
 		"Cost": "Unplayable",
 		"Description": "Unplayable. If this card is discarded from your hand, draw 2 cards.",
 		"Description (Upgraded)": "Unplayable. If this card is discarded from your hand, draw 3 cards.",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Reflex"
 	},
 	"Riddle with Holes": {
@@ -506,7 +506,7 @@
 		"Cost": 2,
 		"Description": "Deal 3 (4) damage 5 times.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Riddle with Holes"
 	},
 	"Setup": {
@@ -516,7 +516,7 @@
 		"Cost": "1 (0)",
 		"Description": "Put a card from your hand on top of your draw pile. It costs 0 until played.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Setup"
 	},
 	"Skewer": {
@@ -526,7 +526,7 @@
 		"Cost": "X",
 		"Description": "Deal 7 (10) damage X times.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Skewer"
 	},
 	"Tactician": {
@@ -536,7 +536,7 @@
 		"Cost": "Unplayable",
 		"Description": "Unplayable. If this card is discarded from your hand, gain [G].",
 		"Description (Upgraded)": "Unplayable. If this card is discarded from your hand, gain [G] [G].",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Tactician"
 	},
 	"Terror": {
@@ -546,7 +546,7 @@
 		"Cost": "1 (0)",
 		"Description": "Apply 99 Vulnerable. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Terror"
 	},
 	"Well-Laid Plans": {
@@ -556,7 +556,7 @@
 		"Cost": 1,
 		"Description": "At the end of your turn, Retain up to 1 card.",
 		"Description (Upgraded)": "At the end of your turn, Retain up to 2 cards.",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Well-Laid Plans"
 	},
 	"A Thousand Cuts": {
@@ -566,7 +566,7 @@
 		"Cost": 2,
 		"Description": "Whenever you play a card, deal 1 (2) damage to ALL enemies.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "A Thousand Cuts"
 	},
 	"Adrenaline": {
@@ -576,7 +576,7 @@
 		"Cost": 0,
 		"Description": "Gain [G]. Draw 2 cards. Exhaust.",
 		"Description (Upgraded)": "Gain [G] [G]. Draw 2 cards. Exhaust.",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Adrenaline"
 	},
 	"After Image": {
@@ -586,7 +586,7 @@
 		"Cost": 1,
 		"Description": "Whenever you play a card, gain 1 Block.",
 		"Description (Upgraded)": "Innate. Whenever you play a card, gain 1 Block.",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "After Image"
 	},
 	"Alchemize": {
@@ -596,7 +596,7 @@
 		"Cost": "1 (0)",
 		"Description": "Obtain a random potion. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Alchemize"
 	},
 	"Bullet Time": {
@@ -606,7 +606,7 @@
 		"Cost": "3 (2)",
 		"Description": "You cannot draw additional cards this turn. Reduce the cost of all cards in your hand to 0 this turn.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Bullet Time"
 	},
 	"Burst": {
@@ -616,7 +616,7 @@
 		"Cost": 1,
 		"Description": "This turn, your next Skill is played twice.",
 		"Description (Upgraded)": "This turn, your next 2 Skills are played twice.",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Burst"
 	},
 	"Corpse Explosion": {
@@ -626,7 +626,7 @@
 		"Cost": 2,
 		"Description": "Apply 6 (9) Poison. When the enemy dies, deal damage equal to its Max HP to ALL enemies.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Corpse Explosion"
 	},
 	"Die Die Die": {
@@ -636,7 +636,7 @@
 		"Cost": 1,
 		"Description": "Deal 13 (17) damage to ALL enemies. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Die Die Die"
 	},
 	"Doppelganger": {
@@ -646,7 +646,7 @@
 		"Cost": "X",
 		"Description": "Next turn, draw X cards and gain X [G]. Exhaust.",
 		"Description (Upgraded)": "Next turn, draw X+1 cards and gain X+1 [G]. Exhaust.",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Doppelganger"
 	},
 	"Envenom": {
@@ -656,7 +656,7 @@
 		"Cost": "2 (1)",
 		"Description": "Whenever an Attack deals unblocked damage, apply 1 Poison.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Envenom"
 	},
 	"Glass Knife": {
@@ -666,7 +666,7 @@
 		"Cost": 1,
 		"Description": "Deal 8 (12) damage twice. Decrease the damage of this card by 2 this combat.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Glass Knife"
 	},
 	"Grand Finale": {
@@ -676,7 +676,7 @@
 		"Cost": 0,
 		"Description": "Can only be played if there are no cards in your draw pile. Deal 50 (60) damage to ALL enemies.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Grand Finale"
 	},
 	"Malaise": {
@@ -686,7 +686,7 @@
 		"Cost": "X",
 		"Description": "Enemy loses X Strength. Apply X Weak. Exhaust.",
 		"Description (Upgraded)": "Enemy loses X+1 Strength. Apply X+1 Weak. Exhaust.",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Malaise"
 	},
 	"Nightmare": {
@@ -696,7 +696,7 @@
 		"Cost": "3 (2)",
 		"Description": "Choose a card. Next turn, add 3 copies of that card into your hand. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Nightmare"
 	},
 	"Phantasmal Killer": {
@@ -706,7 +706,7 @@
 		"Cost": "1 (0)",
 		"Description": "Next turn, your Attacks deal double damage.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Phantasmal Killer"
 	},
 	"Storm of Steel": {
@@ -716,7 +716,7 @@
 		"Cost": 1,
 		"Description": "Discard your hand. Add 1 Shiv into your hand for each card discarded.",
 		"Description (Upgraded)": "Discard your hand. Add 1 Shiv+ into your hand for each card discarded.",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Storm of Steel"
 	},
 	"Tools of the Trade": {
@@ -726,7 +726,7 @@
 		"Cost": "1 (0)",
 		"Description": "At the start of your turn, draw 1 card and discard 1 card.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Tools of the Trade"
 	},
 	"Unload": {
@@ -736,7 +736,7 @@
 		"Cost": 1,
 		"Description": "Deal 14 (18) damage. Discard all non-Attack cards in your hand.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Unload"
 	},
 	"Wraith Form": {
@@ -746,7 +746,7 @@
 		"Cost": 3,
 		"Description": "Gain 2 (3) Intangible. At the end of your turn, lose 1 Dexterity.",
 		"Description (Upgraded)": "",
-		"Color": "green",
+		"Color": "Green",
 		"Code": "Wraith Form"
 	}
 }

@@ -6,7 +6,7 @@
 		"Cost": 1,
 		"Description": "Gain 5 (8) Block.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Defend_B"
 	},
 	"Dualcast": {
@@ -16,7 +16,7 @@
 		"Cost": "1 (0)",
 		"Description": "Evoke your next Orb twice.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Dualcast"
 	},
 	"Strike_B": {
@@ -26,7 +26,7 @@
 		"Cost": 1,
 		"Description": "Deal 6 (9) damage.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Strike_B"
 	},
 	"Zap": {
@@ -36,7 +36,7 @@
 		"Cost": "1 (0)",
 		"Description": "Channel 1 Lightning.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Zap"
 	},
 	"Ball Lightning": {
@@ -46,7 +46,7 @@
 		"Cost": 1,
 		"Description": "Deal 7 (10) damage. Channel 1 Lightning.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Ball Lightning"
 	},
 	"Barrage": {
@@ -56,7 +56,7 @@
 		"Cost": 1,
 		"Description": "Deal 4 (6) damage for each Channeled Orb.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Barrage"
 	},
 	"Beam Cell": {
@@ -66,7 +66,7 @@
 		"Cost": 0,
 		"Description": "Deal 3 (4) damage. Apply 1 (2) Vulnerable.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Beam Cell"
 	},
 	"Charge Battery": {
@@ -76,7 +76,7 @@
 		"Cost": 1,
 		"Description": "Gain 7 (10) Block. Next turn, gain [B].",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Charge Battery"
 	},
 	"Claw": {
@@ -86,7 +86,7 @@
 		"Cost": 0,
 		"Description": "Deal 3 (5) damage. Increase the damage of ALL Claw cards by 2 this combat.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Claw"
 	},
 	"Cold Snap": {
@@ -96,7 +96,7 @@
 		"Cost": 1,
 		"Description": "Deal 6 (9) damage. Channel 1 Frost.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Cold Snap"
 	},
 	"Compile Driver": {
@@ -106,7 +106,7 @@
 		"Cost": 1,
 		"Description": "Deal 7 (10) damage. Draw 1 card for each unique Orb you have.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Compile Driver"
 	},
 	"Coolheaded": {
@@ -116,7 +116,7 @@
 		"Cost": 1,
 		"Description": "Channel 1 Frost. Draw 1 card.",
 		"Description (Upgraded)": "Channel 1 Frost. Draw 2 cards.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Coolheaded"
 	},
 	"Go for the Eyes": {
@@ -126,7 +126,7 @@
 		"Cost": 0,
 		"Description": "Deal 3 (4) damage. If the enemy intends to attack, apply 1 (2) Weak.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Go for the Eyes"
 	},
 	"Hologram": {
@@ -136,7 +136,7 @@
 		"Cost": 1,
 		"Description": "Gain 3 Block. Put a card from your discard pile into your hand. Exhaust.",
 		"Description (Upgraded)": "Gain 5 Block. Put a card from your discard pile into your hand.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Hologram"
 	},
 	"Leap": {
@@ -146,7 +146,7 @@
 		"Cost": 1,
 		"Description": "Gain 9 (12) Block.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Leap"
 	},
 	"Rebound": {
@@ -156,7 +156,7 @@
 		"Cost": 1,
 		"Description": "Deal 9 (12) damage. Put the next card you play this turn on top of your draw pile.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Rebound"
 	},
 	"Recursion": {
@@ -166,7 +166,7 @@
 		"Cost": "1 (0)",
 		"Description": "Evoke your next Orb. Channel the Orb that was just Evoked.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Recursion"
 	},
 	"Stack": {
@@ -176,7 +176,7 @@
 		"Cost": 1,
 		"Description": "Gain Block equal to the number of cards in your discard pile.",
 		"Description (Upgraded)": "Gain Block equal to the number of cards in your discard pile +3.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Stack"
 	},
 	"Steam Barrier": {
@@ -186,7 +186,7 @@
 		"Cost": 0,
 		"Description": "Gain 6 (8) Block. Decrease this card's Block by 1 this combat.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Steam Barrier"
 	},
 	"Streamline": {
@@ -196,7 +196,7 @@
 		"Cost": 2,
 		"Description": "Deal 15 (20) damage. Reduce this card's cost by 1 this combat.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Streamline"
 	},
 	"Sweeping Beam": {
@@ -206,7 +206,7 @@
 		"Cost": 1,
 		"Description": "Deal 6 (9) damage to ALL enemies. Draw 1 card.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Sweeping Beam"
 	},
 	"TURBO": {
@@ -216,7 +216,7 @@
 		"Cost": 0,
 		"Description": "Gain [B] [B]. Add a Void into your discard pile.",
 		"Description (Upgraded)": "Gain [B] [B] [B]. Add a Void into your discard pile.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "TURBO"
 	},
 	"Aggregate": {
@@ -226,7 +226,7 @@
 		"Cost": 1,
 		"Description": "Gain [B] for every 4 (3) cards in your draw pile.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Aggregate"
 	},
 	"Auto-Shields": {
@@ -236,7 +236,7 @@
 		"Cost": 1,
 		"Description": "If you have no Block, gain 11 (15) Block.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Auto-Shields"
 	},
 	"Blizzard": {
@@ -246,7 +246,7 @@
 		"Cost": 1,
 		"Description": "Deal damage equal to 2 (3) times the number of Frost Channeled this combat to ALL enemies.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Blizzard"
 	},
 	"Boot Sequence": {
@@ -256,7 +256,7 @@
 		"Cost": 0,
 		"Description": "Innate. Gain 10 (13) Block. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Boot Sequence"
 	},
 	"Bullseye": {
@@ -266,7 +266,7 @@
 		"Cost": 1,
 		"Description": "Deal 8 (11) damage. Apply 2 (3) Lock-On.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Bullseye"
 	},
 	"Capacitor": {
@@ -276,7 +276,7 @@
 		"Cost": 1,
 		"Description": "Gain 2 (3) Orb slots.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Capacitor"
 	},
 	"Chaos": {
@@ -286,7 +286,7 @@
 		"Cost": 1,
 		"Description": "Channel 1 random Orb.",
 		"Description (Upgraded)": "Channel 2 random Orbs.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Chaos"
 	},
 	"Chill": {
@@ -296,7 +296,7 @@
 		"Cost": 0,
 		"Description": "Channel 1 Frost for each enemy in combat. Exhaust.",
 		"Description (Upgraded)": "Innate. Channel 1 Frost for each enemy in combat. Exhaust.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Chill"
 	},
 	"Consume": {
@@ -306,7 +306,7 @@
 		"Cost": 2,
 		"Description": "Gain 2 (3) Focus. Lose 1 Orb slot.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Consume"
 	},
 	"Darkness": {
@@ -316,7 +316,7 @@
 		"Cost": 1,
 		"Description": "Channel 1 Dark.",
 		"Description (Upgraded)": "Channel 1 Dark. Trigger the passive ability of all Dark orbs.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Darkness"
 	},
 	"Defragment": {
@@ -326,7 +326,7 @@
 		"Cost": 1,
 		"Description": "Gain 1 (2) Focus.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Defragment"
 	},
 	"Doom and Gloom": {
@@ -336,7 +336,7 @@
 		"Cost": 2,
 		"Description": "Deal 10 (14) damage to ALL enemies. Channel 1 Dark.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Doom and Gloom"
 	},
 	"Double Energy": {
@@ -346,7 +346,7 @@
 		"Cost": "1 (0)",
 		"Description": "Double your Energy. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Double Energy"
 	},
 	"Equilibrium": {
@@ -356,7 +356,7 @@
 		"Cost": 2,
 		"Description": "Gain 13 (16) Block. Retain your hand this turn.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Equilibrium"
 	},
 	"FTL": {
@@ -366,7 +366,7 @@
 		"Cost": 0,
 		"Description": "Deal 5 (6) damage. If you have played less than 3 (4) cards this turn, draw 1 card.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "FTL"
 	},
 	"Force Field": {
@@ -376,7 +376,7 @@
 		"Cost": 4,
 		"Description": "Costs 1 less [B] for each Power card played this combat. Gain 12 (16) Block.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Force Field"
 	},
 	"Fusion": {
@@ -386,7 +386,7 @@
 		"Cost": "2 (1)",
 		"Description": "Channel 1 Plasma.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Fusion"
 	},
 	"Genetic Algorithm": {
@@ -396,7 +396,7 @@
 		"Cost": 1,
 		"Description": "Gain 1 Block. Permanently increase this card's Block by 2 (3). Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Genetic Algorithm"
 	},
 	"Glacier": {
@@ -406,7 +406,7 @@
 		"Cost": 2,
 		"Description": "Gain 7 (10) Block. Channel 2 Frost.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Glacier"
 	},
 	"Heatsinks": {
@@ -416,7 +416,7 @@
 		"Cost": 1,
 		"Description": "Whenever you play a Power card, draw 1 card.",
 		"Description (Upgraded)": "Whenever you play a Power card, draw 2 cards.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Heatsinks"
 	},
 	"Hello World": {
@@ -426,7 +426,7 @@
 		"Cost": 1,
 		"Description": "At the start of your turn, add a random Common card into your hand.",
 		"Description (Upgraded)": "Innate. At the start of your turn, add a random Common card into your hand.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Hello World"
 	},
 	"Loop": {
@@ -436,7 +436,7 @@
 		"Cost": 1,
 		"Description": "At the start of your turn, trigger the passive ability of your next Orb.",
 		"Description (Upgraded)": "At the start of your turn, trigger the passive ability of your next Orb 2 times.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Loop"
 	},
 	"Melter": {
@@ -446,7 +446,7 @@
 		"Cost": 1,
 		"Description": "Remove all Block from the enemy. Deal 10 (14) damage.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Melter"
 	},
 	"Overclock": {
@@ -456,7 +456,7 @@
 		"Cost": 0,
 		"Description": "Draw 2 (3) cards. Add a Burn into your discard pile.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Overclock"
 	},
 	"Recycle": {
@@ -466,7 +466,7 @@
 		"Cost": "1 (0)",
 		"Description": "Exhaust a card. Gain [B] equal to its cost.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Recycle"
 	},
 	"Reinforced Body": {
@@ -476,7 +476,7 @@
 		"Cost": "X",
 		"Description": "Gain 7 (9) Block X times.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Reinforced Body"
 	},
 	"Reprogram": {
@@ -486,7 +486,7 @@
 		"Cost": 1,
 		"Description": "Lose 1 (2) Focus. Gain 1 (2) Strength. Gain 1 (2) Dexterity.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Reprogram"
 	},
 	"Rip and Tear": {
@@ -496,7 +496,7 @@
 		"Cost": 1,
 		"Description": "Deal 7 (9) damage to a random enemy twice.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Rip and Tear"
 	},
 	"Scrape": {
@@ -506,7 +506,7 @@
 		"Cost": 1,
 		"Description": "Deal 7 (10) damage. Draw 4 (5) cards. Discard all cards drawn this way that do not cost 0.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Scrape"
 	},
 	"Self Repair": {
@@ -516,7 +516,7 @@
 		"Cost": 1,
 		"Description": "At the end of combat, heal 7 (10) HP.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Self Repair"
 	},
 	"Skim": {
@@ -526,7 +526,7 @@
 		"Cost": 1,
 		"Description": "Draw 3 (4) cards.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Skim"
 	},
 	"Static Discharge": {
@@ -536,7 +536,7 @@
 		"Cost": 1,
 		"Description": "Whenever you receive unblocked attack damage, Channel 1 (2) Lightning.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Static Discharge"
 	},
 	"Storm": {
@@ -546,7 +546,7 @@
 		"Cost": 1,
 		"Description": "Whenever you play a Power card, Channel 1 Lightning.",
 		"Description (Upgraded)": "Innate. Whenever you play a Power card, Channel 1 Lightning.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Storm"
 	},
 	"Sunder": {
@@ -556,7 +556,7 @@
 		"Cost": 3,
 		"Description": "Deal 24 (32) damage. If this kills an enemy, gain [B] [B] [B].",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Sunder"
 	},
 	"Tempest": {
@@ -566,7 +566,7 @@
 		"Cost": "X",
 		"Description": "Channel X Lightning. Exhaust.",
 		"Description (Upgraded)": "Channel X+1 Lightning. Exhaust.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Tempest"
 	},
 	"White Noise": {
@@ -576,7 +576,7 @@
 		"Cost": "1 (0)",
 		"Description": "Add a random Power card into your hand. It costs 0 this turn. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "White Noise"
 	},
 	"All for One": {
@@ -586,7 +586,7 @@
 		"Cost": 2,
 		"Description": "Deal 10 (14) damage. Put all cost 0 cards from your discard pile into your hand.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "All for One"
 	},
 	"Amplify": {
@@ -596,7 +596,7 @@
 		"Cost": 1,
 		"Description": "This turn, your next Power card is played twice.",
 		"Description (Upgraded)": "This turn, your next 2 Power cards are played twice.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Amplify"
 	},
 	"Biased Cognition": {
@@ -606,7 +606,7 @@
 		"Cost": 1,
 		"Description": "Gain 4 (5) Focus. At the start of your turn, lose 1 Focus.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Biased Cognition"
 	},
 	"Buffer": {
@@ -616,7 +616,7 @@
 		"Cost": 2,
 		"Description": "Prevent the next time you would lose HP.",
 		"Description (Upgraded)": "Prevent the next 2 times you would lose HP.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Buffer"
 	},
 	"Core Surge": {
@@ -626,7 +626,7 @@
 		"Cost": 1,
 		"Description": "Deal 11 (15) damage. Gain 1 Artifact. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Core Surge"
 	},
 	"Creative AI": {
@@ -636,7 +636,7 @@
 		"Cost": "3 (2)",
 		"Description": "At the start of your turn, add a random Power card into your hand.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Creative AI"
 	},
 	"Echo Form": {
@@ -646,7 +646,7 @@
 		"Cost": 3,
 		"Description": "Ethereal. The first card you play each turn is played twice.",
 		"Description (Upgraded)": "The first card you play each turn is played twice.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Echo Form"
 	},
 	"Electrodynamics": {
@@ -656,7 +656,7 @@
 		"Cost": 2,
 		"Description": "Lightning now hits ALL enemies. Channel 2 (3) Lightning.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Electrodynamics"
 	},
 	"Fission": {
@@ -666,7 +666,7 @@
 		"Cost": 0,
 		"Description": "Remove all your Orbs. Gain [B] and draw 1 card for each Orb removed. Exhaust.",
 		"Description (Upgraded)": "Evoke all your Orbs. Gain [B] and draw 1 card for each Orb Evoked. Exhaust.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Fission"
 	},
 	"Hyperbeam": {
@@ -676,7 +676,7 @@
 		"Cost": 2,
 		"Description": "Deal 26 (34) damage to ALL enemies. Lose 3 Focus.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Hyperbeam"
 	},
 	"Machine Learning": {
@@ -686,7 +686,7 @@
 		"Cost": 1,
 		"Description": "At the start of your turn, draw 1 additional card.",
 		"Description (Upgraded)": "Innate. At the start of your turn, draw 1 additional card.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Machine Learning"
 	},
 	"Meteor Strike": {
@@ -696,7 +696,7 @@
 		"Cost": 5,
 		"Description": "Deal 24 (30) damage. Channel 3 Plasma.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Meteor Strike"
 	},
 	"Multi-Cast": {
@@ -706,7 +706,7 @@
 		"Cost": "X",
 		"Description": "Evoke your next Orb X times.",
 		"Description (Upgraded)": "Evoke your next Orb X+1 times.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Multi-Cast"
 	},
 	"Rainbow": {
@@ -716,7 +716,7 @@
 		"Cost": 2,
 		"Description": "Channel 1 Lightning. Channel 1 Frost. Channel 1 Dark. Exhaust.",
 		"Description (Upgraded)": "Channel 1 Lightning. Channel 1 Frost. Channel 1 Dark.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Rainbow"
 	},
 	"Reboot": {
@@ -726,7 +726,7 @@
 		"Cost": 0,
 		"Description": "Shuffle ALL your cards into your draw pile. Draw 4 (6) cards. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Reboot"
 	},
 	"Seek": {
@@ -736,7 +736,7 @@
 		"Cost": 0,
 		"Description": "Put 1 card from your draw pile into your hand. Exhaust.",
 		"Description (Upgraded)": "Put 2 cards from your draw pile into your hand. Exhaust.",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Seek"
 	},
 	"Thunder Strike": {
@@ -746,7 +746,7 @@
 		"Cost": 3,
 		"Description": "Deal 7 (9) damage to a random enemy for each Lightning Channeled this combat.",
 		"Description (Upgraded)": "",
-		"Color": "blue",
+		"Color": "Blue",
 		"Code": "Thunder Strike"
 	}
 }
