@@ -6,7 +6,7 @@
 		"Cost": 0,
 		"Description": "Heal 4 (6) HP. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Bandage Up"
 	},
 	"Blind": {
@@ -16,7 +16,7 @@
 		"Cost": 0,
 		"Description": "Apply 2 Weak.",
 		"Description (Upgraded)": "Apply 2 Weak to ALL enemies.",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Blind"
 	},
 	"Dark Shackles": {
@@ -26,7 +26,7 @@
 		"Cost": 0,
 		"Description": "Enemy loses 9 (15) Strength this turn. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Dark Shackles"
 	},
 	"Deep Breath": {
@@ -36,7 +36,7 @@
 		"Cost": 0,
 		"Description": "Shuffle your discard pile into your draw pile. Draw 1 card.",
 		"Description (Upgraded)": "Shuffle your discard pile into your draw pile. Draw 2 cards.",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Deep Breath"
 	},
 	"Discovery": {
@@ -46,7 +46,7 @@
 		"Cost": 1,
 		"Description": "Choose 1 of 3 random cards to add into your hand. It costs 0 this turn. Exhaust.",
 		"Description (Upgraded)": "Choose 1 of 3 random cards to add into your hand. It costs 0 this turn.",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Discovery"
 	},
 	"Dramatic Entrance": {
@@ -56,7 +56,7 @@
 		"Cost": 0,
 		"Description": "Innate. Deal 8 (12) damage to ALL enemies. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Dramatic Entrance"
 	},
 	"Enlightenment": {
@@ -66,7 +66,7 @@
 		"Cost": 0,
 		"Description": "Reduce the cost of all cards in your hand to 1 this turn.",
 		"Description (Upgraded)": "Reduce the cost of all cards in your hand to 1 this combat.",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Enlightenment"
 	},
 	"Finesse": {
@@ -76,7 +76,7 @@
 		"Cost": 0,
 		"Description": "Gain 2 (4) Block. Draw 1 card.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Finesse"
 	},
 	"Flash of Steel": {
@@ -86,7 +86,7 @@
 		"Cost": 0,
 		"Description": "Deal 3 (6) damage. Draw 1 card.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Flash of Steel"
 	},
 	"Forethought": {
@@ -96,7 +96,7 @@
 		"Cost": 0,
 		"Description": "Put a card from your hand to the bottom of your draw pile. It costs 0 until played.",
 		"Description (Upgraded)": "Put any number of cards from your hand to the bottom of your draw pile. They cost 0 until played.",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Forethought"
 	},
 	"Good Instincts": {
@@ -106,7 +106,7 @@
 		"Cost": 0,
 		"Description": "Gain 6 (9) Block.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Good Instincts"
 	},
 	"Impatience": {
@@ -116,7 +116,7 @@
 		"Cost": 0,
 		"Description": "If you have no Attacks in your hand, draw 2 (3) cards.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Impatience"
 	},
 	"Jack of All Trades": {
@@ -126,7 +126,7 @@
 		"Cost": 0,
 		"Description": "Add 1 random Colorless card into your hand. Exhaust.",
 		"Description (Upgraded)": "Add 2 random Colorless cards into your hand. Exhaust.",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Jack of All Trades"
 	},
 	"Madness": {
@@ -136,7 +136,7 @@
 		"Cost": "1 (0)",
 		"Description": "Reduce the cost of a random card in your hand to 0 this combat. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Madness"
 	},
 	"Mind Blast": {
@@ -146,7 +146,7 @@
 		"Cost": "2 (1)",
 		"Description": "Innate. Deal damage equal to the number of cards in your draw pile.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Mind Blast"
 	},
 	"Panacea": {
@@ -156,7 +156,7 @@
 		"Cost": 0,
 		"Description": "Gain 1 (2) Artifact. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Panacea"
 	},
 	"Panic Button": {
@@ -166,7 +166,7 @@
 		"Cost": 0,
 		"Description": "Gain 30 (40) Block. You cannot gain Block from cards for 2 turns. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Panic Button"
 	},
 	"Purity": {
@@ -176,7 +176,7 @@
 		"Cost": 0,
 		"Description": "Exhaust up to 3 (5) cards in your hand. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Purity"
 	},
 	"Swift Strike": {
@@ -186,7 +186,7 @@
 		"Cost": 0,
 		"Description": "Deal 7 (10) damage.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Swift Strike"
 	},
 	"Trip": {
@@ -196,7 +196,7 @@
 		"Cost": 0,
 		"Description": "Apply 2 Vulnerable.",
 		"Description (Upgraded)": "Apply 2 Vulnerable to ALL enemies.",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Trip"
 	},
 	"Apotheosis": {
@@ -206,7 +206,7 @@
 		"Cost": "2 (1)",
 		"Description": "Upgrade ALL your cards for the rest of combat. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Apotheosis"
 	},
 	"Chrysalis": {
@@ -216,7 +216,7 @@
 		"Cost": 2,
 		"Description": "Shuffle 3 (5) random Skills into your draw pile. They cost 0 this combat. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Chrysalis"
 	},
 	"Hand of Greed": {
@@ -226,7 +226,7 @@
 		"Cost": 2,
 		"Description": "Deal 20 (25) damage. If Fatal, gain 20 (25) Gold.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Hand of Greed"
 	},
 	"Magnetism": {
@@ -236,7 +236,7 @@
 		"Cost": "2 (1)",
 		"Description": "At the start of your turn, add a random Colorless card into your hand.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Magnetism"
 	},
 	"Master of Strategy": {
@@ -246,7 +246,7 @@
 		"Cost": 0,
 		"Description": "Draw 3 (4) cards. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Master of Strategy"
 	},
 	"Mayhem": {
@@ -256,7 +256,7 @@
 		"Cost": "2 (1)",
 		"Description": "At the start of your turn, play the top card of your draw pile.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Mayhem"
 	},
 	"Metamorphosis": {
@@ -266,7 +266,7 @@
 		"Cost": 2,
 		"Description": "Shuffle 3 (5) random Attacks into your draw pile. They cost 0 this combat. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Metamorphosis"
 	},
 	"Panache": {
@@ -276,7 +276,7 @@
 		"Cost": 0,
 		"Description": "Every time you play 5 cards in a single turn, deal 10 (14) damage to ALL enemies.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Panache"
 	},
 	"Sadistic Nature": {
@@ -286,7 +286,7 @@
 		"Cost": 0,
 		"Description": "Whenever you apply a debuff to an enemy, they take 5 (7) damage.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Sadistic Nature"
 	},
 	"Secret Technique": {
@@ -296,7 +296,7 @@
 		"Cost": 0,
 		"Description": "Put a Skill from your draw pile into your hand. Exhaust.",
 		"Description (Upgraded)": "Put a Skill from your draw pile into your hand.",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Secret Technique"
 	},
 	"Secret Weapon": {
@@ -306,7 +306,7 @@
 		"Cost": 0,
 		"Description": "Put an Attack from your draw pile into your hand. Exhaust.",
 		"Description (Upgraded)": "Put an Attack from your draw pile into your hand.",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Secret Weapon"
 	},
 	"The Bomb": {
@@ -316,7 +316,7 @@
 		"Cost": 2,
 		"Description": "At the end of 3 turns, deal 40 (50) damage to ALL enemies.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "The Bomb"
 	},
 	"Thinking Ahead": {
@@ -326,7 +326,7 @@
 		"Cost": 0,
 		"Description": "Draw 2 cards. Put a card from your hand on top of your draw pile. Exhaust.",
 		"Description (Upgraded)": "Draw 2 cards. Put a card from your hand on top of your draw pile.",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Thinking Ahead"
 	},
 	"Transmutation": {
@@ -336,7 +336,7 @@
 		"Cost": "X",
 		"Description": "Add X random Colorless cards into your hand. They cost 0 this turn. Exhaust.",
 		"Description (Upgraded)": "Add X random Upgraded Colorless cards into your hand. They cost 0 this turn. Exhaust.",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Transmutation"
 	},
 	"Violence": {
@@ -346,167 +346,167 @@
 		"Cost": 0,
 		"Description": "Put 3 (4) random Attacks from your draw pile into your hand. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Violence"
 	},
 	"Apparition": {
 		"Name": "Apparition",
 		"Type": "Skill",
-		"Rarity": "Special",
+		"Rarity": "Colorless",
 		"Cost": 1,
 		"Description": "Ethereal. Gain 1 Intangible. Exhaust.",
 		"Description (Upgraded)": "Gain 1 Intangible. Exhaust.",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Apparition"
 	},
 	"Become Almighty": {
 		"Name": "Become Almighty",
 		"Type": "Power",
-		"Rarity": "Special",
+		"Rarity": "Colorless",
 		"Cost": "Unplayable",
 		"Description": "Gain 3 (4) Strength.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Become Almighty"
 	},
 	"Beta": {
 		"Name": "Beta",
 		"Type": "Skill",
-		"Rarity": "Special",
+		"Rarity": "Colorless",
 		"Cost": "2 (1)",
 		"Description": "Shuffle an Omega into your draw pile. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Beta"
 	},
 	"Bite": {
 		"Name": "Bite",
 		"Type": "Attack",
-		"Rarity": "Special",
+		"Rarity": "Colorless",
 		"Cost": 1,
 		"Description": "Deal 7 (8) damage. Heal 2 (3) HP.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Bite"
 	},
 	"Expunger": {
 		"Name": "Expunger",
 		"Type": "Attack",
-		"Rarity": "Special",
+		"Rarity": "Colorless",
 		"Cost": 1,
 		"Description": "Deal 9 (15) damage X times.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Expunger"
 	},
 	"Fame and Fortune": {
 		"Name": "Fame and Fortune",
 		"Type": "Skill",
-		"Rarity": "Special",
+		"Rarity": "Colorless",
 		"Cost": "Unplayable",
 		"Description": "Gain 25 (30) Gold.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Fame and Fortune"
 	},
 	"Insight": {
 		"Name": "Insight",
 		"Type": "Skill",
-		"Rarity": "Special",
+		"Rarity": "Colorless",
 		"Cost": 0,
 		"Description": "Retain. Draw 2 (3) cards. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Insight"
 	},
 	"J.A.X.": {
 		"Name": "J.A.X.",
 		"Type": "Skill",
-		"Rarity": "Special",
+		"Rarity": "Colorless",
 		"Cost": 0,
 		"Description": "Lose 3 HP. Gain 2 (3) Strength.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "J.A.X."
 	},
 	"Live Forever": {
 		"Name": "Live Forever",
 		"Type": "Power",
-		"Rarity": "Special",
+		"Rarity": "Colorless",
 		"Cost": "Unplayable",
 		"Description": "Gain 6 (8) Plated Armor.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Live Forever"
 	},
 	"Miracle": {
 		"Name": "Miracle",
 		"Type": "Skill",
-		"Rarity": "Special",
+		"Rarity": "Colorless",
 		"Cost": 0,
 		"Description": "Retain. Gain [W]. Exhaust.",
 		"Description (Upgraded)": "Retain. Gain [W] [W]. Exhaust.",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Miracle"
 	},
 	"Omega": {
 		"Name": "Omega",
 		"Type": "Power",
-		"Rarity": "Special",
+		"Rarity": "Colorless",
 		"Cost": 3,
 		"Description": "At the end of your turn, deal 50 (60) damage to ALL enemies.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Omega"
 	},
 	"Ritual Dagger": {
 		"Name": "Ritual Dagger",
 		"Type": "Attack",
-		"Rarity": "Special",
+		"Rarity": "Colorless",
 		"Cost": 1,
 		"Description": "Deal 15 damage. If Fatal, permanently increase this card's damage by 3 (5). Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Ritual Dagger"
 	},
 	"Safety": {
 		"Name": "Safety",
 		"Type": "Skill",
-		"Rarity": "Special",
+		"Rarity": "Colorless",
 		"Cost": 1,
 		"Description": "Retain. Gain 12 (16) Block. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Safety"
 	},
 	"Shiv": {
 		"Name": "Shiv",
 		"Type": "Attack",
-		"Rarity": "Special",
+		"Rarity": "Colorless",
 		"Cost": 0,
 		"Description": "Deal 4 (6) damage. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Shiv"
 	},
 	"Smite": {
 		"Name": "Smite",
 		"Type": "Attack",
-		"Rarity": "Special",
+		"Rarity": "Colorless",
 		"Cost": 1,
 		"Description": "Retain. Deal 12 (16) damage. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Smite"
 	},
 	"Through Violence": {
 		"Name": "Through Violence",
 		"Type": "Attack",
-		"Rarity": "Special",
+		"Rarity": "Colorless",
 		"Cost": 0,
 		"Description": "Retain. Deal 20 (30) damage. Exhaust.",
 		"Description (Upgraded)": "",
-		"Color": "Special",
+		"Color": "Colorless",
 		"Code": "Through Violence"
 	}
 }
