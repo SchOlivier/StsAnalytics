@@ -1,0 +1,142 @@
+{
+	"Clumsy": {
+		"Name": "Clumsy",
+		"Type": "Curse",
+		"Rarity": "Curse",
+		"Cost": "Unplayable",
+		"Description": "Unplayable. Ethereal.",
+		"Description (Upgraded)": "",
+		"Color": "Curse",
+		"Code": "Clumsy"
+	},
+	"Decay": {
+		"Name": "Decay",
+		"Type": "Curse",
+		"Rarity": "Curse",
+		"Cost": "Unplayable",
+		"Description": "Unplayable. At the end of your turn, take 2 damage.",
+		"Description (Upgraded)": "",
+		"Color": "Curse",
+		"Code": "Decay"
+	},
+	"Doubt": {
+		"Name": "Doubt",
+		"Type": "Curse",
+		"Rarity": "Curse",
+		"Cost": "Unplayable",
+		"Description": "Unplayable. At the end of your turn, gain 1 Weak.",
+		"Description (Upgraded)": "",
+		"Color": "Curse",
+		"Code": "Doubt"
+	},
+	"Injury": {
+		"Name": "Injury",
+		"Type": "Curse",
+		"Rarity": "Curse",
+		"Cost": "Unplayable",
+		"Description": "Unplayable.",
+		"Description (Upgraded)": "",
+		"Color": "Curse",
+		"Code": "Injury"
+	},
+	"Normality": {
+		"Name": "Normality",
+		"Type": "Curse",
+		"Rarity": "Curse",
+		"Cost": "Unplayable",
+		"Description": "Unplayable. While in hand, you cannot play more than 3 cards this turn.",
+		"Description (Upgraded)": "",
+		"Color": "Curse",
+		"Code": "Normality"
+	},
+	"Pain": {
+		"Name": "Pain",
+		"Type": "Curse",
+		"Rarity": "Curse",
+		"Cost": "Unplayable",
+		"Description": "Unplayable. While in hand, lose 1 HP whenever you play another card.",
+		"Description (Upgraded)": "",
+		"Color": "Curse",
+		"Code": "Pain"
+	},
+	"Parasite": {
+		"Name": "Parasite",
+		"Type": "Curse",
+		"Rarity": "Curse",
+		"Cost": "Unplayable",
+		"Description": "Unplayable. If transformed or removed from your deck, lose 3 Max HP.",
+		"Description (Upgraded)": "",
+		"Color": "Curse",
+		"Code": "Parasite"
+	},
+	"Regret": {
+		"Name": "Regret",
+		"Type": "Curse",
+		"Rarity": "Curse",
+		"Cost": "Unplayable",
+		"Description": "Unplayable. At the end of your turn, lose HP equal to the number of cards in your hand.",
+		"Description (Upgraded)": "",
+		"Color": "Curse",
+		"Code": "Regret"
+	},
+	"Shame": {
+		"Name": "Shame",
+		"Type": "Curse",
+		"Rarity": "Curse",
+		"Cost": "Unplayable",
+		"Description": "Unplayable. At the end of your turn, gain 1 Frail.",
+		"Description (Upgraded)": "",
+		"Color": "Curse",
+		"Code": "Shame"
+	},
+	"Writhe": {
+		"Name": "Writhe",
+		"Type": "Curse",
+		"Rarity": "Curse",
+		"Cost": "Unplayable",
+		"Description": "Unplayable. Innate.",
+		"Description (Upgraded)": "",
+		"Color": "Curse",
+		"Code": "Writhe"
+	},
+	"Ascender's Bane": {
+		"Name": "Ascender's Bane",
+		"Type": "Curse",
+		"Rarity": "Special",
+		"Cost": "Unplayable",
+		"Description": "Unplayable. Ethereal. Cannot be removed from your deck.",
+		"Description (Upgraded)": "",
+		"Color": "Curse",
+		"Code": "Ascender's Bane"
+	},
+	"Curse of the Bell": {
+		"Name": "Curse of the Bell",
+		"Type": "Curse",
+		"Rarity": "Special",
+		"Cost": "Unplayable",
+		"Description": "Unplayable. Cannot be removed from your deck.",
+		"Description (Upgraded)": "",
+		"Color": "Curse",
+		"Code": "Curse of the Bell"
+	},
+	"Necronomicurse": {
+		"Name": "Necronomicurse",
+		"Type": "Curse",
+		"Rarity": "Special",
+		"Cost": "Unplayable",
+		"Description": "Unplayable. There is no escape from this Curse.",
+		"Description (Upgraded)": "",
+		"Color": "Curse",
+		"Code": "Necronomicurse"
+	},
+	"Pride": {
+		"Name": "Pride",
+		"Type": "Curse",
+		"Rarity": "Special",
+		"Cost": 1,
+		"Description": "Innate. At the end of your turn, put a copy of this card on top of your draw pile. Exhaust.",
+		"Description (Upgraded)": "",
+		"Color": "Curse",
+		"Code": "Pride"
+	}
+}
