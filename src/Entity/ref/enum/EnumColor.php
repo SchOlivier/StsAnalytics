@@ -7,7 +7,7 @@ enum EnumColor: string
     case Green = 'Green';
     case Blue = 'Blue';
     case Purple = 'Purple';
-    case Colorless = 'Special';
+    case Colorless = 'Colorless';
     case Status = 'Status';
     case Curse = 'Curse';
 }
