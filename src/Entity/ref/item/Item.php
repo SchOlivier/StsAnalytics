@@ -69,6 +69,6 @@ abstract class Item
 
     public function __toString(): string
     {
-        return $this->label;
+        return $this->label . ', ' . $this->rarity->value;
     }
 }

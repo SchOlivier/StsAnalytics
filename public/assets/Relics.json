@@ -1,0 +1,1248 @@
+{
+	"Burning Blood": {
+		"code": "Burning Blood",
+		"label": "Burning Blood",
+		"rarity": "Basic",
+		"color": "Red",
+		"description": "At the end of combat, heal 6 HP."
+	},
+	"Cracked Core": {
+		"code": "Cracked Core",
+		"label": "Cracked Core",
+		"rarity": "Basic",
+		"color": "Blue",
+		"description": "At the start of each combat, Channel 1 Lightning."
+	},
+	"Pure Water": {
+		"code": "Pure Water",
+		"label": "Pure Water",
+		"rarity": "Basic",
+		"color": "Purple",
+		"description": "At the start of each combat, add a Miracle into your hand."
+	},
+	"Ring of the Snake": {
+		"code": "Ring of the Snake",
+		"label": "Ring of the Snake",
+		"rarity": "Basic",
+		"color": "Green",
+		"description": "At the start of each combat, draw 2 additional cards."
+	},
+	"Akabeko": {
+		"code": "Akabeko",
+		"label": "Akabeko",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Your first Attack each combat deals 8 additional damage."
+	},
+	"Anchor": {
+		"code": "Anchor",
+		"label": "Anchor",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Start each combat with 10 Block."
+	},
+	"Ancient Tea Set": {
+		"code": "Ancient Tea Set",
+		"label": "Ancient Tea Set",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Whenever you enter a Rest Site, start the next combat with [E] [E] ."
+	},
+	"Art of War": {
+		"code": "Art of War",
+		"label": "Art of War",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "If you do not play any Attacks during your turn, gain an additional [E] next turn."
+	},
+	"Bag of Marbles": {
+		"code": "Bag of Marbles",
+		"label": "Bag of Marbles",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "At the start of each combat, apply 1 Vulnerable to ALL enemies."
+	},
+	"Bag of Preparation": {
+		"code": "Bag of Preparation",
+		"label": "Bag of Preparation",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "At the start of each combat, draw 2 additional cards."
+	},
+	"Blood Vial": {
+		"code": "Blood Vial",
+		"label": "Blood Vial",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "At the start of each combat, heal 2 HP."
+	},
+	"Bronze Scales": {
+		"code": "Bronze Scales",
+		"label": "Bronze Scales",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Start each combat with 3 Thorns."
+	},
+	"Centennial Puzzle": {
+		"code": "Centennial Puzzle",
+		"label": "Centennial Puzzle",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "The first time you lose HP each combat, draw 3 cards."
+	},
+	"Ceramic Fish": {
+		"code": "Ceramic Fish",
+		"label": "Ceramic Fish",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Whenever you add a card to your deck, gain 9 Gold."
+	},
+	"Damaru": {
+		"code": "Damaru",
+		"label": "Damaru",
+		"rarity": "Common",
+		"color": "Purple",
+		"description": "At the start of your turn, gain 1 Mantra."
+	},
+	"Data Disk": {
+		"code": "Data Disk",
+		"label": "Data Disk",
+		"rarity": "Common",
+		"color": "Blue",
+		"description": "Start each combat with 1 Focus."
+	},
+	"Dream Catcher": {
+		"code": "Dream Catcher",
+		"label": "Dream Catcher",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Whenever you Rest, you may add a card into your deck."
+	},
+	"Happy Flower": {
+		"code": "Happy Flower",
+		"label": "Happy Flower",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Every 3 turns, gain [E] ."
+	},
+	"Juzu Bracelet": {
+		"code": "Juzu Bracelet",
+		"label": "Juzu Bracelet",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Normal enemy combats are no longer encountered in ? rooms."
+	},
+	"Lantern": {
+		"code": "Lantern",
+		"label": "Lantern",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Start each combat with an additional [E] ."
+	},
+	"MawBank": {
+		"code": "Maw Bank",
+		"label": "Maw Bank",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Whenever you climb a floor, gain 12 Gold. No longer works when you spend any Gold at a shop."
+	},
+	"Meal Ticket": {
+		"code": "Meal Ticket",
+		"label": "Meal Ticket",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Whenever you enter a shop, heal 15 HP."
+	},
+	"Nunchaku": {
+		"code": "Nunchaku",
+		"label": "Nunchaku",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Every time you play 10 Attacks, gain [E] ."
+	},
+	"Oddly Smooth Stone": {
+		"code": "Oddly Smooth Stone",
+		"label": "Oddly Smooth Stone",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Start each combat with 1 Dexterity."
+	},
+	"Omamori": {
+		"code": "Omamori",
+		"label": "Omamori",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Negate the next 2 Curses you obtain."
+	},
+	"Orichalcum": {
+		"code": "Orichalcum",
+		"label": "Orichalcum",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "If you end your turn without Block, gain 6 Block."
+	},
+	"Pen Nib": {
+		"code": "Pen Nib",
+		"label": "Pen Nib",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Every 10th Attack you play deals double damage."
+	},
+	"Potion Belt": {
+		"code": "Potion Belt",
+		"label": "Potion Belt",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Upon pickup, gain 2 Potion slots."
+	},
+	"Preserved Insect": {
+		"code": "Preserved Insect",
+		"label": "Preserved Insect",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Enemies in Elite combats have 25% less HP."
+	},
+	"Red Skull": {
+		"code": "Red Skull",
+		"label": "Red Skull",
+		"rarity": "Common",
+		"color": "Red",
+		"description": "While your HP is at or below 50%, you have 3 additional Strength."
+	},
+	"Regal Pillow": {
+		"code": "Regal Pillow",
+		"label": "Regal Pillow",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Whenever you Rest, heal an additional 15 HP."
+	},
+	"Smiling Mask": {
+		"code": "Smiling Mask",
+		"label": "Smiling Mask",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "The Merchant's card removal service now always costs 50 Gold."
+	},
+	"Snecko Skull": {
+		"code": "Snecko Skull",
+		"label": "Snecko Skull",
+		"rarity": "Common",
+		"color": "Green",
+		"description": "Whenever you apply Poison, apply an additional 1 Poison."
+	},
+	"Strawberry": {
+		"code": "Strawberry",
+		"label": "Strawberry",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Upon pickup, raise your Max HP by 7."
+	},
+	"The Boot": {
+		"code": "The Boot",
+		"label": "The Boot",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Whenever you would deal 4 or less unblocked attack damage, increase it to 5."
+	},
+	"Tiny Chest": {
+		"code": "Tiny Chest",
+		"label": "Tiny Chest",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Every 4th ? room is a Treasure room."
+	},
+	"Toy Ornithopter": {
+		"code": "Toy Ornithopter",
+		"label": "Toy Ornithopter",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Whenever you use a potion, heal 5 HP."
+	},
+	"Vajra": {
+		"code": "Vajra",
+		"label": "Vajra",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Start each combat with 1 Strength."
+	},
+	"War Paint": {
+		"code": "War Paint",
+		"label": "War Paint",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Upon pickup, Upgrade 2 random Skills."
+	},
+	"Whetstone": {
+		"code": "Whetstone",
+		"label": "Whetstone",
+		"rarity": "Common",
+		"color": "Colorless",
+		"description": "Upon pickup, Upgrade 2 random Attacks."
+	},
+	"Blue Candle": {
+		"code": "Blue Candle",
+		"label": "Blue Candle",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Unplayable Curse cards can now be played. Whenever you play a Curse, lose 1 HP and Exhaust it."
+	},
+	"Bottled Flame": {
+		"code": "Bottled Flame",
+		"label": "Bottled Flame",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Upon pickup, choose an Attack. Start each combat with this card in your hand."
+	},
+	"Bottled Lightning": {
+		"code": "Bottled Lightning",
+		"label": "Bottled Lightning",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Upon pickup, choose a Skill. Start each combat with this card in your hand."
+	},
+	"Bottled Tornado": {
+		"code": "Bottled Tornado",
+		"label": "Bottled Tornado",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Upon pickup, choose a Power card. Start each combat with this card in your hand."
+	},
+	"Darkstone Periapt": {
+		"code": "Darkstone Periapt",
+		"label": "Darkstone Periapt",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Whenever you obtain a Curse, increase your Max HP by 6."
+	},
+	"Duality": {
+		"code": "Duality",
+		"label": "Duality",
+		"rarity": "Uncommon",
+		"color": "Purple",
+		"description": "Whenever you play an Attack, gain 1 temporary Dexterity."
+	},
+	"Eternal Feather": {
+		"code": "Eternal Feather",
+		"label": "Eternal Feather",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "For every 5 cards in your deck, heal 3 HP whenever you enter a Rest Site."
+	},
+	"Frozen Egg": {
+		"code": "Frozen Egg",
+		"label": "Frozen Egg",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Whenever you add a Power card into your deck, Upgrade it."
+	},
+	"Gold-Plated Cables": {
+		"code": "Gold-Plated Cables",
+		"label": "Gold-Plated Cables",
+		"rarity": "Uncommon",
+		"color": "Blue",
+		"description": "Your rightmost Orb triggers its passive an additional time."
+	},
+	"Gremlin Horn": {
+		"code": "Gremlin Horn",
+		"label": "Gremlin Horn",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Whenever an enemy dies, gain [E] and draw 1 card."
+	},
+	"Horn Cleat": {
+		"code": "Horn Cleat",
+		"label": "Horn Cleat",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "At the start of your 2nd turn, gain 14 Block."
+	},
+	"Ink Bottle": {
+		"code": "Ink Bottle",
+		"label": "Ink Bottle",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Whenever you play 10 cards, draw 1 card."
+	},
+	"Kunai": {
+		"code": "Kunai",
+		"label": "Kunai",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Every time you play 3 Attacks in a single turn, gain 1 Dexterity."
+	},
+	"Letter Opener": {
+		"code": "Letter Opener",
+		"label": "Letter Opener",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Every time you play 3 Skills in a single turn, deal 5 damage to ALL enemies."
+	},
+	"Matryoshka": {
+		"code": "Matryoshka",
+		"label": "Matryoshka",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "The next 2 non-Boss chests you open contain 2 Relics."
+	},
+	"Meat on the Bone": {
+		"code": "Meat on the Bone",
+		"label": "Meat on the Bone",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "If your HP is at or below 50% at the end of combat, heal 12 HP."
+	},
+	"Mercury Hourglass": {
+		"code": "Mercury Hourglass",
+		"label": "Mercury Hourglass",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "At the start of your turn, deal 3 damage to ALL enemies."
+	},
+	"Molten Egg": {
+		"code": "Molten Egg",
+		"label": "Molten Egg",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Whenever you add an Attack into your deck, Upgrade it."
+	},
+	"Mummified Hand": {
+		"code": "Mummified Hand",
+		"label": "Mummified Hand",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Whenever you play a Power card, a random card in your hand costs 0 that turn."
+	},
+	"Ninja Scroll": {
+		"code": "Ninja Scroll",
+		"label": "Ninja Scroll",
+		"rarity": "Uncommon",
+		"color": "Green",
+		"description": "At the start of each combat, add 3 Shivs into your hand."
+	},
+	"Ornamental Fan": {
+		"code": "Ornamental Fan",
+		"label": "Ornamental Fan",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Every time you play 3 Attacks in a single turn, gain 4 Block."
+	},
+	"Pantograph": {
+		"code": "Pantograph",
+		"label": "Pantograph",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "At the start of Boss combats, heal 25 HP."
+	},
+	"Paper Krane": {
+		"code": "Paper Krane",
+		"label": "Paper Krane",
+		"rarity": "Uncommon",
+		"color": "Green",
+		"description": "Enemies with Weak deal 40% less damage rather than 25%."
+	},
+	"Paper Phrog": {
+		"code": "Paper Phrog",
+		"label": "Paper Phrog",
+		"rarity": "Uncommon",
+		"color": "Red",
+		"description": "Enemies with Vulnerable take 75% more damage rather than 50%."
+	},
+	"Pear": {
+		"code": "Pear",
+		"label": "Pear",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Upon pickup, raise your Max HP by 10."
+	},
+	"Question Card": {
+		"code": "Question Card",
+		"label": "Question Card",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Future card rewards have 1 additional card to choose from."
+	},
+	"Self-Forming Clay": {
+		"code": "Self-Forming Clay",
+		"label": "Self-Forming Clay",
+		"rarity": "Uncommon",
+		"color": "Red",
+		"description": "Whenever you lose HP, gain 3 Block next turn."
+	},
+	"Shuriken": {
+		"code": "Shuriken",
+		"label": "Shuriken",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Every time you play 3 Attacks in a single turn, gain 1 Strength."
+	},
+	"Singing Bowl": {
+		"code": "Singing Bowl",
+		"label": "Singing Bowl",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "When adding cards into your deck, you may raise your Max HP by 2 instead."
+	},
+	"Strike Dummy": {
+		"code": "Strike Dummy",
+		"label": "Strike Dummy",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Cards containing \"Strike\" deal 3 additional damage."
+	},
+	"Sundial": {
+		"code": "Sundial",
+		"label": "Sundial",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Every 3 times you shuffle your draw pile, gain [E] [E] ."
+	},
+	"Symbiotic Virus": {
+		"code": "Symbiotic Virus",
+		"label": "Symbiotic Virus",
+		"rarity": "Uncommon",
+		"color": "Blue",
+		"description": "At the start of each combat, Channel 1 Dark."
+	},
+	"Teardrop Locket": {
+		"code": "Teardrop Locket",
+		"label": "Teardrop Locket",
+		"rarity": "Uncommon",
+		"color": "Purple",
+		"description": "Start each combat in Calm."
+	},
+	"The Courier": {
+		"code": "The Courier",
+		"label": "The Courier",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "The Merchant restocks cards, relics, and potions. All prices are reduced by 20%."
+	},
+	"Toxic Egg": {
+		"code": "Toxic Egg",
+		"label": "Toxic Egg",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Whenever you add a Skill into your deck, Upgrade it."
+	},
+	"White Beast Statue": {
+		"code": "White Beast Statue",
+		"label": "White Beast Statue",
+		"rarity": "Uncommon",
+		"color": "Colorless",
+		"description": "Potions always appear in combat rewards."
+	},
+	"Bird-Faced Urn": {
+		"code": "Bird-Faced Urn",
+		"label": "Bird-Faced Urn",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "Whenever you play a Power card, heal 2 HP."
+	},
+	"Calipers": {
+		"code": "Calipers",
+		"label": "Calipers",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "At the start of your turn, lose 15 Block rather than all of your Block."
+	},
+	"CaptainsWheel": {
+		"code": "Captain's Wheel",
+		"label": "Captain's Wheel",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "At the start of your 3rd turn, gain 18 Block."
+	},
+	"Champion Belt": {
+		"code": "Champion Belt",
+		"label": "Champion Belt",
+		"rarity": "Rare",
+		"color": "Red",
+		"description": "Whenever you apply Vulnerable, apply 1 Weak."
+	},
+	"CharonsAshes": {
+		"code": "Charon's Ashes",
+		"label": "Charon's Ashes",
+		"rarity": "Rare",
+		"color": "Red",
+		"description": "Whenever you Exhaust a card, deal 3 damage to ALL enemies."
+	},
+	"Cloak Clasp": {
+		"code": "Cloak Clasp",
+		"label": "Cloak Clasp",
+		"rarity": "Rare",
+		"color": "Purple",
+		"description": "At the end of your turn, gain 1 Block for each card in your hand."
+	},
+	"Dead Branch": {
+		"code": "Dead Branch",
+		"label": "Dead Branch",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "Whenever you Exhaust a card, add a random card into your hand."
+	},
+	"Du-Vu Doll": {
+		"code": "Du-Vu Doll",
+		"label": "Du-Vu Doll",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "For each Curse in your deck, start each combat with 1 Strength."
+	},
+	"Emotion Chip": {
+		"code": "Emotion Chip",
+		"label": "Emotion Chip",
+		"rarity": "Rare",
+		"color": "Blue",
+		"description": "If you lost HP during the previous turn, trigger the passive ability of all Orbs at the start of your turn."
+	},
+	"Fossilized Helix": {
+		"code": "Fossilized Helix",
+		"label": "Fossilized Helix",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "Prevent the first time you would lose HP each combat."
+	},
+	"Gambling Chip": {
+		"code": "Gambling Chip",
+		"label": "Gambling Chip",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "At the start of each combat, discard any number of cards, then draw that many cards."
+	},
+	"Ginger": {
+		"code": "Ginger",
+		"label": "Ginger",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "You can no longer become Weakened."
+	},
+	"Girya": {
+		"code": "Girya",
+		"label": "Girya",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "You can now gain Strength at Rest Sites (up to 3 times)."
+	},
+	"Golden Eye": {
+		"code": "Golden Eye",
+		"label": "Golden Eye",
+		"rarity": "Rare",
+		"color": "Purple",
+		"description": "Whenever you Scry, Scry 2 additional cards."
+	},
+	"Ice Cream": {
+		"code": "Ice Cream",
+		"label": "Ice Cream",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "Energy is now conserved between turns."
+	},
+	"Incense Burner": {
+		"code": "Incense Burner",
+		"label": "Incense Burner",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "Every 6 turns, gain 1 Intangible."
+	},
+	"Lizard Tail": {
+		"code": "Lizard Tail",
+		"label": "Lizard Tail",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "When you would die, heal to 50% of your Max HP instead (works once)."
+	},
+	"Magic Flower": {
+		"code": "Magic Flower",
+		"label": "Magic Flower",
+		"rarity": "Rare",
+		"color": "Red",
+		"description": "Healing is 50% more effective during combat."
+	},
+	"Mango": {
+		"code": "Mango",
+		"label": "Mango",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "Upon pickup, raise your Max HP by 14."
+	},
+	"Old Coin": {
+		"code": "Old Coin",
+		"label": "Old Coin",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "Upon pickup, gain 300 Gold."
+	},
+	"Peace Pipe": {
+		"code": "Peace Pipe",
+		"label": "Peace Pipe",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "You can now remove cards from your deck at Rest Sites."
+	},
+	"Pocketwatch": {
+		"code": "Pocketwatch",
+		"label": "Pocketwatch",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "Whenever you play 3 or less cards during your turn, draw 3 additional cards at the start of your next turn."
+	},
+	"Prayer Wheel": {
+		"code": "Prayer Wheel",
+		"label": "Prayer Wheel",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "Normal enemies drop an additional card reward."
+	},
+	"Shovel": {
+		"code": "Shovel",
+		"label": "Shovel",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "You can now Dig for relics at Rest Sites."
+	},
+	"Stone Calendar": {
+		"code": "Stone Calendar",
+		"label": "Stone Calendar",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "At the end of turn 7, deal 52 damage to ALL enemies."
+	},
+	"The Specimen": {
+		"code": "The Specimen",
+		"label": "The Specimen",
+		"rarity": "Rare",
+		"color": "Green",
+		"description": "Whenever an enemy dies, transfer any Poison it has to a random enemy."
+	},
+	"Thread and Needle": {
+		"code": "Thread and Needle",
+		"label": "Thread and Needle",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "Start each combat with 4 Plated Armor."
+	},
+	"Tingsha": {
+		"code": "Tingsha",
+		"label": "Tingsha",
+		"rarity": "Rare",
+		"color": "Green",
+		"description": "Whenever you discard a card during your turn, deal 3 damage to a random enemy."
+	},
+	"Torii": {
+		"code": "Torii",
+		"label": "Torii",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "Whenever you would receive 5 or less unblocked attack damage, reduce it to 1."
+	},
+	"Tough Bandages": {
+		"code": "Tough Bandages",
+		"label": "Tough Bandages",
+		"rarity": "Rare",
+		"color": "Green",
+		"description": "Whenever you discard a card during your turn, gain 3 Block."
+	},
+	"Tungsten Rod": {
+		"code": "Tungsten Rod",
+		"label": "Tungsten Rod",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "Whenever you would lose HP, lose 1 less."
+	},
+	"Turnip": {
+		"code": "Turnip",
+		"label": "Turnip",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "You can no longer become Frail."
+	},
+	"Unceasing Top": {
+		"code": "Unceasing Top",
+		"label": "Unceasing Top",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "Whenever you have no cards in hand during your turn, draw a card."
+	},
+	"Wing Boots": {
+		"code": "Wing Boots",
+		"label": "Wing Boots",
+		"rarity": "Rare",
+		"color": "Colorless",
+		"description": "You may ignore paths when choosing the next room to travel to 3 times."
+	},
+	"Astrolabe": {
+		"code": "Astrolabe",
+		"label": "Astrolabe",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "Upon pickup, Transform 3 cards, then Upgrade them."
+	},
+	"Black Blood": {
+		"code": "Black Blood",
+		"label": "Black Blood",
+		"rarity": "Boss",
+		"color": "Red",
+		"description": "Replaces Burning Blood. At the end of combat, heal 12 HP."
+	},
+	"Black Star": {
+		"code": "Black Star",
+		"label": "Black Star",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "Elites drop an additional relic when defeated."
+	},
+	"Busted Crown": {
+		"code": "Busted Crown",
+		"label": "Busted Crown",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "Gain [E] at the start of your turn. Future card rewards have 2 less cards to choose from."
+	},
+	"Calling Bell": {
+		"code": "Calling Bell",
+		"label": "Calling Bell",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "Upon pickup, obtain a unique Curse and 3 relics."
+	},
+	"Coffee Dripper": {
+		"code": "Coffee Dripper",
+		"label": "Coffee Dripper",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "Gain [E] at the start of your turn. You can no longer Rest at Rest Sites."
+	},
+	"Cursed Key": {
+		"code": "Cursed Key",
+		"label": "Cursed Key",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "Gain [E] at the start of your turn. Whenever you open a non-Boss chest, obtain a Curse."
+	},
+	"Ectoplasm": {
+		"code": "Ectoplasm",
+		"label": "Ectoplasm",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "Gain [E] at the start of your turn. You can no longer gain Gold."
+	},
+	"Empty Cage": {
+		"code": "Empty Cage",
+		"label": "Empty Cage",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "Upon pickup, remove 2 cards from your deck."
+	},
+	"Frozen Core": {
+		"code": "Frozen Core",
+		"label": "Frozen Core",
+		"rarity": "Boss",
+		"color": "Blue",
+		"description": "Replaces Cracked Core. If you end your turn with any empty Orb slots, Channel 1 Frost."
+	},
+	"Fusion Hammer": {
+		"code": "Fusion Hammer",
+		"label": "Fusion Hammer",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "Gain [E] at the start of your turn. You can no longer Smith at Rest Sites."
+	},
+	"Holy Water": {
+		"code": "Holy Water",
+		"label": "Holy Water",
+		"rarity": "Boss",
+		"color": "Purple",
+		"description": "Replaces Pure Water. At the start of each combat, add 3 Miracles into your hand."
+	},
+	"Hovering Kite": {
+		"code": "Hovering Kite",
+		"label": "Hovering Kite",
+		"rarity": "Boss",
+		"color": "Green",
+		"description": "The first time you discard a card each turn, gain [E] ."
+	},
+	"Inserter": {
+		"code": "Inserter",
+		"label": "Inserter",
+		"rarity": "Boss",
+		"color": "Blue",
+		"description": "Every 2 turns, gain 1 Orb slot."
+	},
+	"Mark of Pain": {
+		"code": "Mark of Pain",
+		"label": "Mark of Pain",
+		"rarity": "Boss",
+		"color": "Red",
+		"description": "Gain [R] at the start of your turn. At the start of combat, shuffle 2 Wounds into your draw pile."
+	},
+	"Nuclear Battery": {
+		"code": "Nuclear Battery",
+		"label": "Nuclear Battery",
+		"rarity": "Boss",
+		"color": "Blue",
+		"description": "At the start of each combat, Channel 1 Plasma."
+	},
+	"Pandoras Box": {
+		"code": "Pandora's Box",
+		"label": "Pandora's Box",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "Upon pickup, Transform all Strike and Defend cards."
+	},
+	"Philosophers Stone": {
+		"code": "Philosopher's Stone",
+		"label": "Philosopher's Stone",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "Gain [E] at the start of your turn. ALL enemies start combat with 1 Strength."
+	},
+	"Ring of the Serpent": {
+		"code": "Ring of the Serpent",
+		"label": "Ring of the Serpent",
+		"rarity": "Boss",
+		"color": "Green",
+		"description": "Replaces Ring of the Snake. At the start of your turn, draw 1 additional card."
+	},
+	"Runic Cube": {
+		"code": "Runic Cube",
+		"label": "Runic Cube",
+		"rarity": "Boss",
+		"color": "Red",
+		"description": "Whenever you lose HP, draw 1 card."
+	},
+	"Runic Dome": {
+		"code": "Runic Dome",
+		"label": "Runic Dome",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "Gain [E] at the start of your turn. You can no longer see enemy intents."
+	},
+	"Runic Pyramid": {
+		"code": "Runic Pyramid",
+		"label": "Runic Pyramid",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "At the end of your turn, you no longer discard your hand."
+	},
+	"Sacred Bark": {
+		"code": "Sacred Bark",
+		"label": "Sacred Bark",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "Double the effectiveness of potions."
+	},
+	"SlaversCollar": {
+		"code": "Slaver's Collar",
+		"label": "Slaver's Collar",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "During Boss and Elite combats, gain [E] at the start of your turn."
+	},
+	"Snecko Eye": {
+		"code": "Snecko Eye",
+		"label": "Snecko Eye",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "At the start of your turn, draw 2 additional cards. Start each combat Confused."
+	},
+	"Sozu": {
+		"code": "Sozu",
+		"label": "Sozu",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "Gain [E] at the start of your turn. You can no longer obtain potions."
+	},
+	"Tiny House": {
+		"code": "Tiny House",
+		"label": "Tiny House",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "Upon pickup, obtain 1 potion. Gain 50 Gold. Raise your Max HP by 5. Obtain 1 card. Upgrade 1 random card."
+	},
+	"Velvet Choker": {
+		"code": "Velvet Choker",
+		"label": "Velvet Choker",
+		"rarity": "Boss",
+		"color": "Colorless",
+		"description": "Gain [E] at the start of your turn. You cannot play more than 6 cards per turn."
+	},
+	"Violet Lotus": {
+		"code": "Violet Lotus",
+		"label": "Violet Lotus",
+		"rarity": "Boss",
+		"color": "Purple",
+		"description": "Whenever you exit Calm, gain an additional [E] ."
+	},
+	"Wrist Blade": {
+		"code": "Wrist Blade",
+		"label": "Wrist Blade",
+		"rarity": "Boss",
+		"color": "Green",
+		"description": "Attacks that cost 0 deal 4 additional damage."
+	},
+	"Brimstone": {
+		"code": "Brimstone",
+		"label": "Brimstone",
+		"rarity": "Shop",
+		"color": "Red",
+		"description": "At the start of your turn, gain 2 Strength and ALL enemies gain 1 Strength."
+	},
+	"Cauldron": {
+		"code": "Cauldron",
+		"label": "Cauldron",
+		"rarity": "Shop",
+		"color": "Colorless",
+		"description": "Upon pickup, brews 5 random potions."
+	},
+	"Chemical X": {
+		"code": "Chemical X",
+		"label": "Chemical X",
+		"rarity": "Shop",
+		"color": "Colorless",
+		"description": "The effects of your cost X cards are increased by 2."
+	},
+	"Clockwork Souvenir": {
+		"code": "Clockwork Souvenir",
+		"label": "Clockwork Souvenir",
+		"rarity": "Shop",
+		"color": "Colorless",
+		"description": "Start each combat with 1 Artifact."
+	},
+	"Dollys Mirror": {
+		"code": "Dolly's Mirror",
+		"label": "Dolly's Mirror",
+		"rarity": "Shop",
+		"color": "Colorless",
+		"description": "Upon pickup, obtain an additional copy of a card in your deck."
+	},
+	"Frozen Eye": {
+		"code": "Frozen Eye",
+		"label": "Frozen Eye",
+		"rarity": "Shop",
+		"color": "Colorless",
+		"description": "When viewing your Draw Pile, the cards are now shown in order."
+	},
+	"Hand Drill": {
+		"code": "Hand Drill",
+		"label": "Hand Drill",
+		"rarity": "Shop",
+		"color": "Colorless",
+		"description": "Whenever you break an enemy's Block, apply 2 Vulnerable."
+	},
+	"Lee's Waffle": {
+		"code": "Lee's Waffle",
+		"label": "Lee's Waffle",
+		"rarity": "Shop",
+		"color": "Colorless",
+		"description": "Upon pickup, raise your Max HP by 7 and heal all of your HP."
+	},
+	"Medical Kit": {
+		"code": "Medical Kit",
+		"label": "Medical Kit",
+		"rarity": "Shop",
+		"color": "Colorless",
+		"description": "Unplayable Status cards can now be played. Whenever you play a Status card, Exhaust it."
+	},
+	"Melange": {
+		"code": "Melange",
+		"label": "Melange",
+		"rarity": "Shop",
+		"color": "Purple",
+		"description": "Whenever you shuffle your draw pile, Scry 3."
+	},
+	"Membership Card": {
+		"code": "Membership Card",
+		"label": "Membership Card",
+		"rarity": "Shop",
+		"color": "Colorless",
+		"description": "50% discount on all products!"
+	},
+	"Orange Pellets": {
+		"code": "Orange Pellets",
+		"label": "Orange Pellets",
+		"rarity": "Shop",
+		"color": "Colorless",
+		"description": "Whenever you play a Power, Attack, and Skill in the same turn, remove all of your debuffs."
+	},
+	"Orrery": {
+		"code": "Orrery",
+		"label": "Orrery",
+		"rarity": "Shop",
+		"color": "Colorless",
+		"description": "Upon pickup, choose and add 5 cards to your deck."
+	},
+	"Prismatic Shard": {
+		"code": "Prismatic Shard",
+		"label": "Prismatic Shard",
+		"rarity": "Shop",
+		"color": "Colorless",
+		"description": "Combat reward screens now contain Colorless cards and cards from other colors."
+	},
+	"Runic Capacitor": {
+		"code": "Runic Capacitor",
+		"label": "Runic Capacitor",
+		"rarity": "Shop",
+		"color": "Blue",
+		"description": "Start each combat with 3 additional Orb slots."
+	},
+	"Sling of Courage": {
+		"code": "Sling of Courage",
+		"label": "Sling of Courage",
+		"rarity": "Shop",
+		"color": "Colorless",
+		"description": "Start each Elite combat with 2 Strength."
+	},
+	"Strange Spoon": {
+		"code": "Strange Spoon",
+		"label": "Strange Spoon",
+		"rarity": "Shop",
+		"color": "Colorless",
+		"description": "Cards which Exhaust when played will instead discard 50% of the time."
+	},
+	"The Abacus": {
+		"code": "The Abacus",
+		"label": "The Abacus",
+		"rarity": "Shop",
+		"color": "Colorless",
+		"description": "Whenever you shuffle your draw pile, gain 6 Block."
+	},
+	"Toolbox": {
+		"code": "Toolbox",
+		"label": "Toolbox",
+		"rarity": "Shop",
+		"color": "Colorless",
+		"description": "At the start of each combat, choose 1 of 3 random Colorless cards and add the chosen card into your hand."
+	},
+	"Twisted Funnel": {
+		"code": "Twisted Funnel",
+		"label": "Twisted Funnel",
+		"rarity": "Shop",
+		"color": "Green",
+		"description": "At the start of each combat, apply 4 Poison to ALL enemies."
+	},
+	"Bloody Idol": {
+		"code": "Bloody Idol",
+		"label": "Bloody Idol",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "Whenever you gain Gold, heal 5 HP."
+	},
+	"Cultist Headpiece": {
+		"code": "Cultist Headpiece",
+		"label": "Cultist Headpiece",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "You feel more talkative."
+	},
+	"Enchiridion": {
+		"code": "Enchiridion",
+		"label": "Enchiridion",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "At the start of each combat, add a random Power card into your hand. It costs 0 for that turn."
+	},
+	"Face Of Cleric": {
+		"code": "Face Of Cleric",
+		"label": "Face Of Cleric",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "At the end of combat, raise your Max HP by 1."
+	},
+	"Golden Idol": {
+		"code": "Golden Idol",
+		"label": "Golden Idol",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "Enemies drop 25% more Gold."
+	},
+	"Gremlin Visage": {
+		"code": "Gremlin Visage",
+		"label": "Gremlin Visage",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "Start each combat with 1 Weak."
+	},
+	"Mark of the Bloom": {
+		"code": "Mark of the Bloom",
+		"label": "Mark of the Bloom",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "You can no longer heal."
+	},
+	"Mutagenic Strength": {
+		"code": "Mutagenic Strength",
+		"label": "Mutagenic Strength",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "Start each combat with 3 Strength. At the end of your first turn, lose 3 Strength."
+	},
+	"NlothsGift": {
+		"code": "N'loth's Gift",
+		"label": "N'loth's Gift",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "Triple the chance of finding Rare cards from combat rewards."
+	},
+	"NlothsHungryFace": {
+		"code": "N'loth's Hungry Face",
+		"label": "N'loth's Hungry Face",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "The next non-Boss chest you open is empty."
+	},
+	"Necronomicon": {
+		"code": "Necronomicon",
+		"label": "Necronomicon",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "The first Attack played each turn that costs 2 or more is played twice. Upon pickup, obtain a special Curse."
+	},
+	"NeowsBlessing": {
+		"code": "Neow's Lament",
+		"label": "Neow's Lament",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "Enemies in your first 3 combats will have 1 HP."
+	},
+	"NilrysCodex": {
+		"code": "Nilry's Codex",
+		"label": "Nilry's Codex",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "At the end of your turn, you may shuffle 1 of 3 random cards into your draw pile."
+	},
+	"Odd Mushroom": {
+		"code": "Odd Mushroom",
+		"label": "Odd Mushroom",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "When Vulnerable, take 25% more attack damage rather than 50%."
+	},
+	"Red Mask": {
+		"code": "Red Mask",
+		"label": "Red Mask",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "At the start of each combat, apply 1 Weak to ALL enemies."
+	},
+	"Spirit Poop": {
+		"code": "Spirit Poop",
+		"label": "Spirit Poop",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "It's unpleasant."
+	},
+	"Ssserpent Head": {
+		"code": "Ssserpent Head",
+		"label": "Ssserpent Head",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "Whenever you enter a ? room, gain 50 Gold."
+	},
+	"Warped Tongs": {
+		"code": "Warped Tongs",
+		"label": "Warped Tongs",
+		"rarity": "Special",
+		"color": "Colorless",
+		"description": "At the start of your turn, Upgrade a random card in your hand for the rest of combat."
+	}
+}

@@ -22,6 +22,7 @@ use App\Entity\room\IRoom;
 use App\Entity\room\Shop;
 use App\Entity\Run;
 use App\Entity\RunMetadata;
+use Exception;
 
 class SaveParser
 {
@@ -73,9 +74,10 @@ class SaveParser
     private function getRelics(): array
     {
         $relics = $this->jsonSave->relics;
+
         $arr = [];
         foreach ($relics as $relic) {
-            $arr[] = new Relic($relic, $relic, "description", EnumRarity::Common, EnumColor::Colorless);
+            $arr[] = Relic::createByCode($relic);
         }
 
         return $arr;
@@ -86,8 +88,9 @@ class SaveParser
         $deck = $this->jsonSave->master_deck;
         $arr = [];
         foreach ($deck as $card) {
-            $refCard = new Card($card, $card, "description", EnumRarity::Common, EnumColor::Colorless, EnumCardType::Attack);
-            $arr[] = new DeckCard($refCard, 0);
+            $split = explode("+", $card);
+            $refCard = Card::createByCode($split[0]);
+            $arr[] = new DeckCard($refCard, $split[1] ?? 0);
         }
 
         return $arr;
@@ -103,12 +106,12 @@ class SaveParser
         print_r($this->jsonSave->path_taken);
 
         foreach ($path_per_floor as $level => $path) {
-            if(!$path) $nbUndefined++;
-            
+            if (!$path) $nbUndefined++;
+
             $floorRecap = new FloorRecap;
             $this->createScalars($floorRecap, $level, $path);
             $floorRecap->setPath($this->getPathTaken($level, $nbUndefined, $path));
-            
+
             // $room = $this->createRoom($level, $path);
             // $floorRecap->addRoom($room);
             $floorRecaps[$floorRecap->getFloor()] = $floorRecap;
@@ -138,7 +141,7 @@ class SaveParser
     private function getPathTaken(int $level, int $nbUndefined, ?string $realPath): EnumPath
     {
         echo "level : $level, realPath : $realPath, nbUndefined: $nbUndefined\n";
-        if(!$realPath) return EnumPath::undefined;
+        if (!$realPath) return EnumPath::undefined;
 
         return EnumPath::from($this->jsonSave->path_taken[$level - $nbUndefined]);
     }
@@ -146,8 +149,7 @@ class SaveParser
     private function processCampfires(array &$floorRecaps)
     {
         $campfiresJson = $this->jsonSave->campfire_choices;
-        foreach($campfiresJson as $campfireJson)
-        {
+        foreach ($campfiresJson as $campfireJson) {
             $floor = $campfireJson->floor;
             $campfire = new Campfire();
 
@@ -158,17 +160,26 @@ class SaveParser
             $recap = $floorRecaps[$floor];
 
             $recap->addRoom($campfire);
-            switch($choice){
+            switch ($choice) {
                 case EnumCampfireChoice::Smith:
                     $jsonCard = $campfireJson->data;
-                    $split = explode("+", $jsonCard);
-                    $card = Card::createByCode($split[0]);
-                    $level = $split[1] ?? 0;
-                    $deckCard = new DeckCard($card, $level);
+                    $deckCard = $this->getDeckCardByJsonCode($jsonCard);
                     $recap->addUpgrade($deckCard);
                     break;
+                case EnumCampfireChoice::Toke:
+                    $jsonCard = $campfireJson->data;
+                    $deckCard = $this->getDeckCardByJsonCode($jsonCard);
+                    $recap->addPurge($deckCard);
+                    break;
             }
-
         }
+    }
+
+    private function getDeckCardByJsonCode(string $code): DeckCard
+    {
+        $split = explode("+", $code);
+        $card = Card::createByCode($split[0]);
+        $level = $split[1] ?? 0;
+        return new DeckCard($card, $level);
     }
 }

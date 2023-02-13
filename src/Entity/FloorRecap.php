@@ -33,6 +33,10 @@ class FloorRecap
         foreach ($this->upgrades as $upgrade) {
             $string .= "\t$upgrade\n";
         }
+        $string .= "Purges : \n";
+        foreach ($this->purges as $purges) {
+            $string .= "\t$purges\n";
+        }
         $string .= "à être continué...\n";
         return $string;
     }
@@ -309,5 +313,10 @@ class FloorRecap
     public function addUpgrade(DeckCard $card)
     {
         $this->upgrades[] = $card;
+    }
+
+    public function addPurge(DeckCard $card)
+    {
+        $this->purges[] = $card;
     }
 }
