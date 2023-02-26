@@ -67,11 +67,10 @@ class Card extends Item
     {
         if (self::$cardList) return self::$cardList;
 
-        $filePath = __DIR__ . '/../../../../public/assets/';
-        $filename = "Cards.json";
+        $filePath = $_ENV['PROJECT_DIR'] . 'public/assets/Cards.json';
         $filePath = str_replace('/', DIRECTORY_SEPARATOR, $filePath);
 
-        self::$cardList = json_decode(file_get_contents($filePath . $filename));
+        self::$cardList = json_decode(file_get_contents($filePath));
         return self::$cardList;
     }
 }

@@ -36,11 +36,10 @@ class Relic extends Item
     {
         if (self::$relicList) return self::$relicList;
 
-        $filePath = __DIR__ . '/../../../../public/assets/';
-        $filename = "Relics.json";
+        $filePath = $_ENV['PROJECT_DIR'] . 'public/assets/Relics.json';
         $filePath = str_replace('/', DIRECTORY_SEPARATOR, $filePath);
 
-        self::$relicList = json_decode(file_get_contents($filePath . $filename));
+        self::$relicList = json_decode(file_get_contents($filePath));
         return self::$relicList;
     }
 }
