@@ -12,6 +12,7 @@ use App\Entity\ref\enum\EnumColor;
 use App\Entity\ref\enum\EnumHeroClass;
 use App\Entity\ref\enum\EnumPath;
 use App\Entity\ref\enum\EnumRarity;
+use App\Entity\ref\Event as RefEvent;
 use App\Entity\ref\item\Card;
 use App\Entity\ref\item\Relic;
 use App\Entity\ref\neow\NeowBonus;
@@ -104,7 +105,6 @@ class SaveParser
 
         $nbUndefined = 0;
         $path_taken = $this->jsonSave->path_taken;
-        print_r($this->jsonSave->path_taken);
 
         foreach ($path_per_floor as $level => $path) {
             if (!$path) $nbUndefined++;
@@ -119,7 +119,8 @@ class SaveParser
         }
 
         $this->processCampfires($floorRecaps); // campfire_choices
-        $this->processFights(); // damage_taken
+        $this->processFights($floorRecaps); // damage_taken
+        $this->processEvents($floorRecaps); // event_choices
         // $this->processRewards(); //
 
         // Boucler sur le json->path_per_floor, instancier un floorRecap pour chacun d'eux
@@ -157,20 +158,17 @@ class SaveParser
             $choice = EnumCampfireChoice::from($campfireJson->key);
             $campfire->setChoice($choice);
 
-            /** @var FloorRecap */
-            $recap = $floorRecaps[$floor];
-
-            $recap->addRoom($campfire);
+            $floorRecaps[$floor]->addRoom($campfire);
             switch ($choice) {
                 case EnumCampfireChoice::Smith:
                     $jsonCard = $campfireJson->data;
                     $deckCard = $this->getDeckCardByJsonCode($jsonCard);
-                    $recap->addUpgrade($deckCard);
+                    $floorRecaps[$floor]->addUpgrade($deckCard);
                     break;
                 case EnumCampfireChoice::Toke:
                     $jsonCard = $campfireJson->data;
                     $deckCard = $this->getDeckCardByJsonCode($jsonCard);
-                    $recap->addPurge($deckCard);
+                    $floorRecaps[$floor]->addPurge($deckCard);
                     break;
             }
         }
@@ -200,6 +198,48 @@ class SaveParser
             /** @var FloorRecap */
             $recap = $floorRecaps[$floor];
             $recap->addRoom($fight);
+        }
+    }
+
+    private function processEvents($floorRecaps): void
+    {
+        $jsonEvents = $this->jsonSave->event_choices;
+        foreach ($jsonEvents as $jsonEvent)
+        {
+            $floor = $jsonEvent->floor;
+            $refEvent = RefEvent::createByCode($jsonEvent->event_name);
+            
+            $cardCodes = $jsonEvent->cards_obtained ?? [];
+            $cardsObtained = [];
+            foreach ($cardCodes as $card)
+            {
+                $cardsObtained[] = Card::createByCode($card);
+            }
+            
+            $cardTransformedCodes = $jsonEvent->cards_transformed ?? [];
+            $cardsTransformed = [];
+            foreach ($cardTransformedCodes as $card)
+            {
+                $cardsTransformed[] = Card::createByCode($card);
+            }
+            
+            $event = new Event(
+                damageHealed: $jsonEvent->damage_healed,
+                goldGain: $jsonEvent->gold_gain,
+                damageTaken: $jsonEvent->damage_taken,
+                maxHPGain: $jsonEvent->max_hp_gain,
+                maxHPLoss: $jsonEvent->max_hp_loss,
+                goldLoss: $jsonEvent->gold_loss,
+                refEvent: $refEvent,
+                cardsObtained: $cardsObtained,
+                cardsTransformed: $cardsTransformed,
+                playerChoice: $jsonEvent->player_choice
+            );
+
+            /** @var FloorRecap */
+            $recap = $floorRecaps[$floor];
+            $recap->addRoom($event);
+
         }
     }
 }
