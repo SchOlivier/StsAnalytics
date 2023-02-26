@@ -5,6 +5,7 @@ namespace App\Service;
 use App\Entity\DeckCard;
 use App\Entity\FloorRecap;
 use App\Entity\NeowChoice;
+use App\Entity\ref\Encounter;
 use App\Entity\ref\enum\EnumCampfireChoice;
 use App\Entity\ref\enum\EnumCardType;
 use App\Entity\ref\enum\EnumColor;
@@ -118,7 +119,7 @@ class SaveParser
         }
 
         $this->processCampfires($floorRecaps); // campfire_choices
-        // $this->processFights(); // damage_taken
+        $this->processFights(); // damage_taken
         // $this->processRewards(); //
 
         // Boucler sur le json->path_per_floor, instancier un floorRecap pour chacun d'eux
@@ -181,5 +182,24 @@ class SaveParser
         $card = Card::createByCode($split[0]);
         $level = $split[1] ?? 0;
         return new DeckCard($card, $level);
+    }
+
+    private function processFights(array &$floorRecaps): void
+    {
+        $jsonEncounters = $this->jsonSave->damage_taken;
+        foreach ($jsonEncounters as $jsonEncounter)
+        {
+            $floor = $jsonEncounter->floor;
+            $encounter = Encounter::createByCode($jsonEncounter->enemies);
+            $fight = new Fight(
+                nbTurn: $jsonEncounter->turns, 
+                damageTaken: $jsonEncounter->damage, 
+                encounter: $encounter
+            );
+
+            /** @var FloorRecap */
+            $recap = $floorRecaps[$floor];
+            $recap->addRoom($fight);
+        }
     }
 }
