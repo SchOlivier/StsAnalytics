@@ -1,0 +1,322 @@
+{
+	"Cultist": {
+		"code": "Cultist",
+		"label": "Cultist",
+		"type": "Normal"
+	},
+	"Jaw Worm": {
+		"code": "Jaw Worm",
+		"label": "Jaw Worm",
+		"type": "Normal"
+	},
+	"Small Slimes": {
+		"code": "Small Slimes",
+		"label": "Small Slimes",
+		"type": "Normal"
+	},
+	"Blue Slaver": {
+		"code": "Blue Slaver",
+		"label": "Blue Slaver",
+		"type": "Normal"
+	},
+	"3 Sentries": {
+		"code": "3 Sentries",
+		"label": "3 Sentries",
+		"type": "Elite"
+	},
+	"The Mushroom Lair": {
+		"code": "The Mushroom Lair",
+		"label": "The Mushroom Lair",
+		"type": "Normal"
+	},
+	"Lagavulin": {
+		"code": "Lagavulin",
+		"label": "Lagavulin",
+		"type": "Elite"
+	},
+	"The Guardian": {
+		"code": "The Guardian",
+		"label": "The Guardian",
+		"type": "Boss"
+	},
+	"3 Byrds": {
+		"code": "3 Byrds",
+		"label": "3 Byrds",
+		"type": "Normal"
+	},
+	"Chosen": {
+		"code": "Chosen",
+		"label": "Chosen",
+		"type": "Normal"
+	},
+	"Shelled Parasite and Fungi": {
+		"code": "Shelled Parasite and Fungi",
+		"label": "Shelled Parasite and Fungi",
+		"type": "Normal"
+	},
+	"Book of Stabbing": {
+		"code": "Book of Stabbing",
+		"label": "Book of Stabbing",
+		"type": "Elite"
+	},
+	"Slavers": {
+		"code": "Slavers",
+		"label": "Slavers",
+		"type": "Elite"
+	},
+	"Snecko": {
+		"code": "Snecko",
+		"label": "Snecko",
+		"type": "Normal"
+	},
+	"Collector": {
+		"code": "Collector",
+		"label": "Collector",
+		"type": "Boss"
+	},
+	"Orb Walker": {
+		"code": "Orb Walker",
+		"label": "Orb Walker",
+		"type": "Normal"
+	},
+	"3 Darklings": {
+		"code": "3 Darklings",
+		"label": "3 Darklings",
+		"type": "Normal"
+	},
+	"Mind Bloom Boss Battle": {
+		"code": "Mind Bloom Boss Battle",
+		"label": "Mind Bloom Boss Battle",
+		"type": "Event"
+	},
+	"Nemesis": {
+		"code": "Nemesis",
+		"label": "Nemesis",
+		"type": "Elite"
+	},
+	"Giant Head": {
+		"code": "Giant Head",
+		"label": "Giant Head",
+		"type": "Elite"
+	},
+	"Reptomancer": {
+		"code": "Reptomancer",
+		"label": "Reptomancer",
+		"type": "Elite"
+	},
+	"Maw": {
+		"code": "Maw",
+		"label": "Maw",
+		"type": "Normal"
+	},
+	"Donu and Deca": {
+		"code": "Donu and Deca",
+		"label": "Donu and Deca",
+		"type": "Boss"
+	},
+	"Exordium Thugs": {
+		"code": "Exordium Thugs",
+		"label": "Exordium Thugs",
+		"type": "Normal"
+	},
+	"2 Louse": {
+		"code": "2 Louse",
+		"label": "2 Louse",
+		"type": "Normal"
+	},
+	"Gremlin Nob": {
+		"code": "Gremlin Nob",
+		"label": "Gremlin Nob",
+		"type": "Elite"
+	},
+	"Lagavulin Event": {
+		"code": "Lagavulin Event",
+		"label": "Dead Adventurer fight",
+		"type": "Event"
+	},
+	"Slime Boss": {
+		"code": "Slime Boss",
+		"label": "Slime Boss",
+		"type": "Boss"
+	},
+	"Shell Parasite": {
+		"code": "Shell Parasite",
+		"label": "Shell Parasite",
+		"type": "Normal"
+	},
+	"Chosen and Byrds": {
+		"code": "Chosen and Byrds",
+		"label": "Chosen and Byrds",
+		"type": "Normal"
+	},
+	"Gremlin Leader": {
+		"code": "Gremlin Leader",
+		"label": "Gremlin Leader",
+		"type": "Normal"
+	},
+	"Snake Plant": {
+		"code": "Snake Plant",
+		"label": "Snake Plant",
+		"type": "Normal"
+	},
+	"Spheric Guardian": {
+		"code": "Spheric Guardian",
+		"label": "Spheric Guardian",
+		"type": "Normal"
+	},
+	"2 Thieves": {
+		"code": "2 Thieves",
+		"label": "2 Thieves",
+		"type": "Normal"
+	},
+	"Gremlin Gang": {
+		"code": "Gremlin Gang",
+		"label": "Gremlin Gang",
+		"type": "Normal"
+	},
+	"Looter": {
+		"code": "Looter",
+		"label": "Looter",
+		"type": "Normal"
+	},
+	"2 Fungi Beasts": {
+		"code": "2 Fungi Beasts",
+		"label": "2 Fungi Beasts",
+		"type": "Normal"
+	},
+	"Hexaghost": {
+		"code": "Hexaghost",
+		"label": "Hexaghost",
+		"type": "Boss"
+	},
+	"Red Slaver": {
+		"code": "Red Slaver",
+		"label": "Red Slaver",
+		"type": "Normal"
+	},
+	"Automaton": {
+		"code": "Automaton",
+		"label": "Automaton",
+		"type": "Boss"
+	},
+	"3 Shapes": {
+		"code": "3 Shapes",
+		"label": "3 Shapes",
+		"type": "Normal"
+	},
+	"Writhing Mass": {
+		"code": "Writhing Mass",
+		"label": "Writhing Mass",
+		"type": "Normal"
+	},
+	"Time Eater": {
+		"code": "Time Eater",
+		"label": "Time Eater",
+		"type": "Boss"
+	},
+	"Shield and Spear": {
+		"code": "Shield and Spear",
+		"label": "Shield and Spear",
+		"type": "Elite"
+	},
+	"The Heart": {
+		"code": "The Heart",
+		"label": "The Heart",
+		"type": "Boss"
+	},
+	"Exordium Wildlife": {
+		"code": "Exordium Wildlife",
+		"label": "Exordium Wildlife",
+		"type": "Normal"
+	},
+	"3 Louse": {
+		"code": "3 Louse",
+		"label": "3 Louse",
+		"type": "Normal"
+	},
+	"Large Slime": {
+		"code": "Large Slime",
+		"label": "Large Slime",
+		"type": "Normal"
+	},
+	"Centurion and Healer": {
+		"code": "Centurion and Healer",
+		"label": "Centurion and Healer",
+		"type": "Normal"
+	},
+	"Masked Bandits": {
+		"code": "Masked Bandits",
+		"label": "Masked Bandits",
+		"type": "Normal"
+	},
+	"Sphere and 2 Shapes": {
+		"code": "Sphere and 2 Shapes",
+		"label": "Sphere and 2 Shapes",
+		"type": "Normal"
+	},
+	"4 Shapes": {
+		"code": "4 Shapes",
+		"label": "4 Shapes",
+		"type": "Normal"
+	},
+	"Awakened One": {
+		"code": "Awakened One",
+		"label": "Awakened One",
+		"type": "Boss"
+	},
+	"3 Cultists": {
+		"code": "3 Cultists",
+		"label": "3 Cultists",
+		"type": "Normal"
+	},
+	"Champ": {
+		"code": "Champ",
+		"label": "Champ",
+		"type": "Boss"
+	},
+	"Cultist and Chosen": {
+		"code": "Cultist and Chosen",
+		"label": "Cultist and Chosen",
+		"type": "Normal"
+	},
+	"Transient": {
+		"code": "Transient",
+		"label": "Transient",
+		"type": "Normal"
+	},
+	"2 Orb Walkers": {
+		"code": "2 Orb Walkers",
+		"label": "2 Orb Walkers",
+		"type": "Normal"
+	},
+	"Jaw Worm Horde": {
+		"code": "Jaw Worm Horde",
+		"label": "Jaw Worm Horde",
+		"type": "Normal"
+	},
+	"Lots of Slimes": {
+		"code": "Lots of Slimes",
+		"label": "Lots of Slimes",
+		"type": "Normal"
+	},
+	"Sentry and Sphere": {
+		"code": "Sentry and Sphere",
+		"label": "Sentry and Sphere",
+		"type": "Normal"
+	},
+	"Colosseum Slavers": {
+		"code": "Colosseum Slavers",
+		"label": "Colosseum Slavers",
+		"type": "Event"
+	},
+	"Colosseum Nobs": {
+		"code": "Colosseum Nobs",
+		"label": "Colosseum Nobs",
+		"type": "Event"
+	},
+	"Spire Growth": {
+		"code": "Spire Growth",
+		"label": "Spire Growth",
+		"type": "Normal"
+	}
+}

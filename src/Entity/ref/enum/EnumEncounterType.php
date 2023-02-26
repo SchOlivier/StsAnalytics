@@ -6,4 +6,5 @@ enum EnumEncounterType: string
     case Elite = 'Elite';
     case Boss = 'Boss';
     case Normal = 'Normal';
+    case Event = 'Event';
 }
