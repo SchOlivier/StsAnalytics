@@ -6,9 +6,6 @@ use App\Entity\ref\Encounter;
 
 class Fight implements IRoom
 {
-    // private Encounter $encounter;
-
-
     public function __construct(
         private int $nbTurn,
         private int $damageTaken,
@@ -23,6 +20,7 @@ class Fight implements IRoom
 
     public function getRoomRecap(): string
     {
-        return "todo";
+        return $this->encounter->getType() . " Fight : " . $this->encounter->getLabel() . "\n" .
+        $this->damageTaken . " damage taken";
     }
 }

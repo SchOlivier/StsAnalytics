@@ -13,7 +13,7 @@ class Campfire implements IRoom
 
     public function getRoomRecap(): string
     {
-        return $this->choice->value;
+        return "Campfire : " . $this->choice->value;
     }
 
     public function getName(): string
