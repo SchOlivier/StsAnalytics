@@ -37,6 +37,9 @@ class FloorRecap
         foreach ($this->purges as $purges) {
             $string .= "\t$purges\n";
         }
+        foreach($this->rooms as $room){
+            $string .= $room->getRoomRecap() . "\n";
+        }
         $string .= "à être continué...\n";
         return $string;
     }
