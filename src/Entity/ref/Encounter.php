@@ -12,7 +12,7 @@ class Encounter
     {
     }
 
-    public static function createByCode(string $code) : self
+    public static function createByCode(string $code): self
     {
         $encounterList = self::getEncounterList();
         $jsonObject = $encounterList->$code;
@@ -28,11 +28,20 @@ class Encounter
     {
         if (self::$encounterList) return self::$encounterList;
 
-        $filePath = __DIR__ . '/../../../../public/assets/';
-        $filename = "Encounters.json";
+        $filePath = $_ENV['PROJECT_DIR'] . 'public/assets/Encounters.json';
         $filePath = str_replace('/', DIRECTORY_SEPARATOR, $filePath);
 
-        self::$encounterList = json_decode(file_get_contents($filePath . $filename));
+        self::$encounterList = json_decode(file_get_contents($filePath));
         return self::$encounterList;
+    }
+
+    public function getLabel(): string
+    {
+        return $this->label;
+    }
+
+    public function getType(): string
+    {
+        return $this->type->value;
     }
 }
