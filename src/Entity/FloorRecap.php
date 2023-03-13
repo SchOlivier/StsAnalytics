@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use App\Entity\ref\enum\EnumPath;
+use App\Entity\ref\item\Card;
 use App\Entity\room\IRoom;
 
 class FloorRecap
@@ -17,7 +18,6 @@ class FloorRecap
     private array $purges = [];
     private array $rooms = []; // Reality ? + F
     private array $rewards = [];
-    private array $potionUse = [];
 
     public function __construct()
     {
@@ -37,8 +37,12 @@ class FloorRecap
         foreach ($this->purges as $purges) {
             $string .= "\t$purges\n";
         }
-        foreach($this->rooms as $room){
+        foreach ($this->rooms as $room) {
             $string .= $room->getRoomRecap() . "\n";
+        }
+        $string .= "Rewards : \n";
+        foreach ($this->rewards as $reward) {
+            $string .= "\t$reward\n";
         }
         $string .= "à être continué...\n";
         return $string;
@@ -223,20 +227,6 @@ class FloorRecap
     }
 
     /**
-     * Set the value of upgrades
-     *
-     * @param array $upgrades
-     *
-     * @return self
-     */
-    public function setUpgrades(array $upgrades): self
-    {
-        $this->upgrades = $upgrades;
-
-        return $this;
-    }
-
-    /**
      * Get the value of rooms
      *
      * @return array
@@ -244,20 +234,6 @@ class FloorRecap
     public function getRooms(): array
     {
         return $this->rooms;
-    }
-
-    /**
-     * Set the value of rooms
-     *
-     * @param array $rooms
-     *
-     * @return self
-     */
-    public function setRooms(array $rooms): self
-    {
-        $this->rooms = $rooms;
-
-        return $this;
     }
 
     /**
@@ -271,20 +247,6 @@ class FloorRecap
     }
 
     /**
-     * Set the value of rewards
-     *
-     * @param array $rewards
-     *
-     * @return self
-     */
-    public function setRewards(array $rewards): self
-    {
-        $this->rewards = $rewards;
-
-        return $this;
-    }
-
-    /**
      * Get the value of potionUse
      *
      * @return array
@@ -294,32 +256,23 @@ class FloorRecap
         return $this->potionUse;
     }
 
-    /**
-     * Set the value of potionUse
-     *
-     * @param array $potionUse
-     *
-     * @return self
-     */
-    public function setPotionUse(array $potionUse): self
-    {
-        $this->potionUse = $potionUse;
-
-        return $this;
-    }
-
     public function addRoom(IRoom $room)
     {
         $this->rooms[] = $room;
     }
 
-    public function addUpgrade(DeckCard $card)
+    public function addUpgrade(Card $card)
     {
         $this->upgrades[] = $card;
     }
 
-    public function addPurge(DeckCard $card)
+    public function addPurge(Card $card)
     {
         $this->purges[] = $card;
+    }
+
+    public function addReward(Reward $reward)
+    {
+        $this->rewards[] = $reward;
     }
 }
