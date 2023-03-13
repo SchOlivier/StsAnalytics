@@ -1,0 +1,254 @@
+{
+	"Ambrosia": {
+		"Name": "Ambrosia",
+		"Rarity": "Rare",
+		"Color": "Purple",
+		"Description": "Enter Divinity Stance."
+	},
+	"Ancient Potion": {
+		"Name": "Ancient Potion",
+		"Rarity": "Uncommon",
+		"Color": "Colorless",
+		"Description": "Gain 1 Artifact."
+	},
+	"Attack Potion": {
+		"Name": "Attack Potion",
+		"Rarity": "Common",
+		"Color": "Colorless",
+		"Description": "Add 1 of 3 random Attack cards to your hand it costs 0 this turn."
+	},
+	"Blessing of the Forge": {
+		"Name": "Blessing of the Forge",
+		"Rarity": "Common",
+		"Color": "Colorless",
+		"Description": "Upgrade all cards in your hand for the rest of combat."
+	},
+	"Block Potion": {
+		"Name": "Block Potion",
+		"Rarity": "Common",
+		"Color": "Colorless",
+		"Description": "Gain 12 Block."
+	},
+	"Blood Potion": {
+		"Name": "Blood Potion",
+		"Rarity": "Common",
+		"Color": "Red",
+		"Description": "Heal for 20% of your Max HP."
+	},
+	"Bottled Miracle": {
+		"Name": "Bottled Miracle",
+		"Rarity": "Common",
+		"Color": "Purple",
+		"Description": "Add 2 Miracles to your hand."
+	},
+	"Colorless Potion": {
+		"Name": "Colorless Potion",
+		"Rarity": "Common",
+		"Color": "Colorless",
+		"Description": "Choose 1 of 3 random Colorless cards to add to your hand it costs 0 this turn."
+	},
+	"Cultist Potion": {
+		"Name": "Cultist Potion",
+		"Rarity": "Rare",
+		"Color": "Colorless",
+		"Description": "Gain 1 Ritual."
+	},
+	"Cunning Potion": {
+		"Name": "Cunning Potion",
+		"Rarity": "Uncommon",
+		"Color": "Green",
+		"Description": "Add 3 Upgraded Shivs to your hand."
+	},
+	"Dexterity Potion": {
+		"Name": "Dexterity Potion",
+		"Rarity": "Common",
+		"Color": "Colorless",
+		"Description": "Gain 2 Dexterity."
+	},
+	"Distilled Chaos": {
+		"Name": "Distilled Chaos",
+		"Rarity": "Uncommon",
+		"Color": "Colorless",
+		"Description": "Play the top 3 cards of your draw pile."
+	},
+	"Duplication Potion": {
+		"Name": "Duplication Potion",
+		"Rarity": "Uncommon",
+		"Color": "Colorless",
+		"Description": "This turn your next card is played twice."
+	},
+	"Elixir": {
+		"Name": "Elixir",
+		"Rarity": "Uncommon",
+		"Color": "Red",
+		"Description": "Exhaust any number of cards in your hand."
+	},
+	"Energy Potion": {
+		"Name": "Energy Potion",
+		"Rarity": "Common",
+		"Color": "Colorless",
+		"Description": "Gain 2 Energy."
+	},
+	"Entropic Brew": {
+		"Name": "Entropic Brew",
+		"Rarity": "Rare",
+		"Color": "Colorless",
+		"Description": "Fill all your empty potion slots with random potions."
+	},
+	"Essence of Darkness": {
+		"Name": "Essence of Darkness",
+		"Rarity": "Rare",
+		"Color": "Blue",
+		"Description": "Channel 1 Dark for each orb slot."
+	},
+	"Essence of Steel": {
+		"Name": "Essence of Steel",
+		"Rarity": "Uncommon",
+		"Color": "Colorless",
+		"Description": "Gain 4 Plated Armor."
+	},
+	"Explosive Potion": {
+		"Name": "Explosive Potion",
+		"Rarity": "Common",
+		"Color": "Colorless",
+		"Description": "Deal 10 Damage to all enemies."
+	},
+	"Fairy in a Bottle": {
+		"Name": "Fairy in a Bottle",
+		"Rarity": "Rare",
+		"Color": "Colorless",
+		"Description": "When you would die heal to 30% of your Max HP instead and discard this potion."
+	},
+	"Fear Potion": {
+		"Name": "Fear Potion",
+		"Rarity": "Common",
+		"Color": "Colorless",
+		"Description": "Apply 3 Vulnerable."
+	},
+	"Fire Potion": {
+		"Name": "Fire Potion",
+		"Rarity": "Common",
+		"Color": "Colorless",
+		"Description": "Deal 20 Damage to target enemy."
+	},
+	"Flex Potion": {
+		"Name": "Flex Potion",
+		"Rarity": "Common",
+		"Color": "Colorless",
+		"Description": "Gain 5 Strength. At the end of your turn"
+	},
+	"Focus Potion": {
+		"Name": "Focus Potion",
+		"Rarity": "Common",
+		"Color": "Blue",
+		"Description": "Gain 2 Focus."
+	},
+	"Fruit Juice": {
+		"Name": "Fruit Juice",
+		"Rarity": "Rare",
+		"Color": "Colorless",
+		"Description": "Gain 5 Max HP."
+	},
+	"Gambler's Brew": {
+		"Name": "Gambler's Brew",
+		"Rarity": "Uncommon",
+		"Color": "Colorless",
+		"Description": "Discard any number of cards then draw that many."
+	},
+	"Ghost In A Jar": {
+		"Name": "Ghost In A Jar",
+		"Rarity": "Rare",
+		"Color": "Green",
+		"Description": "Gain 1 Intangible."
+	},
+	"Heart of Iron": {
+		"Name": "Heart of Iron",
+		"Rarity": "Rare",
+		"Color": "Red",
+		"Description": "Gain 6 Metallicize."
+	},
+	"Liquid Bronze": {
+		"Name": "Liquid Bronze",
+		"Rarity": "Uncommon",
+		"Color": "Colorless",
+		"Description": "Gain 3 Thorns."
+	},
+	"Liquid Memories": {
+		"Name": "Liquid Memories",
+		"Rarity": "Uncommon",
+		"Color": "Colorless",
+		"Description": "Choose a card in your discard pile and return it to your hand. It costs 0 this turn."
+	},
+	"Poison Potion": {
+		"Name": "Poison Potion",
+		"Rarity": "Common",
+		"Color": "Green",
+		"Description": "Apply 6 Poison to target enemy."
+	},
+	"Potion of Capacity": {
+		"Name": "Potion of Capacity",
+		"Rarity": "Uncommon",
+		"Color": "Blue",
+		"Description": "Gain 2 Orb slots."
+	},
+	"Power Potion": {
+		"Name": "Power Potion",
+		"Rarity": "Common",
+		"Color": "Colorless",
+		"Description": "Add 1 of 3 random Power cards to your hand it costs 0 this turn."
+	},
+	"Regen Potion": {
+		"Name": "Regen Potion",
+		"Rarity": "Uncommon",
+		"Color": "Colorless",
+		"Description": "Gain 5 Regeneration."
+	},
+	"Skill Potion": {
+		"Name": "Skill Potion",
+		"Rarity": "Common",
+		"Color": "Colorless",
+		"Description": "Add 1 of 3 random Skill cards to your hand it costs 0 this turn."
+	},
+	"Smoke Bomb": {
+		"Name": "Smoke Bomb",
+		"Rarity": "Rare",
+		"Color": "Colorless",
+		"Description": "Escape from a non-boss combat. Receive no rewards."
+	},
+	"Snecko Oil": {
+		"Name": "Snecko Oil",
+		"Rarity": "Rare",
+		"Color": "Colorless",
+		"Description": "Draw 5 cards. Randomize the costs of all cards in your hand for the rest of the combat."
+	},
+	"Speed Potion": {
+		"Name": "Speed Potion",
+		"Rarity": "Common",
+		"Color": "Colorless",
+		"Description": "Gain 5  Dexterity. At the end of your turn lose 5  Dexterity."
+	},
+	"Stance Potion": {
+		"Name": "Stance Potion",
+		"Rarity": "Uncommon",
+		"Color": "Purple",
+		"Description": "Enter Calm or Wrath."
+	},
+	"Strength Potion": {
+		"Name": "Strength Potion",
+		"Rarity": "Common",
+		"Color": "Colorless",
+		"Description": "Gain 2 Strength."
+	},
+	"Swift Potion": {
+		"Name": "Swift Potion",
+		"Rarity": "Common",
+		"Color": "Colorless",
+		"Description": "Draw 3 cards."
+	},
+	"Weak Potion": {
+		"Name": "Weak Potion",
+		"Rarity": "Common",
+		"Color": "Colorless",
+		"Description": "Apply 3 Weak."
+	}
+}
