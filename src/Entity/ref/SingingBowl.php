@@ -2,6 +2,10 @@
 
 namespace App\Entity\ref;
 
-class SingingBowl{
-
+class SingingBowl
+{
+    public function __toString()
+    {
+        return "Singing Bowl";
+    }
 }

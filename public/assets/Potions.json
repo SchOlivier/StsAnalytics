@@ -119,7 +119,7 @@
 		"Color": "Colorless",
 		"Description": "When you would die heal to 30% of your Max HP instead and discard this potion."
 	},
-	"Fear Potion": {
+	"FearPotion": {
 		"Name": "Fear Potion",
 		"Rarity": "Common",
 		"Color": "Colorless",
@@ -149,7 +149,7 @@
 		"Color": "Colorless",
 		"Description": "Gain 5 Max HP."
 	},
-	"Gambler's Brew": {
+	"GamblersBrew": {
 		"Name": "Gambler's Brew",
 		"Rarity": "Uncommon",
 		"Color": "Colorless",

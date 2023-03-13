@@ -15,7 +15,7 @@ class Potion extends Item
         $jsonObject = $potionList->$code;
 
         return new self(
-            code: $jsonObject->Code,
+            code: $code,
             label: $jsonObject->Name,
             description: $jsonObject->Description,
             rarity: EnumRarity::from($jsonObject->Rarity),

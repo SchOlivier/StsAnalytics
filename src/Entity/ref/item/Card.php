@@ -17,7 +17,8 @@ class Card extends Item
         string $description,
         EnumRarity $rarity,
         EnumColor $color,
-        private EnumCardType $type
+        private EnumCardType $type,
+        private int $upgradeLevel = 0
     ) {
         parent::__construct($code, $label, $description, $rarity, $color);
     }
@@ -47,9 +48,14 @@ class Card extends Item
         return $this;
     }
 
-    public static function createByCode(string $code)
+    public static function createByCode(string $code): self
     {
         $cardList = self::getCardList();
+
+        $split = explode("+", $code);
+        $code = $split[0];
+
+        $level = $split[1] ?? 0;
         $jsonObject = $cardList->$code;
 
         return new self(
@@ -58,7 +64,8 @@ class Card extends Item
             description: $jsonObject->Description,
             rarity: EnumRarity::from($jsonObject->Rarity),
             color: EnumColor::from($jsonObject->Color),
-            type: EnumCardType::from($jsonObject->Type)
+            type: EnumCardType::from($jsonObject->Type),
+            upgradeLevel: $level
         );
     }
 
