@@ -10,4 +10,5 @@ enum EnumRarity: string
     case Special = 'Special';
     case Boss = 'Boss';
     case Shop = 'Shop';
+    case Curse = 'Curse';
 }
