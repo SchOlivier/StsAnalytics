@@ -5,6 +5,7 @@ namespace App\Service;
 use App\Entity\ref\enum\EnumCampfireChoice;
 use App\Entity\ref\item\Card;
 use App\Entity\room\Campfire;
+use Exception;
 use stdClass;
 
 class ProcessCampfiresParser
@@ -24,10 +25,12 @@ class ProcessCampfiresParser
                 case EnumCampfireChoice::Smith:
                     $jsonCard = $campfireJson->data;
                     $card = Card::createByCode($jsonCard);
+                    if(!$card) throw new Exception("Card not found :" . $jsonCard);
                     $floorRecaps[$floor]->addUpgrade($card);
                     break;
                 case EnumCampfireChoice::Toke:
                     $jsonCard = $campfireJson->data;
+                    if(!$card) throw new Exception("Card not found :" . $jsonCard);
                     $card = Card::createByCode($jsonCard);
                     $floorRecaps[$floor]->addPurge($card);
                     break;

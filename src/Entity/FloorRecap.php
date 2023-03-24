@@ -4,6 +4,7 @@ namespace App\Entity;
 
 use App\Entity\ref\enum\EnumPath;
 use App\Entity\ref\item\Card;
+use App\Entity\ref\item\Item;
 use App\Entity\room\IRoom;
 
 class FloorRecap
@@ -192,6 +193,11 @@ class FloorRecap
         return $this;
     }
 
+    public function addPurchase(Item $purchase)
+    {
+        $this->purchases[] = $purchase;
+    }
+
     /**
      * Get the value of purges
      *
@@ -246,15 +252,15 @@ class FloorRecap
         return $this->rewards;
     }
 
-    /**
-     * Get the value of potionUse
-     *
-     * @return array
-     */
-    public function getPotionUse(): array
-    {
-        return $this->potionUse;
-    }
+    // /**
+    //  * Get the value of potionUse
+    //  *
+    //  * @return array
+    //  */
+    // public function getPotionUse(): array
+    // {
+    //     return $this->potionUse;
+    // }
 
     public function addRoom(IRoom $room)
     {

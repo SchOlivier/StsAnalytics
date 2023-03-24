@@ -17,6 +17,8 @@ class Event implements IRoom
         private RefEvent $refEvent,
         private array $cardsObtained,
         private array $cardsTransformed,
+        private array $cardsUpgraded,
+        private array $cardsRemoved,
         private string $playerChoice
     ) {
     }

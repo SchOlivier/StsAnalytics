@@ -17,17 +17,10 @@ class ProcessEventsParser
             $floor = $jsonEvent->floor;
             $refEvent = RefEvent::createByCode($jsonEvent->event_name);
 
-            $cardCodes = $jsonEvent->cards_obtained ?? [];
-            $cardsObtained = [];
-            foreach ($cardCodes as $card) {
-                $cardsObtained[] = Card::createByCode($card);
-            }
-
-            $cardTransformedCodes = $jsonEvent->cards_transformed ?? [];
-            $cardsTransformed = [];
-            foreach ($cardTransformedCodes as $card) {
-                $cardsTransformed[] = Card::createByCode($card);
-            }
+            $cardsObtained = self::createCardFromList($jsonEvent, "cards_obtained");
+            $cardsTransformed = self::createCardFromList($jsonEvent, "cards_transformed");
+            $cardUpgraded = self::createCardFromList($jsonEvent, "cards_upgraded");
+            $cardRemoved = self::createCardFromList($jsonEvent, "cards_removed");
 
             $event = new Event(
                 damageHealed: $jsonEvent->damage_healed,
@@ -39,12 +32,24 @@ class ProcessEventsParser
                 refEvent: $refEvent,
                 cardsObtained: $cardsObtained,
                 cardsTransformed: $cardsTransformed,
-                playerChoice: $jsonEvent->player_choice
+                playerChoice: $jsonEvent->player_choice,
+                cardsUpgraded : $cardUpgraded,
+                cardsRemoved : $cardRemoved
             );
 
             /** @var FloorRecap */
             $recap = $floorRecaps[$floor];
             $recap->addRoom($event);
         }
+    }
+
+    private static function createCardFromList(stdClass $jsonEvent, string $key): array
+    {
+        $jsonCardList = $jsonEvent->$key ?? [];
+        $cardsList = [];
+        foreach ($jsonCardList as $card) {
+            $cardsList[] = Card::createByCode($card);
+        }
+        return $cardsList;
     }
 }

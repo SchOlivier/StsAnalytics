@@ -18,11 +18,12 @@ class Relic extends Item
         parent::__construct($code, $label, $description, $rarity, $color);
     }
 
-    public static function createByCode(string $code)
+    public static function createByCode(string $code): self|null
     {
         $relicList = self::getRelicList();
-        $jsonObject = $relicList->$code;
+        $jsonObject = $relicList->$code ?? null;
 
+        if(!$jsonObject) return null;
         return new self(
             code: $jsonObject->code,
             label: $jsonObject->label,

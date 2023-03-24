@@ -48,7 +48,7 @@ class Card extends Item
         return $this;
     }
 
-    public static function createByCode(string $code): self
+    public static function createByCode(string $code): self|null
     {
         $cardList = self::getCardList();
 
@@ -56,8 +56,9 @@ class Card extends Item
         $code = $split[0];
 
         $level = $split[1] ?? 0;
-        $jsonObject = $cardList->$code;
+        $jsonObject = $cardList->$code ?? null;
 
+        if(!$jsonObject) return null;
         return new self(
             code: $jsonObject->Code,
             label: $jsonObject->Name,

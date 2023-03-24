@@ -12,6 +12,7 @@ use App\Entity\ref\neow\NeowBonus;
 use App\Entity\ref\neow\NeowCost;
 use App\Entity\Run;
 use App\Entity\RunMetadata;
+use Exception;
 use stdClass;
 
 class SaveParser
@@ -66,8 +67,10 @@ class SaveParser
         $relics = $this->jsonSave->relics;
 
         $arr = [];
-        foreach ($relics as $relic) {
-            $arr[] = Relic::createByCode($relic);
+        foreach ($relics as $relicCode) {
+            $relic = Relic::createByCode($relicCode);
+            if(!$relic) throw new Exception("Relique non trouvée : " . $relicCode);
+            $arr[] = $relic;
         }
 
         return $arr;
@@ -77,8 +80,10 @@ class SaveParser
     {
         $deck = $this->jsonSave->master_deck;
         $arr = [];
-        foreach ($deck as $card) {
-            $arr[] = Card::createByCode($card);
+        foreach ($deck as $cardCode) {
+            $card = Card::createByCode($cardCode);
+            if(!$card) throw new Exception("Carte non trouvée : " . $cardCode);
+            $arr[] = $card;
         }
 
         return $arr;
@@ -108,6 +113,8 @@ class SaveParser
         ProcessEventsParser::processEvents($floorRecaps, $this->jsonSave); // event_choices
         $processParser = new ProcessRewardsParser;
         $processParser->processRewards($floorRecaps, $this->jsonSave); // potions_obtained, card_choices, relics_obtained, boss_relics
+        ProcessShopParser::processPurchases($floorRecaps, $this->jsonSave);
+        ProcessShopParser::processPurge($floorRecaps, $this->jsonSave);
 
         //TODO :
         // upgrades (in events, astrolabe, whetstone, war pain, tiny house, ???)
@@ -129,7 +136,6 @@ class SaveParser
 
     private function getPathTaken(int $level, int $nbUndefined, ?string $realPath): EnumPath
     {
-        echo "level : $level, realPath : $realPath, nbUndefined: $nbUndefined\n";
         if (!$realPath) return EnumPath::undefined;
 
         return EnumPath::from($this->jsonSave->path_taken[$level - $nbUndefined]);
