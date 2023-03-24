@@ -237,7 +237,7 @@
 		"color": "Colorless",
 		"description": "Upon pickup, raise your Max HP by 7."
 	},
-	"The Boot": {
+	"Boot": {
 		"code": "The Boot",
 		"label": "The Boot",
 		"rarity": "Common",
@@ -356,7 +356,7 @@
 		"color": "Colorless",
 		"description": "At the start of your 2nd turn, gain 14 Block."
 	},
-	"Ink Bottle": {
+	"InkBottle": {
 		"code": "Ink Bottle",
 		"label": "Ink Bottle",
 		"rarity": "Uncommon",

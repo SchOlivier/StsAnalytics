@@ -101,7 +101,7 @@
 		"Color": "Blue",
 		"Description": "Channel 1 Dark for each orb slot."
 	},
-	"Essence of Steel": {
+	"EssenceOfSteel": {
 		"Name": "Essence of Steel",
 		"Rarity": "Uncommon",
 		"Color": "Colorless",
@@ -191,7 +191,7 @@
 		"Color": "Blue",
 		"Description": "Gain 2 Orb slots."
 	},
-	"Power Potion": {
+	"PowerPotion": {
 		"Name": "Power Potion",
 		"Rarity": "Common",
 		"Color": "Colorless",
@@ -209,7 +209,7 @@
 		"Color": "Colorless",
 		"Description": "Add 1 of 3 random Skill cards to your hand it costs 0 this turn."
 	},
-	"Smoke Bomb": {
+	"SmokeBomb": {
 		"Name": "Smoke Bomb",
 		"Rarity": "Rare",
 		"Color": "Colorless",

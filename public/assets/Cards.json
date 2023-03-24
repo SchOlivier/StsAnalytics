@@ -719,7 +719,7 @@
         "Color": "Blue",
         "Code": "Beam Cell"
     },
-    "Charge Battery": {
+    "Conserve Battery": {
         "Name": "Charge Battery",
         "Type": "Skill",
         "Rarity": "Common",
@@ -809,7 +809,7 @@
         "Color": "Blue",
         "Code": "Rebound"
     },
-    "Recursion": {
+    "Redo": {
         "Name": "Recursion",
         "Type": "Skill",
         "Rarity": "Common",
@@ -999,7 +999,7 @@
         "Color": "Blue",
         "Code": "Double Energy"
     },
-    "Equilibrium": {
+    "Undo": {
         "Name": "Equilibrium",
         "Type": "Skill",
         "Rarity": "Uncommon",
