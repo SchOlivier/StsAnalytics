@@ -219,7 +219,7 @@
         "Color": "Colorless",
         "Code": "Chrysalis"
     },
-    "Hand of Greed": {
+    "HandOfGreed": {
         "Name": "Hand of Greed",
         "Type": "Attack",
         "Rarity": "Rare",
@@ -459,7 +459,7 @@
         "Color": "Colorless",
         "Code": "Omega"
     },
-    "Ritual Dagger": {
+    "RitualDagger": {
         "Name": "Ritual Dagger",
         "Type": "Attack",
         "Rarity": "Colorless",
@@ -619,7 +619,7 @@
         "Color": "Curse",
         "Code": "Ascender's Bane"
     },
-    "Curse of the Bell": {
+    "CurseOfTheBell": {
         "Name": "Curse of the Bell",
         "Type": "Curse",
         "Rarity": "Special",
@@ -729,7 +729,7 @@
         "Color": "Blue",
         "Code": "Charge Battery"
     },
-    "Claw": {
+    "Gash": {
         "Name": "Claw",
         "Type": "Attack",
         "Rarity": "Common",
@@ -829,7 +829,7 @@
         "Color": "Blue",
         "Code": "Stack"
     },
-    "Steam Barrier": {
+    "Steam": {
         "Name": "Steam Barrier",
         "Type": "Skill",
         "Rarity": "Common",
@@ -859,7 +859,7 @@
         "Color": "Blue",
         "Code": "Sweeping Beam"
     },
-    "TURBO": {
+    "Turbo": {
         "Name": "TURBO",
         "Type": "Skill",
         "Rarity": "Common",
@@ -879,7 +879,7 @@
         "Color": "Blue",
         "Code": "Aggregate"
     },
-    "Auto-Shields": {
+    "Auto Shields": {
         "Name": "Auto-Shields",
         "Type": "Skill",
         "Rarity": "Uncommon",
@@ -899,7 +899,7 @@
         "Color": "Blue",
         "Code": "Blizzard"
     },
-    "Boot Sequence": {
+    "BootSequence": {
         "Name": "Boot Sequence",
         "Type": "Skill",
         "Rarity": "Uncommon",
@@ -909,7 +909,7 @@
         "Color": "Blue",
         "Code": "Boot Sequence"
     },
-    "Bullseye": {
+    "Lockon": {
         "Name": "Bullseye",
         "Type": "Attack",
         "Rarity": "Uncommon",
@@ -1099,7 +1099,7 @@
         "Color": "Blue",
         "Code": "Melter"
     },
-    "Overclock": {
+    "Steam Power": {
         "Name": "Overclock",
         "Type": "Skill",
         "Rarity": "Uncommon",
@@ -1229,7 +1229,7 @@
         "Color": "Blue",
         "Code": "White Noise"
     },
-    "All for One": {
+    "All For One": {
         "Name": "All for One",
         "Type": "Attack",
         "Rarity": "Rare",
@@ -2229,7 +2229,7 @@
         "Color": "Green",
         "Code": "Blade Dance"
     },
-    "Cloak and Dagger": {
+    "Cloak And Dagger": {
         "Name": "Cloak and Dagger",
         "Type": "Skill",
         "Rarity": "Common",
@@ -2309,7 +2309,7 @@
         "Color": "Green",
         "Code": "Outmaneuver"
     },
-    "Piercing Wail": {
+    "PiercingWail": {
         "Name": "Piercing Wail",
         "Type": "Skill",
         "Rarity": "Common",
@@ -2359,7 +2359,7 @@
         "Color": "Green",
         "Code": "Slice"
     },
-    "Sneaky Strike": {
+    "Underhanded Strike": {
         "Name": "Sneaky Strike",
         "Type": "Attack",
         "Rarity": "Common",
@@ -2389,7 +2389,7 @@
         "Color": "Green",
         "Code": "Accuracy"
     },
-    "All-Out Attack": {
+    "All Out Attack": {
         "Name": "All-Out Attack",
         "Type": "Attack",
         "Rarity": "Uncommon",
@@ -2479,7 +2479,7 @@
         "Color": "Green",
         "Code": "Concentrate"
     },
-    "Crippling Cloud": {
+    "Crippling Poison": {
         "Name": "Crippling Cloud",
         "Type": "Skill",
         "Rarity": "Uncommon",
@@ -2649,7 +2649,7 @@
         "Color": "Green",
         "Code": "Reflex"
     },
-    "Riddle with Holes": {
+    "Riddle With Holes": {
         "Name": "Riddle with Holes",
         "Type": "Attack",
         "Rarity": "Uncommon",
@@ -2699,7 +2699,7 @@
         "Color": "Green",
         "Code": "Terror"
     },
-    "Well-Laid Plans": {
+    "Well Laid Plans": {
         "Name": "Well-Laid Plans",
         "Type": "Power",
         "Rarity": "Uncommon",
@@ -2739,7 +2739,7 @@
         "Color": "Green",
         "Code": "After Image"
     },
-    "Alchemize": {
+    "Venomology": {
         "Name": "Alchemize",
         "Type": "Skill",
         "Rarity": "Rare",
@@ -2839,7 +2839,7 @@
         "Color": "Green",
         "Code": "Malaise"
     },
-    "Nightmare": {
+    "Night Terror": {
         "Name": "Nightmare",
         "Type": "Skill",
         "Rarity": "Rare",
@@ -2889,7 +2889,7 @@
         "Color": "Green",
         "Code": "Unload"
     },
-    "Wraith Form": {
+    "Wraith Form v2": {
         "Name": "Wraith Form",
         "Type": "Power",
         "Rarity": "Rare",
@@ -2939,7 +2939,7 @@
         "Color": "Purple",
         "Code": "Vigilance"
     },
-    "Bowling Bash": {
+    "BowlingBash": {
         "Name": "Bowling Bash",
         "Type": "Attack",
         "Rarity": "Common",
@@ -2969,7 +2969,7 @@
         "Color": "Purple",
         "Code": "Crescendo"
     },
-    "Crush Joints": {
+    "CrushJoints": {
         "Name": "Crush Joints",
         "Type": "Attack",
         "Rarity": "Common",
@@ -2979,7 +2979,7 @@
         "Color": "Purple",
         "Code": "Crush Joints"
     },
-    "Cut Through Fate": {
+    "CutThroughFate": {
         "Name": "Cut Through Fate",
         "Type": "Attack",
         "Rarity": "Common",
@@ -2989,7 +2989,7 @@
         "Color": "Purple",
         "Code": "Cut Through Fate"
     },
-    "Empty Body": {
+    "EmptyBody": {
         "Name": "Empty Body",
         "Type": "Skill",
         "Rarity": "Common",
@@ -2999,7 +2999,7 @@
         "Color": "Purple",
         "Code": "Empty Body"
     },
-    "Empty Fist": {
+    "EmptyFist": {
         "Name": "Empty Fist",
         "Type": "Attack",
         "Rarity": "Common",
@@ -3019,7 +3019,7 @@
         "Color": "Purple",
         "Code": "Evaluate"
     },
-    "Flurry of Blows": {
+    "FlurryOfBlows": {
         "Name": "Flurry of Blows",
         "Type": "Attack",
         "Rarity": "Common",
@@ -3029,7 +3029,7 @@
         "Color": "Purple",
         "Code": "Flurry of Blows"
     },
-    "Flying Sleeves": {
+    "FlyingSleeves": {
         "Name": "Flying Sleeves",
         "Type": "Attack",
         "Rarity": "Common",
@@ -3039,7 +3039,7 @@
         "Color": "Purple",
         "Code": "Flying Sleeves"
     },
-    "Follow-Up": {
+    "FollowUp": {
         "Name": "Follow-Up",
         "Type": "Attack",
         "Rarity": "Common",
@@ -3059,7 +3059,7 @@
         "Color": "Purple",
         "Code": "Halt"
     },
-    "Just Lucky": {
+    "JustLucky": {
         "Name": "Just Lucky",
         "Type": "Attack",
         "Rarity": "Common",
@@ -3069,7 +3069,7 @@
         "Color": "Purple",
         "Code": "Just Lucky"
     },
-    "Pressure Points": {
+    "PathToVictory": {
         "Name": "Pressure Points",
         "Type": "Skill",
         "Rarity": "Common",
@@ -3099,7 +3099,7 @@
         "Color": "Purple",
         "Code": "Protect"
     },
-    "Sash Whip": {
+    "SashWhip": {
         "Name": "Sash Whip",
         "Type": "Attack",
         "Rarity": "Common",
@@ -3109,7 +3109,7 @@
         "Color": "Purple",
         "Code": "Sash Whip"
     },
-    "Third Eye": {
+    "ThirdEye": {
         "Name": "Third Eye",
         "Type": "Skill",
         "Rarity": "Common",
@@ -3119,7 +3119,7 @@
         "Color": "Purple",
         "Code": "Third Eye"
     },
-    "Tranquility": {
+    "ClearTheMind": {
         "Name": "Tranquility",
         "Type": "Skill",
         "Rarity": "Common",
@@ -3129,7 +3129,7 @@
         "Color": "Purple",
         "Code": "Tranquility"
     },
-    "Battle Hymn": {
+    "BattleHymn": {
         "Name": "Battle Hymn",
         "Type": "Power",
         "Rarity": "Uncommon",
@@ -3139,7 +3139,7 @@
         "Color": "Purple",
         "Code": "Battle Hymn"
     },
-    "Carve Reality": {
+    "CarveReality": {
         "Name": "Carve Reality",
         "Type": "Attack",
         "Rarity": "Uncommon",
@@ -3169,7 +3169,7 @@
         "Color": "Purple",
         "Code": "Conclude"
     },
-    "Deceive Reality": {
+    "DeceiveReality": {
         "Name": "Deceive Reality",
         "Type": "Skill",
         "Rarity": "Uncommon",
@@ -3179,7 +3179,7 @@
         "Color": "Purple",
         "Code": "Deceive Reality"
     },
-    "Empty Mind": {
+    "EmptyMind": {
         "Name": "Empty Mind",
         "Type": "Skill",
         "Rarity": "Uncommon",
@@ -3189,7 +3189,7 @@
         "Color": "Purple",
         "Code": "Empty Mind"
     },
-    "Fasting": {
+    "Fasting2": {
         "Name": "Fasting",
         "Type": "Power",
         "Rarity": "Uncommon",
@@ -3199,7 +3199,7 @@
         "Color": "Purple",
         "Code": "Fasting"
     },
-    "Fear No Evil": {
+    "FearNoEvil": {
         "Name": "Fear No Evil",
         "Type": "Attack",
         "Rarity": "Uncommon",
@@ -3209,7 +3209,7 @@
         "Color": "Purple",
         "Code": "Fear No Evil"
     },
-    "Foreign Influence": {
+    "ForeignInfluence": {
         "Name": "Foreign Influence",
         "Type": "Skill",
         "Rarity": "Uncommon",
@@ -3219,7 +3219,7 @@
         "Color": "Purple",
         "Code": "Foreign Influence"
     },
-    "Foresight": {
+    "Wireheading": {
         "Name": "Foresight",
         "Type": "Power",
         "Rarity": "Uncommon",
@@ -3239,7 +3239,7 @@
         "Color": "Purple",
         "Code": "Indignation"
     },
-    "Inner Peace": {
+    "InnerPeace": {
         "Name": "Inner Peace",
         "Type": "Skill",
         "Rarity": "Uncommon",
@@ -3249,7 +3249,7 @@
         "Color": "Purple",
         "Code": "Inner Peace"
     },
-    "Like Water": {
+    "LikeWater": {
         "Name": "Like Water",
         "Type": "Power",
         "Rarity": "Uncommon",
@@ -3269,7 +3269,7 @@
         "Color": "Purple",
         "Code": "Meditate"
     },
-    "Mental Fortress": {
+    "MentalFortress": {
         "Name": "Mental Fortress",
         "Type": "Power",
         "Rarity": "Uncommon",
@@ -3309,7 +3309,7 @@
         "Color": "Purple",
         "Code": "Pray"
     },
-    "Reach Heaven": {
+    "ReachHeaven": {
         "Name": "Reach Heaven",
         "Type": "Attack",
         "Rarity": "Uncommon",
@@ -3319,7 +3319,7 @@
         "Color": "Purple",
         "Code": "Reach Heaven"
     },
-    "Rushdown": {
+    "Adaptation": {
         "Name": "Rushdown",
         "Type": "Power",
         "Rarity": "Uncommon",
@@ -3339,7 +3339,7 @@
         "Color": "Purple",
         "Code": "Sanctity"
     },
-    "Sands of Time": {
+    "SandsOfTime": {
         "Name": "Sands of Time",
         "Type": "Attack",
         "Rarity": "Uncommon",
@@ -3349,7 +3349,7 @@
         "Color": "Purple",
         "Code": "Sands of Time"
     },
-    "Signature Move": {
+    "SignatureMove": {
         "Name": "Signature Move",
         "Type": "Attack",
         "Rarity": "Uncommon",
@@ -3359,7 +3359,7 @@
         "Color": "Purple",
         "Code": "Signature Move"
     },
-    "Simmering Fury": {
+    "Vengeance": {
         "Name": "Simmering Fury",
         "Type": "Skill",
         "Rarity": "Uncommon",
@@ -3389,7 +3389,7 @@
         "Color": "Purple",
         "Code": "Swivel"
     },
-    "Talk to the Hand": {
+    "TalkToTheHand": {
         "Name": "Talk to the Hand",
         "Type": "Attack",
         "Rarity": "Uncommon",
@@ -3419,7 +3419,7 @@
         "Color": "Purple",
         "Code": "Wallop"
     },
-    "Wave of the Hand": {
+    "WaveOfTheHand": {
         "Name": "Wave of the Hand",
         "Type": "Skill",
         "Rarity": "Uncommon",
@@ -3439,7 +3439,7 @@
         "Color": "Purple",
         "Code": "Weave"
     },
-    "Wheel Kick": {
+    "WheelKick": {
         "Name": "Wheel Kick",
         "Type": "Attack",
         "Rarity": "Uncommon",
@@ -3449,7 +3449,7 @@
         "Color": "Purple",
         "Code": "Wheel Kick"
     },
-    "Windmill Strike": {
+    "WindmillStrike": {
         "Name": "Windmill Strike",
         "Type": "Attack",
         "Rarity": "Uncommon",
@@ -3469,7 +3469,7 @@
         "Color": "Purple",
         "Code": "Worship"
     },
-    "Wreath of Flame": {
+    "WreathOfFlame": {
         "Name": "Wreath of Flame",
         "Type": "Skill",
         "Rarity": "Uncommon",
@@ -3509,7 +3509,7 @@
         "Color": "Purple",
         "Code": "Brilliance"
     },
-    "Conjure Blade": {
+    "ConjureBlade": {
         "Name": "Conjure Blade",
         "Type": "Skill",
         "Rarity": "Rare",
@@ -3519,7 +3519,7 @@
         "Color": "Purple",
         "Code": "Conjure Blade"
     },
-    "Deus Ex Machina": {
+    "DeusExMachina": {
         "Name": "Deus Ex Machina",
         "Type": "Skill",
         "Rarity": "Rare",
@@ -3529,7 +3529,7 @@
         "Color": "Purple",
         "Code": "Deus Ex Machina"
     },
-    "Deva Form": {
+    "DevaForm": {
         "Name": "Deva Form",
         "Type": "Power",
         "Rarity": "Rare",
@@ -3559,7 +3559,7 @@
         "Color": "Purple",
         "Code": "Establishment"
     },
-    "Judgment": {
+    "Judgement": {
         "Name": "Judgment",
         "Type": "Skill",
         "Rarity": "Rare",
@@ -3569,7 +3569,7 @@
         "Color": "Purple",
         "Code": "Judgment"
     },
-    "Lesson Learned": {
+    "LessonLearned": {
         "Name": "Lesson Learned",
         "Type": "Attack",
         "Rarity": "Rare",
@@ -3579,7 +3579,7 @@
         "Color": "Purple",
         "Code": "Lesson Learned"
     },
-    "Master Reality": {
+    "MasterReality": {
         "Name": "Master Reality",
         "Type": "Power",
         "Rarity": "Rare",
@@ -3619,7 +3619,7 @@
         "Color": "Purple",
         "Code": "Scrawl"
     },
-    "Spirit Shield": {
+    "SpiritShield": {
         "Name": "Spirit Shield",
         "Type": "Skill",
         "Rarity": "Rare",
