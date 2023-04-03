@@ -31,6 +31,8 @@ class BuildReferentials extends Command
 
         $files = [];
 
+        //todo : gestion d'exception quand on ne trouve pas une carte : créer une carte bidon et ne pas renvoyer null
+
         foreach ($folders as $folder) {
             $path = $filePath . $folder;
             $path = str_replace('/', DIRECTORY_SEPARATOR, $path);
