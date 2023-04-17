@@ -2,5 +2,193 @@
     "Living Wall": {
         "code": "Living Wall",
         "label": "Living Wall"
+    },
+    "The Woman in Blue": {
+        "code": "The Woman in Blue",
+        "label": "The Woman in Blue"
+    },
+    "Liars Game": {
+        "code": "Liars Game",
+        "label": "Liars Game"
+    },
+    "Beggar": {
+        "code": "Beggar",
+        "label": "Beggar"
+    },
+    "Winding Halls": {
+        "code": "Winding Halls",
+        "label": "Winding Halls"
+    },
+    "Big Fish": {
+        "code": "Big Fish",
+        "label": "Big Fish"
+    },
+    "Mushrooms": {
+        "code": "Mushrooms",
+        "label": "Mushrooms"
+    },
+    "Vampires": {
+        "code": "Vampires",
+        "label": "Vampires"
+    },
+    "Transmorgrifier": {
+        "code": "Transmorgrifier",
+        "label": "Transmorgrifier"
+    },
+    "Designer": {
+        "code": "Designer",
+        "label": "Designer"
+    },
+    "Match and Keep!": {
+        "code": "Match and Keep!",
+        "label": "Match and Keep!"
+    },
+    "Golden Idol": {
+        "code": "Golden Idol",
+        "label": "Golden Idol"
+    },
+    "Upgrade Shrine": {
+        "code": "Upgrade Shrine",
+        "label": "Upgrade Shrine"
+    },
+    "WeMeetAgain": {
+        "code": "WeMeetAgain",
+        "label": "WeMeetAgain"
+    },
+    "Back to Basics": {
+        "code": "Back to Basics",
+        "label": "Back to Basics"
+    },
+    "SensoryStone": {
+        "code": "SensoryStone",
+        "label": "SensoryStone"
+    },
+    "Shining Light": {
+        "code": "Shining Light",
+        "label": "Shining Light"
+    },
+    "Golden Shrine": {
+        "code": "Golden Shrine",
+        "label": "Golden Shrine"
+    },
+    "Nest": {
+        "code": "Nest",
+        "label": "Nest"
+    },
+    "Knowing Skull": {
+        "code": "Knowing Skull",
+        "label": "Knowing Skull"
+    },
+    "Forgotten Altar": {
+        "code": "Forgotten Altar",
+        "label": "Forgotten Altar"
+    },
+    "Fountain of Cleansing": {
+        "code": "Fountain of Cleansing",
+        "label": "Fountain of Cleansing"
+    },
+    "Wheel of Change": {
+        "code": "Wheel of Change",
+        "label": "Wheel of Change"
+    },
+    "The Library": {
+        "code": "The Library",
+        "label": "The Library"
+    },
+    "Addict": {
+        "code": "Addict",
+        "label": "Addict"
+    },
+    "Cursed Tome": {
+        "code": "Cursed Tome",
+        "label": "Cursed Tome"
+    },
+    "Masked Bandits": {
+        "code": "Masked Bandits",
+        "label": "Masked Bandits"
+    },
+    "MindBloom": {
+        "code": "MindBloom",
+        "label": "MindBloom"
+    },
+    "Purifier": {
+        "code": "Purifier",
+        "label": "Purifier"
+    },
+    "Dead Adventurer": {
+        "code": "Dead Adventurer",
+        "label": "Dead Adventurer"
+    },
+    "World of Goop": {
+        "code": "World of Goop",
+        "label": "World of Goop"
+    },
+    "The Cleric": {
+        "code": "The Cleric",
+        "label": "The Cleric"
+    },
+    "Falling": {
+        "code": "Falling",
+        "label": "Falling"
+    },
+    "Ghosts": {
+        "code": "Ghosts",
+        "label": "Ghosts"
+    },
+    "Lab": {
+        "code": "Lab",
+        "label": "Lab"
+    },
+    "Bonfire Elementals": {
+        "code": "Bonfire Elementals",
+        "label": "Bonfire Elementals"
+    },
+    "Duplicator": {
+        "code": "Duplicator",
+        "label": "Duplicator"
+    },
+    "FaceTrader": {
+        "code": "FaceTrader",
+        "label": "FaceTrader"
+    },
+    "Golden Wing": {
+        "code": "Golden Wing",
+        "label": "Golden Wing"
+    },
+    "Tomb of Lord Red Mask": {
+        "code": "Tomb of Lord Red Mask",
+        "label": "Tomb of Lord Red Mask"
+    },
+    "Drug Dealer": {
+        "code": "Drug Dealer",
+        "label": "Drug Dealer"
+    },
+    "Colosseum": {
+        "code": "Colosseum",
+        "label": "Colosseum"
+    },
+    "Mysterious Sphere": {
+        "code": "Mysterious Sphere",
+        "label": "Mysterious Sphere"
+    },
+    "Accursed Blacksmith": {
+        "code": "Accursed Blacksmith",
+        "label": "Accursed Blacksmith"
+    },
+    "The Mausoleum": {
+        "code": "The Mausoleum",
+        "label": "The Mausoleum"
+    },
+    "The Moai Head": {
+        "code": "The Moai Head",
+        "label": "The Moai Head"
+    },
+    "The Joust": {
+        "code": "The Joust",
+        "label": "The Joust"
+    },
+    "N'loth": {
+        "code": "N'loth",
+        "label": "N'loth"
     }
 }
