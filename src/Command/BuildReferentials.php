@@ -53,35 +53,57 @@ class BuildReferentials extends Command
             $cards = $this->getCards($json);
             $cardList = array_unique(array_merge($cardList, $cards));
 
-            // $events = $this->getEvents($json);
-            // $eventList = array_unique(array_merge($eventList, $events));
+            $events = $this->getEvents($json);
+            $eventList = array_unique(array_merge($eventList, $events));
 
-            // $relics = $this->getRelics($json);
-            // $relicList = array_unique(array_merge($relicList, $relics));
+            $relics = $this->getRelics($json);
+            $relicList = array_unique(array_merge($relicList, $relics));
 
-            // $potions = $this->getPotions($json);
-            // $potionList = array_unique(array_merge($potionList, $potions));
+            $potions = $this->getPotions($json);
+            $potionList = array_unique(array_merge($potionList, $potions));
 
-            // $encounters = $this->getEncounters($json);
-            // $encounterList = array_unique(array_merge($encounterList, $encounters));
+            $encounters = $this->getEncounters($json);
+            $encounterList = array_unique(array_merge($encounterList, $encounters));
+
             $progressBar->advance();
 
         }
         $progressBar->finish();
 
-        $refCardPath = $_ENV['PROJECT_DIR'] . 'public/assets/Cards.json';
-        $refCardPath = str_replace('/', DIRECTORY_SEPARATOR, $refCardPath);
-        $refCards = json_decode(file_get_contents($refCardPath), true);
+        $refCards = $this->processRef('Cards.json');
+        $refEvents = $this->processRef('Events.json');
+        $refRelics = $this->processRef('Relics.json');
+        $refPotions = $this->processRef('Potions.json');
+        $refEncounters = $this->processRef('Encounters.json');
 
-        $refCards = array_keys($refCards);
-
-        $missingCards = array_diff($cardList, $refCards);
-        $output->writeln($cardList);
+        $this->displayResult($output, $cardList, $refCards, "Cards");
+        $this->displayResult($output, $eventList, $refEvents, "Events");
+        $this->displayResult($output, $relicList, $refRelics, "Relics");
+        $this->displayResult($output, $potionList, $refPotions, "Potions");
+        $this->displayResult($output, $encounterList, $refEncounters, "Encounters");
 
         return Command::SUCCESS;
     }
 
-    private function getCards($json)
+    private function displayResult(OutputInterface $output, array $list, array $refArr, string $tilte): void
+    {
+        $output->writeln("\n----- ". $tilte);
+        $missingCards = array_diff($list, $refArr);
+        $output->writeln($missingCards);
+    }
+
+    private function processRef(string $jsonRefFilename): array
+    {
+        $refPath = $_ENV['PROJECT_DIR'] . 'public/assets/' . $jsonRefFilename;
+        $refPath = str_replace('/', DIRECTORY_SEPARATOR, $refPath);
+        $refJSON = json_decode(file_get_contents($refPath), true);
+
+        $refJSON = array_keys($refJSON);
+
+        return $refJSON;
+    }
+
+    private function getCards(mixed $json): array
     {
         $deck = $json->master_deck;
         $cards = [];
@@ -90,5 +112,55 @@ class BuildReferentials extends Command
             $cards[] = $split[0];
         }
         return $cards;
+    }
+
+    private function getEvents(mixed $json): array
+    {
+        $arrEventsName = [];
+        $events = $json->event_choices;
+        foreach ($events as $event)
+        {
+            $eventName = $event->event_name;
+            $arrEventsName[] = $eventName;
+        }
+
+        return $arrEventsName;
+    }
+
+    private function getRelics(mixed $json): array
+    {
+        $relicArr = [];
+        $relics = $json->relics;
+        foreach ($relics as $relic)
+        {
+            $relicArr[] = $relic;
+        }
+
+        return $relicArr;
+    }
+
+    private function getPotions(mixed $json): array
+    {
+        $potionsArr = [];
+        $potions = $json->potions_obtained;
+        foreach ($potions as $potion)
+        {
+            $eventName = $potion->key;
+            $potionsArr[] = $eventName;
+        }
+        return $potionsArr;
+    }
+
+    private function getEncounters(mixed $json): array
+    {
+        $encounterArr = [];
+        $encounters = $json->damage_taken;
+        foreach ($encounters as $encounter)
+        {
+            $encounterName = $encounter->enemies;
+            $potionsArr[] = $encounterName;
+        }
+
+        return $encounterArr;
     }
 }
