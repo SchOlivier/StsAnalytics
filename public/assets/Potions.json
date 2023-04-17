@@ -11,13 +11,13 @@
 		"Color": "Colorless",
 		"Description": "Gain 1 Artifact."
 	},
-	"Attack Potion": {
+	"AttackPotion": {
 		"Name": "Attack Potion",
 		"Rarity": "Common",
 		"Color": "Colorless",
 		"Description": "Add 1 of 3 random Attack cards to your hand it costs 0 this turn."
 	},
-	"Blessing of the Forge": {
+	"BlessingOfTheForge": {
 		"Name": "Blessing of the Forge",
 		"Rarity": "Common",
 		"Color": "Colorless",
@@ -29,31 +29,31 @@
 		"Color": "Colorless",
 		"Description": "Gain 12 Block."
 	},
-	"Blood Potion": {
+	"BloodPotion": {
 		"Name": "Blood Potion",
 		"Rarity": "Common",
 		"Color": "Red",
 		"Description": "Heal for 20% of your Max HP."
 	},
-	"Bottled Miracle": {
+	"BottledMiracle": {
 		"Name": "Bottled Miracle",
 		"Rarity": "Common",
 		"Color": "Purple",
 		"Description": "Add 2 Miracles to your hand."
 	},
-	"Colorless Potion": {
+	"ColorlessPotion": {
 		"Name": "Colorless Potion",
 		"Rarity": "Common",
 		"Color": "Colorless",
 		"Description": "Choose 1 of 3 random Colorless cards to add to your hand it costs 0 this turn."
 	},
-	"Cultist Potion": {
+	"CultistPotion": {
 		"Name": "Cultist Potion",
 		"Rarity": "Rare",
 		"Color": "Colorless",
 		"Description": "Gain 1 Ritual."
 	},
-	"Cunning Potion": {
+	"CunningPotion": {
 		"Name": "Cunning Potion",
 		"Rarity": "Uncommon",
 		"Color": "Green",
@@ -65,19 +65,19 @@
 		"Color": "Colorless",
 		"Description": "Gain 2 Dexterity."
 	},
-	"Distilled Chaos": {
+	"DistilledChaos": {
 		"Name": "Distilled Chaos",
 		"Rarity": "Uncommon",
 		"Color": "Colorless",
 		"Description": "Play the top 3 cards of your draw pile."
 	},
-	"Duplication Potion": {
+	"DuplicationPotion": {
 		"Name": "Duplication Potion",
 		"Rarity": "Uncommon",
 		"Color": "Colorless",
 		"Description": "This turn your next card is played twice."
 	},
-	"Elixir": {
+	"ElixirPotion": {
 		"Name": "Elixir",
 		"Rarity": "Uncommon",
 		"Color": "Red",
@@ -89,13 +89,13 @@
 		"Color": "Colorless",
 		"Description": "Gain 2 Energy."
 	},
-	"Entropic Brew": {
+	"EntropicBrew": {
 		"Name": "Entropic Brew",
 		"Rarity": "Rare",
 		"Color": "Colorless",
 		"Description": "Fill all your empty potion slots with random potions."
 	},
-	"Essence of Darkness": {
+	"EssenceOfDarkness": {
 		"Name": "Essence of Darkness",
 		"Rarity": "Rare",
 		"Color": "Blue",
@@ -113,7 +113,7 @@
 		"Color": "Colorless",
 		"Description": "Deal 10 Damage to all enemies."
 	},
-	"Fairy in a Bottle": {
+	"FairyPotion": {
 		"Name": "Fairy in a Bottle",
 		"Rarity": "Rare",
 		"Color": "Colorless",
@@ -131,13 +131,13 @@
 		"Color": "Colorless",
 		"Description": "Deal 20 Damage to target enemy."
 	},
-	"Flex Potion": {
+	"SteroidPotion": {
 		"Name": "Flex Potion",
 		"Rarity": "Common",
 		"Color": "Colorless",
 		"Description": "Gain 5 Strength. At the end of your turn"
 	},
-	"Focus Potion": {
+	"FocusPotion": {
 		"Name": "Focus Potion",
 		"Rarity": "Common",
 		"Color": "Blue",
@@ -155,25 +155,25 @@
 		"Color": "Colorless",
 		"Description": "Discard any number of cards then draw that many."
 	},
-	"Ghost In A Jar": {
+	"GhostInAJar": {
 		"Name": "Ghost In A Jar",
 		"Rarity": "Rare",
 		"Color": "Green",
 		"Description": "Gain 1 Intangible."
 	},
-	"Heart of Iron": {
+	"HeartOfIron": {
 		"Name": "Heart of Iron",
 		"Rarity": "Rare",
 		"Color": "Red",
 		"Description": "Gain 6 Metallicize."
 	},
-	"Liquid Bronze": {
+	"LiquidBronze": {
 		"Name": "Liquid Bronze",
 		"Rarity": "Uncommon",
 		"Color": "Colorless",
 		"Description": "Gain 3 Thorns."
 	},
-	"Liquid Memories": {
+	"LiquidMemories": {
 		"Name": "Liquid Memories",
 		"Rarity": "Uncommon",
 		"Color": "Colorless",
@@ -185,7 +185,7 @@
 		"Color": "Green",
 		"Description": "Apply 6 Poison to target enemy."
 	},
-	"Potion of Capacity": {
+	"PotionOfCapacity": {
 		"Name": "Potion of Capacity",
 		"Rarity": "Uncommon",
 		"Color": "Blue",
@@ -203,7 +203,7 @@
 		"Color": "Colorless",
 		"Description": "Gain 5 Regeneration."
 	},
-	"Skill Potion": {
+	"SkillPotion": {
 		"Name": "Skill Potion",
 		"Rarity": "Common",
 		"Color": "Colorless",
@@ -215,19 +215,19 @@
 		"Color": "Colorless",
 		"Description": "Escape from a non-boss combat. Receive no rewards."
 	},
-	"Snecko Oil": {
+	"SneckoOil": {
 		"Name": "Snecko Oil",
 		"Rarity": "Rare",
 		"Color": "Colorless",
 		"Description": "Draw 5 cards. Randomize the costs of all cards in your hand for the rest of the combat."
 	},
-	"Speed Potion": {
+	"SpeedPotion": {
 		"Name": "Speed Potion",
 		"Rarity": "Common",
 		"Color": "Colorless",
 		"Description": "Gain 5  Dexterity. At the end of your turn lose 5  Dexterity."
 	},
-	"Stance Potion": {
+	"StancePotion": {
 		"Name": "Stance Potion",
 		"Rarity": "Uncommon",
 		"Color": "Purple",

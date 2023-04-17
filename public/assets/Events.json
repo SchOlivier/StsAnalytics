@@ -190,5 +190,13 @@
     "N'loth": {
         "code": "N'loth",
         "label": "N'loth"
+    },
+    "Scrap Ooze": {
+        "code": "Scrap Ooze",
+        "label": "Scrap Ooze"
+    },
+    "SecretPortal": {
+        "code": "SecretPortal",
+        "label": "SecretPortal"
     }
 }

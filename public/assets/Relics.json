@@ -13,7 +13,7 @@
 		"color": "Blue",
 		"description": "At the start of each combat, Channel 1 Lightning."
 	},
-	"Pure Water": {
+	"PureWater": {
 		"code": "Pure Water",
 		"label": "Pure Water",
 		"rarity": "Basic",
@@ -90,7 +90,7 @@
 		"color": "Colorless",
 		"description": "The first time you lose HP each combat, draw 3 cards."
 	},
-	"Ceramic Fish": {
+	"CeramicFish": {
 		"code": "Ceramic Fish",
 		"label": "Ceramic Fish",
 		"rarity": "Common",
@@ -104,7 +104,7 @@
 		"color": "Purple",
 		"description": "At the start of your turn, gain 1 Mantra."
 	},
-	"Data Disk": {
+	"DataDisk": {
 		"code": "Data Disk",
 		"label": "Data Disk",
 		"rarity": "Common",
@@ -146,7 +146,7 @@
 		"color": "Colorless",
 		"description": "Whenever you climb a floor, gain 12 Gold. No longer works when you spend any Gold at a shop."
 	},
-	"Meal Ticket": {
+	"MealTicket": {
 		"code": "Meal Ticket",
 		"label": "Meal Ticket",
 		"rarity": "Common",
@@ -195,7 +195,7 @@
 		"color": "Colorless",
 		"description": "Upon pickup, gain 2 Potion slots."
 	},
-	"Preserved Insect": {
+	"PreservedInsect": {
 		"code": "Preserved Insect",
 		"label": "Preserved Insect",
 		"rarity": "Common",
@@ -223,7 +223,7 @@
 		"color": "Colorless",
 		"description": "The Merchant's card removal service now always costs 50 Gold."
 	},
-	"Snecko Skull": {
+	"Snake Skull": {
 		"code": "Snecko Skull",
 		"label": "Snecko Skull",
 		"rarity": "Common",
@@ -314,7 +314,7 @@
 		"color": "Colorless",
 		"description": "Whenever you obtain a Curse, increase your Max HP by 6."
 	},
-	"Duality": {
+	"Yang": {
 		"code": "Duality",
 		"label": "Duality",
 		"rarity": "Uncommon",
@@ -328,14 +328,14 @@
 		"color": "Colorless",
 		"description": "For every 5 cards in your deck, heal 3 HP whenever you enter a Rest Site."
 	},
-	"Frozen Egg": {
+	"Frozen Egg 2": {
 		"code": "Frozen Egg",
 		"label": "Frozen Egg",
 		"rarity": "Uncommon",
 		"color": "Colorless",
 		"description": "Whenever you add a Power card into your deck, Upgrade it."
 	},
-	"Gold-Plated Cables": {
+	"Cables": {
 		"code": "Gold-Plated Cables",
 		"label": "Gold-Plated Cables",
 		"rarity": "Uncommon",
@@ -349,7 +349,7 @@
 		"color": "Colorless",
 		"description": "Whenever an enemy dies, gain [E] and draw 1 card."
 	},
-	"Horn Cleat": {
+	"HornCleat": {
 		"code": "Horn Cleat",
 		"label": "Horn Cleat",
 		"rarity": "Uncommon",
@@ -398,7 +398,7 @@
 		"color": "Colorless",
 		"description": "At the start of your turn, deal 3 damage to ALL enemies."
 	},
-	"Molten Egg": {
+	"Molten Egg 2": {
 		"code": "Molten Egg",
 		"label": "Molten Egg",
 		"rarity": "Uncommon",
@@ -433,14 +433,14 @@
 		"color": "Colorless",
 		"description": "At the start of Boss combats, heal 25 HP."
 	},
-	"Paper Krane": {
+	"Paper Crane": {
 		"code": "Paper Krane",
 		"label": "Paper Krane",
 		"rarity": "Uncommon",
 		"color": "Green",
 		"description": "Enemies with Weak deal 40% less damage rather than 25%."
 	},
-	"Paper Phrog": {
+	"Paper Frog": {
 		"code": "Paper Phrog",
 		"label": "Paper Phrog",
 		"rarity": "Uncommon",
@@ -461,7 +461,7 @@
 		"color": "Colorless",
 		"description": "Future card rewards have 1 additional card to choose from."
 	},
-	"Self-Forming Clay": {
+	"Self Forming Clay": {
 		"code": "Self-Forming Clay",
 		"label": "Self-Forming Clay",
 		"rarity": "Uncommon",
@@ -482,7 +482,7 @@
 		"color": "Colorless",
 		"description": "When adding cards into your deck, you may raise your Max HP by 2 instead."
 	},
-	"Strike Dummy": {
+	"StrikeDummy": {
 		"code": "Strike Dummy",
 		"label": "Strike Dummy",
 		"rarity": "Uncommon",
@@ -503,7 +503,7 @@
 		"color": "Blue",
 		"description": "At the start of each combat, Channel 1 Dark."
 	},
-	"Teardrop Locket": {
+	"TeardropLocket": {
 		"code": "Teardrop Locket",
 		"label": "Teardrop Locket",
 		"rarity": "Uncommon",
@@ -517,7 +517,7 @@
 		"color": "Colorless",
 		"description": "The Merchant restocks cards, relics, and potions. All prices are reduced by 20%."
 	},
-	"Toxic Egg": {
+	"Toxic Egg 2": {
 		"code": "Toxic Egg",
 		"label": "Toxic Egg",
 		"rarity": "Uncommon",
@@ -531,7 +531,7 @@
 		"color": "Colorless",
 		"description": "Potions always appear in combat rewards."
 	},
-	"Bird-Faced Urn": {
+	"Bird Faced Urn": {
 		"code": "Bird-Faced Urn",
 		"label": "Bird-Faced Urn",
 		"rarity": "Rare",
@@ -559,14 +559,14 @@
 		"color": "Red",
 		"description": "Whenever you apply Vulnerable, apply 1 Weak."
 	},
-	"CharonsAshes": {
+	"Charon's Ashes": {
 		"code": "Charon's Ashes",
 		"label": "Charon's Ashes",
 		"rarity": "Rare",
 		"color": "Red",
 		"description": "Whenever you Exhaust a card, deal 3 damage to ALL enemies."
 	},
-	"Cloak Clasp": {
+	"CloakClasp": {
 		"code": "Cloak Clasp",
 		"label": "Cloak Clasp",
 		"rarity": "Rare",
@@ -594,7 +594,7 @@
 		"color": "Blue",
 		"description": "If you lost HP during the previous turn, trigger the passive ability of all Orbs at the start of your turn."
 	},
-	"Fossilized Helix": {
+	"FossilizedHelix": {
 		"code": "Fossilized Helix",
 		"label": "Fossilized Helix",
 		"rarity": "Rare",
@@ -622,7 +622,7 @@
 		"color": "Colorless",
 		"description": "You can now gain Strength at Rest Sites (up to 3 times)."
 	},
-	"Golden Eye": {
+	"GoldenEye": {
 		"code": "Golden Eye",
 		"label": "Golden Eye",
 		"rarity": "Rare",
@@ -699,7 +699,7 @@
 		"color": "Colorless",
 		"description": "You can now Dig for relics at Rest Sites."
 	},
-	"Stone Calendar": {
+	"StoneCalendar": {
 		"code": "Stone Calendar",
 		"label": "Stone Calendar",
 		"rarity": "Rare",
@@ -741,7 +741,7 @@
 		"color": "Green",
 		"description": "Whenever you discard a card during your turn, gain 3 Block."
 	},
-	"Tungsten Rod": {
+	"TungstenRod": {
 		"code": "Tungsten Rod",
 		"label": "Tungsten Rod",
 		"rarity": "Rare",
@@ -762,7 +762,7 @@
 		"color": "Colorless",
 		"description": "Whenever you have no cards in hand during your turn, draw a card."
 	},
-	"Wing Boots": {
+	"WingedGreaves": {
 		"code": "Wing Boots",
 		"label": "Wing Boots",
 		"rarity": "Rare",
@@ -832,7 +832,7 @@
 		"color": "Colorless",
 		"description": "Upon pickup, remove 2 cards from your deck."
 	},
-	"Frozen Core": {
+	"FrozenCore": {
 		"code": "Frozen Core",
 		"label": "Frozen Core",
 		"rarity": "Boss",
@@ -846,14 +846,14 @@
 		"color": "Colorless",
 		"description": "Gain [E] at the start of your turn. You can no longer Smith at Rest Sites."
 	},
-	"Holy Water": {
+	"HolyWater": {
 		"code": "Holy Water",
 		"label": "Holy Water",
 		"rarity": "Boss",
 		"color": "Purple",
 		"description": "Replaces Pure Water. At the start of each combat, add 3 Miracles into your hand."
 	},
-	"Hovering Kite": {
+	"HoveringKite": {
 		"code": "Hovering Kite",
 		"label": "Hovering Kite",
 		"rarity": "Boss",
@@ -888,7 +888,7 @@
 		"color": "Colorless",
 		"description": "Upon pickup, Transform all Strike and Defend cards."
 	},
-	"Philosophers Stone": {
+	"Philosopher's Stone": {
 		"code": "Philosopher's Stone",
 		"label": "Philosopher's Stone",
 		"rarity": "Boss",
@@ -923,7 +923,7 @@
 		"color": "Colorless",
 		"description": "At the end of your turn, you no longer discard your hand."
 	},
-	"Sacred Bark": {
+	"SacredBark": {
 		"code": "Sacred Bark",
 		"label": "Sacred Bark",
 		"rarity": "Boss",
@@ -965,14 +965,14 @@
 		"color": "Colorless",
 		"description": "Gain [E] at the start of your turn. You cannot play more than 6 cards per turn."
 	},
-	"Violet Lotus": {
+	"VioletLotus": {
 		"code": "Violet Lotus",
 		"label": "Violet Lotus",
 		"rarity": "Boss",
 		"color": "Purple",
 		"description": "Whenever you exit Calm, gain an additional [E] ."
 	},
-	"Wrist Blade": {
+	"WristBlade": {
 		"code": "Wrist Blade",
 		"label": "Wrist Blade",
 		"rarity": "Boss",
@@ -1000,14 +1000,14 @@
 		"color": "Colorless",
 		"description": "The effects of your cost X cards are increased by 2."
 	},
-	"Clockwork Souvenir": {
+	"ClockworkSouvenir": {
 		"code": "Clockwork Souvenir",
 		"label": "Clockwork Souvenir",
 		"rarity": "Shop",
 		"color": "Colorless",
 		"description": "Start each combat with 1 Artifact."
 	},
-	"Dollys Mirror": {
+	"DollysMirror": {
 		"code": "Dolly's Mirror",
 		"label": "Dolly's Mirror",
 		"rarity": "Shop",
@@ -1021,7 +1021,7 @@
 		"color": "Colorless",
 		"description": "When viewing your Draw Pile, the cards are now shown in order."
 	},
-	"Hand Drill": {
+	"HandDrill": {
 		"code": "Hand Drill",
 		"label": "Hand Drill",
 		"rarity": "Shop",
@@ -1056,7 +1056,7 @@
 		"color": "Colorless",
 		"description": "50% discount on all products!"
 	},
-	"Orange Pellets": {
+	"OrangePellets": {
 		"code": "Orange Pellets",
 		"label": "Orange Pellets",
 		"rarity": "Shop",
@@ -1070,7 +1070,7 @@
 		"color": "Colorless",
 		"description": "Upon pickup, choose and add 5 cards to your deck."
 	},
-	"Prismatic Shard": {
+	"PrismaticShard": {
 		"code": "Prismatic Shard",
 		"label": "Prismatic Shard",
 		"rarity": "Shop",
@@ -1084,7 +1084,7 @@
 		"color": "Blue",
 		"description": "Start each combat with 3 additional Orb slots."
 	},
-	"Sling of Courage": {
+	"Sling": {
 		"code": "Sling of Courage",
 		"label": "Sling of Courage",
 		"rarity": "Shop",
@@ -1112,7 +1112,7 @@
 		"color": "Colorless",
 		"description": "At the start of each combat, choose 1 of 3 random Colorless cards and add the chosen card into your hand."
 	},
-	"Twisted Funnel": {
+	"TwistedFunnel": {
 		"code": "Twisted Funnel",
 		"label": "Twisted Funnel",
 		"rarity": "Shop",
@@ -1126,7 +1126,7 @@
 		"color": "Colorless",
 		"description": "Whenever you gain Gold, heal 5 HP."
 	},
-	"Cultist Headpiece": {
+	"CultistMask": {
 		"code": "Cultist Headpiece",
 		"label": "Cultist Headpiece",
 		"rarity": "Special",
@@ -1140,7 +1140,7 @@
 		"color": "Colorless",
 		"description": "At the start of each combat, add a random Power card into your hand. It costs 0 for that turn."
 	},
-	"Face Of Cleric": {
+	"FaceOfCleric": {
 		"code": "Face Of Cleric",
 		"label": "Face Of Cleric",
 		"rarity": "Special",
@@ -1168,21 +1168,21 @@
 		"color": "Colorless",
 		"description": "You can no longer heal."
 	},
-	"Mutagenic Strength": {
+	"MutagenicStrength": {
 		"code": "Mutagenic Strength",
 		"label": "Mutagenic Strength",
 		"rarity": "Special",
 		"color": "Colorless",
 		"description": "Start each combat with 3 Strength. At the end of your first turn, lose 3 Strength."
 	},
-	"NlothsGift": {
+	"Nloth's Gift": {
 		"code": "N'loth's Gift",
 		"label": "N'loth's Gift",
 		"rarity": "Special",
 		"color": "Colorless",
 		"description": "Triple the chance of finding Rare cards from combat rewards."
 	},
-	"NlothsHungryFace": {
+	"NlothsMask": {
 		"code": "N'loth's Hungry Face",
 		"label": "N'loth's Hungry Face",
 		"rarity": "Special",
@@ -1203,7 +1203,7 @@
 		"color": "Colorless",
 		"description": "Enemies in your first 3 combats will have 1 HP."
 	},
-	"NilrysCodex": {
+	"Nilry's Codex": {
 		"code": "Nilry's Codex",
 		"label": "Nilry's Codex",
 		"rarity": "Special",
@@ -1231,14 +1231,14 @@
 		"color": "Colorless",
 		"description": "It's unpleasant."
 	},
-	"Ssserpent Head": {
+	"SsserpentHead": {
 		"code": "Ssserpent Head",
 		"label": "Ssserpent Head",
 		"rarity": "Special",
 		"color": "Colorless",
 		"description": "Whenever you enter a ? room, gain 50 Gold."
 	},
-	"Warped Tongs": {
+	"WarpedTongs": {
 		"code": "Warped Tongs",
 		"label": "Warped Tongs",
 		"rarity": "Special",
